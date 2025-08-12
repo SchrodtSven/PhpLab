@@ -1,0 +1,9 @@
+<phpunit bootstrap="src/PhpLab/Autoload.php" colors="true">
+  <testsuites>
+   
+
+    <testsuite name="integration" bootstrap="src/PhpLab/Autoload.php">
+      <directory>tests/integration</directory>
+    </testsuite>
+  </testsuites>
+</phpunit>

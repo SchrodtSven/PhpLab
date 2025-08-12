@@ -14,16 +14,18 @@ declare(strict_types=1);
 
 namespace SchrodtSven\PhpLab\Types;
 
-use ArrayAccess;
+use SchrodtSven\PhpLab\Types\StringClass;
 use SchrodtSven\PhpLab\Types\StackInterface;
 use SchrodtSven\PhpLab\Types\Dry\StackOperationTrait;
 use SchrodtSven\PhpLab\Types\Dry\ArrayAccessTrait;
+use SchrodtSven\PhpLab\Types\Dry\ArrayCallbackTrait;
 
-class ListClass implements ArrayAccess, StackInterface
+class ListClass implements \ArrayAccess, StackInterface
 {
     use ArrayAccessTrait;
     use StackOperationTrait;
-
+    use ArrayCallbackTrait;
+    
     public function __construct(protected array $dta = [])
     {
         
@@ -32,5 +34,10 @@ class ListClass implements ArrayAccess, StackInterface
     public function isList(): bool
     {
         return array_is_list($this->dta);
+    }
+
+    public function join(string $glue): StringClass
+    {
+        return new StringClass(implode($glue, $this->dta));
     }
 }

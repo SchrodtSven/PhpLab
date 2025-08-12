@@ -2,3 +2,6 @@
 tmp/
 grube.*
 .DS_Store
+phpunit.phar
+vendor/
+vendor

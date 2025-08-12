@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 /**
- * Tiny ilexer for REPL mini poc
+ * Tiny lexer for REPL mini poc
  * 
  * @author Sven Schrodt<sven@schrodt.club>
  * @link https://github.com/SchrodtSven/PhpLab

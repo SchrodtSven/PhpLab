@@ -20,26 +20,26 @@ trait ArrayAccessTrait
 
     public function offsetGet($offset): mixed
     {
-        return $this->current[$offset] ?? null;
+        return $this->dta[$offset] ?? null;
     }
 
     public function offsetSet($offset, $value): void
     {
         if (is_null($offset)) {
-            $this->current[] = $value;
+            $this->dta[] = $value;
         } else {
-            $this->current[$offset] = $value;
+            $this->dta[$offset] = $value;
         }
     }
 
     public function offsetExists($offset): bool
     {
-        return isset($this->current[$offset]);
+        return isset($this->dta[$offset]);
     }
 
     public function offsetUnset($offset): void
     {
-        unset($this->current[$offset]);
+        unset($this->dta[$offset]);
     }
 
 }

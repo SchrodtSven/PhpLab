@@ -12,7 +12,7 @@ declare(strict_types=1);
  * @since 2025-08-12
  */
 
-namespace SchrodtSven\PhpLab\Repl;
+namespace SchrodtSven\PhpLab\Types;
 
 use ArrayAccess;
 use SchrodtSven\PhpLab\Types\StackInterface;
@@ -23,7 +23,7 @@ class ListClass implements ArrayAccess, StackInterface
 {
     use ArrayAccessTrait;
     use StackOperationTrait;
-    
+
     public function __construct(protected array $dta = [])
     {
         

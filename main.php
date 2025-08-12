@@ -3,9 +3,7 @@
 require_once 'src/PhpLab/Autoload.php';
 use SchrodtSven\PhpLab\Repl\Interpreter;
 use SchrodtSven\PhpLab\Repl\Lexer;
+use SchrodtSven\PhpLab\Types\ListClass;
 
-$lexer = new Lexer();
-
-#var_dump($lexer->tokenizeLn('ROT foo bar -m'));
-
-var_dump(array_is_list([]));
+$foo = new ListClass([2,33,4,55,66]);
+print($foo[3]);

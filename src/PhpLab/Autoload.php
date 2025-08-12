@@ -65,7 +65,6 @@ class Autoload
                 // MUST NOT raise errors of any level, and SHOULD NOT return a value."
                 
                 if (file_exists($file)) {
-                    print $file;
                     require_once $file;
                 }
             }

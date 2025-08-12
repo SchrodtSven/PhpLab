@@ -3,7 +3,7 @@
    
 
     <testsuite name="integration" bootstrap="src/PhpLab/Autoload.php">
-      <directory>tests/integration</directory>
+      <directory>test</directory>
     </testsuite>
   </testsuites>
 </phpunit>

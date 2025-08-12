@@ -39,9 +39,12 @@ class StringClass implements \Stringable
     }
 
     //@fixme -> alternative: return instances of ListClass|array
-    public function splitByWS(string $txt, bool $asNative = true): array
-    {
-        return preg_split('/\s+/', $txt, -1, \PREG_SPLIT_NO_EMPTY);
+    public function splitByWS(bool $asNative = true): array|ListClass
+    {   
+        $tmp = preg_split('/\s+/', $this->dta, -1, \PREG_SPLIT_NO_EMPTY);
+        return ($asNative) 
+            ? $tmp 
+            : new ListClass($tmp);
         
     }
 

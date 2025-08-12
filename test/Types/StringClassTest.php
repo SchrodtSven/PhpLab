@@ -19,5 +19,12 @@ class StringClassTest extends TestCase
         $this->assertSame((string) $s->camelize(), $expected);
     }
 
+    #[TestWith(['var foo = 23;', 4])]
+    #[TestWith(['Foo bar    nn. Gas.  Guy Baz', 6])]
+    public function testIfSplitCorrectlyByWhitespace(string $origin, int $count): void
+    {   
+        $s = new StringClass($origin);
+        $this->assertTrue(count($s->splitByWS()) == $count);
+    }
     
 }

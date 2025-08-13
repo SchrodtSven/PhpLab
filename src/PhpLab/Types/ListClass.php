@@ -14,7 +14,7 @@ declare(strict_types=1);
 
 namespace SchrodtSven\PhpLab\Types;
 
-use Countable;
+
 use SchrodtSven\PhpLab\Types\StringClass;
 use SchrodtSven\PhpLab\Types\StackInterface;
 use SchrodtSven\PhpLab\Types\Dry\StackOperationTrait;
@@ -22,6 +22,7 @@ use SchrodtSven\PhpLab\Types\Dry\ArrayAccessTrait;
 use SchrodtSven\PhpLab\Types\Dry\ArrayCallbackTrait;
 use SchrodtSven\PhpLab\Types\Dry\ArraySortTrait;
 use SchrodtSven\PhpLab\Types\Dry\IteratorTrait;
+use SchrodtSven\PhpLab\Types\Dry\ArraySliceTrait;
 
 class ListClass implements \ArrayAccess, \Countable, StackInterface, \Iterator
 {
@@ -29,7 +30,9 @@ class ListClass implements \ArrayAccess, \Countable, StackInterface, \Iterator
     use StackOperationTrait;
     use ArrayCallbackTrait;
     use ArraySortTrait;
+    use ArraySliceTrait;
     use IteratorTrait;
+
     
     public function __construct(protected array $dta = []) 
     {
@@ -58,5 +61,13 @@ class ListClass implements \ArrayAccess, \Countable, StackInterface, \Iterator
     public function raw(): array
     {
         return $this->dta;
+    }
+
+    public function filter(callable $clj, bool $reIdx=true, int $mode=\ARRAY_FILTER_USE_BOTH): self
+    {
+        $tmp = array_filter($this->dta, $clj, $mode);
+        return ($reIdx) 
+            ? new ListClass(array_values($tmp))
+            : new ArrayClass($tmp);
     }
 }

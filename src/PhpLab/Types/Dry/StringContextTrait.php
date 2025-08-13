@@ -99,7 +99,7 @@ trait StringContextTrait
      *
      * @return self
      */
-    public function encodeQuotetdPrintable(): self
+    public function encodeQuotedPrintable(): self
     {
         return new self(quoted_printable_encode($this->dta));
     }

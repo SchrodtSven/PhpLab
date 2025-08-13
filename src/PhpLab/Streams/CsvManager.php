@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 /**
- * Unit tests for ListClass (and its traits)
+ * Creating data structure from CSV or vice versa
  * 
  * @see https://docs.phpunit.de/en/12.3/attributes.html#dataprovider
  * @author Sven Schrodt<sven@schrodt.club>
@@ -13,7 +13,6 @@ declare(strict_types=1);
  */
 
 namespace SchrodtSven\PhpLab\Streams;
-
 class CsvManager
 {
 

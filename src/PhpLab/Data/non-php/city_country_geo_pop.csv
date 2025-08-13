@@ -1,4 +1,4 @@
-,city,country,iso3,capital,lat,lng,admin_name,population
+idx,city,country,iso3,capital,lat,lng,admin_name,population
 0,Tokyo,Japan,JPN,primary,35.6897,139.6922,Tōkyō,37732000.0
 1,Jakarta,Indonesia,IDN,primary,-6.175,106.8275,Jakarta,33756000.0
 2,Delhi,India,IND,admin,28.61,77.23,Delhi,32226000.0

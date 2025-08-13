@@ -22,15 +22,17 @@ use SchrodtSven\PhpLab\Types\Dry\ArrayAccessTrait;
 use SchrodtSven\PhpLab\Types\Dry\ArrayCallbackTrait;
 use SchrodtSven\PhpLab\Types\Dry\ArraySortTrait;
 
-class ListClass implements \ArrayAccess, StackInterface, Countable
+class ListClass implements \ArrayAccess, \Countable, StackInterface
 {
     use ArrayAccessTrait;
     use StackOperationTrait;
     use ArrayCallbackTrait;
     use ArraySortTrait;
-    public function __construct(protected array $dta = [])
+    public function __construct(protected array $dta = []) 
     {
-        
+        if(!array_is_list($this->dta)) {
+            throw new \InvalidArgumentException('Not a list!', 666);
+        }
     }
 
     // needed in subclasses

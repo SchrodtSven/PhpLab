@@ -1,30 +1,35 @@
 <?php
+
+declare(strict_types=1);
 /**
- * Unit tests
+ * Unit tests for ListClass (and its traits)
  * 
  * @see https://docs.phpunit.de/en/12.3/attributes.html#dataprovider
+ * @author Sven Schrodt<sven@schrodt.club>
+ * @link https://github.com/SchrodtSven/PhpLab
+ * @package PhpLab
+ * @version 0.1
+ * @since 2025-08-13
+ */
+/**
+ * 
+ * 
+ *
  */
 use PHPUnit\Framework\TestCase;
 use SchrodtSven\PhpLab\Types\StringClass;
 use PHPUnit\Framework\Attributes\TestWith;
-class StringClassTest extends TestCase
+use SchrodtSven\PhpLab\Types\ListClass;
+
+class ListClassTest extends TestCase
 {
     
-
-    #[TestWith(['Foo_bar', 'fooBar'])]
-    #[TestWith(['Foo_bar_Baz', 'fooBarBaz'])]
-    public function testIfIsCamelizable(string $origin, string $expected): void
-    {
-        $s = new StringClass($origin);
-        $this->assertSame((string) $s->camelize(), $expected);
-    }
-
-    #[TestWith(['var foo = 23;', 4])]
-    #[TestWith(['Foo bar    nn. Gas.  Guy Baz', 6])]
-    public function testIfSplitCorrectlyByWhitespace(string $origin, int $count): void
+    #[TestWith([['Baz', 'Foo', 'Gaz', 'Guy', 'bar', 'nn'], 6])]
+    #[TestWith([[23, 42, 3.145], 3])]
+    public function testIfCountWorxCorrectly(array $origin, int $count): void
     {   
-        $s = new StringClass($origin);
-        $this->assertTrue(count($s->splitByWS()) == $count);
+        $lst = new ListClass($origin);
+        $this->assertTrue(count($lst) == $count);
     }
     
 }

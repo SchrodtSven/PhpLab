@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 /**
- * Stack operation  Trait - 
+ * Stack operation  Trait - push, pop, shift, unshift
  * 
  * @author Sven Schrodt<sven@schrodt.club>
  * @link https://github.com/SchrodtSven/PhpLab

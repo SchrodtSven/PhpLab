@@ -8,7 +8,7 @@ Wrappers for PHP native data types, offering a fluent OOP interface
 use SchrodtSven\PhpLab\Types\ListClass;
 use SchrodtSven\PhpLab\Types\StringClass;
 
-$code = 'Foo bar    nn. Gaz.   Guy Baz';
+$code = 'Foo bar    nn Gaz   Guy Baz';
 
 
 $t = new StringClass($code);
@@ -21,6 +21,6 @@ $tkn->sort()->quote();
 // Dynamically generate an array assignment and print it 
 print($tkn->join(', ')->append(']')->prepend('['));
 
-// ['Baz', 'Foo', 'Gaz.', 'Guy', 'bar', 'nn.']'
+// ['Baz', 'Foo', 'Gaz', 'Guy', 'bar', 'nn']
 ```
 

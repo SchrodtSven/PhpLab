@@ -58,7 +58,7 @@ class NamedSymbols
      */
     public const string UNDERSCORE = "_";
 
-
+    public const string WIFI = '🛜';
     public const string HYPHEN = "-";
 
     // Symbolz for Mac special keys

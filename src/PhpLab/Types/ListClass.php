@@ -31,7 +31,7 @@ class ListClass implements \ArrayAccess, \Countable, StackInterface
     public function __construct(protected array $dta = []) 
     {
         if(!array_is_list($this->dta)) {
-            throw new \InvalidArgumentException('Not a list!', 666);
+            throw new \InvalidArgumentException('Not a list!', 01232);
         }
     }
 

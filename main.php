@@ -6,11 +6,8 @@ use SchrodtSven\PhpLab\Repl\Lexer;
 use SchrodtSven\PhpLab\Types\ListClass;
 use SchrodtSven\PhpLab\Types\StringClass;
 use SchrodtSven\PhpLab\Data\NamedSymbols;
-$r = new \Random\Randomizer();
+use SchrodtSven\PhpLab\Types\DictClass;
 
-$t = implode(', ', range(1,9));
-
-print($t);
-
-
-
+$d = new DictClass(['id' => 2345, 'name' => 'Foo Bar']);
+$d['profession'] = 'H@kk3r';
+print($d->jsonSerialize());

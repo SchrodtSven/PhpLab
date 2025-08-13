@@ -13,13 +13,14 @@ $code = 'Foo bar    nn. Gaz.   Guy Baz';
 
 $t = new StringClass($code);
 
-// Splitting given string by whitespace, resulting in an instancce of ListClass
+// Splitting given string by whitespace, resulting in an instance of ListClass
 $tkn = $t->splitByWS(false);
 
 // Sorting values and quoting each value
 $tkn->sort()->quote();
-// Dynamically generate an array assignment
+// Dynamically generate an array assignment and print it 
 print($tkn->join(', ')->append(']')->prepend('['));
 
 // ['Baz', 'Foo', 'Gaz.', 'Guy', 'bar', 'nn.']'
 ```
+

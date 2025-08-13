@@ -17,6 +17,7 @@
 
 namespace SchrodtSven\PhpLab\Types\Dry;
 use SchrodtSven\PhpLab\Data\NamedSymbols;
+use SchrodtSven\PhpLab\Types\StringClass;
 
 trait ArrayCallbackTrait
 {
@@ -37,7 +38,7 @@ trait ArrayCallbackTrait
     public function trim(): self
     {
         $this->walk(function (&$item) {
-            $item = $this->sanitizeP7String($item);
+            $item =StringClass::sanitizeStringClass($item);
             $item->trim();
         });
         return $this;
@@ -46,7 +47,7 @@ trait ArrayCallbackTrait
     public function quote(string $mark = NamedSymbols::SINGLE_QUOTES_START): self
     {
        $this->prepareForQuoting()->walk(function (&$item) use($mark) {
-            $item->quote($mark);
+            $item->prepend($mark)->append($mark);
         });
         return $this;
     }
@@ -54,7 +55,7 @@ trait ArrayCallbackTrait
     protected function prepareForQuoting(): self
     {
         $this->walk(function (&$item) {
-            $item = $this->sanitizeP7String($item);
+            $item =StringClass::sanitizeStringClass($item);
             $item->addSlashes();
         });
         return $this;

@@ -33,19 +33,14 @@ class StringClass implements \Stringable
     use StringContextTrait;
     use StringTransformingTrait;
 
-    public function __construct(protected string $dta)
-    {
-        
-    }
+    public function __construct(protected string $dta) {}
 
-    //@fixme -> alternative: return instances of ListClass|array
-    public function splitByWS(bool $asNative = true): array|ListClass
-    {   
+    public function splitByWS(bool $asNative = false): array|ListClass
+    {
         $tmp = preg_split('/\s+/', $this->dta, -1, \PREG_SPLIT_NO_EMPTY);
-        return ($asNative) 
-            ? $tmp 
+        return ($asNative)
+            ? $tmp
             : new ListClass($tmp);
-        
     }
 
     public function __toString(): string
@@ -53,59 +48,51 @@ class StringClass implements \Stringable
         return $this->dta;
     }
 
-      public function splitBy(string $separator): ListClass
+    public function splitBy(string $separator): ListClass
     {
-        /*
-        echo $separator;
-        echo PHP_EOL;
-        echo $this->dta;
-        echo PHP_EOL;
-        var_dump(explode($separator, $this->dta));
-        echo PHP_EOL;
-        die;*/
         return new ListClass(explode($separator, $this->dta));
     }
 
     public function replace(string|array $find, string|array $replace = ''): self
     {
-        
+
         $this->dta = str_replace($find, $replace, $this->dta);
         return $this;
     }
 
     public function embrace(string $start): self
     {
-        
+
         $this->dta = $this->enclose($this->dta, $start);
         return $this;
     }
 
     public function append(string|StringClass $string): self
     {
-        
+
         $this->sprintfAppend($string);
         return $this;
     }
 
     public function prepend(string|StringClass $string): self
     {
-        
+
         $this->sprintfPrepend($string);
         return $this;
     }
 
     /**
-    * Trimming (often unneeded) white space on string boundaries of current content
-    * 
-    * @param string $characters
-    * @return StringClass
-    */
-   public function trim(string $characters = " \n\r\t\v\x00"): self
-   {
-        
+     * Trimming (often unneeded) white space on string boundaries of current content
+     * 
+     * @param string $characters
+     * @return StringClass
+     */
+    public function trim(string $characters = " \n\r\t\v\x00"): self
+    {
+
         $this->dta = trim($this->dta, $characters);
         return $this;
-   }
+    }
 
 
 
@@ -129,12 +116,23 @@ class StringClass implements \Stringable
      */
     public function stringsBetween(string $start, string $end): self
     {
-            $start = preg_quote($start);
-            $end = preg_quote($end);
-            $pattern = "/{$start}(.*){$end}/U"; // ungreedy modififer
-            preg_match_all($pattern, $this->dta, $txt);
-            //@FIXME -> error detection
-            $this->dta = $txt[1][0];
-            return $this;
+        $start = preg_quote($start);
+        $end = preg_quote($end);
+        $pattern = "/{$start}(.*){$end}/U"; // ungreedy modififer
+        preg_match_all($pattern, $this->dta, $txt);
+        //@FIXME -> error detection
+        $this->dta = $txt[1][0];
+        return $this;
+    }
+
+    // @fixme: Check if this is the right place
+
+    public static function sanitizeStringClass(mixed $txtable): self
+    {
+        if(! $txtable instanceof StringClass) {
+            return new self((string) $txtable);
+        } else {
+            return $txtable;
+        }
     }
 }

@@ -1,6 +1,7 @@
 <?php
+
 /**
- * Class managing named symbols as public const stringants
+ * Named symbols as public const strings
  * 
  *  - begins, 
  *  - ends, 
@@ -41,22 +42,41 @@ class NamedSymbols
     public const string TYPOGRAPHIC_DOUBLE_QUOTES_START = '“';  // open typographic double quotes
     public const string TYPOGRAPHIC_DOUBLE_QUOTES_END   = '”';  // close typographic double quotes
 
-     // Card Suits
-     public const string  BLACK_SPADE_SUIT = '♠';
+    // Card Suits
+    public const string  BLACK_SPADE_SUIT = '♠';
 
-     public const string  BLACK_HEART_SUIT = '♥';
-     
-     public const string  BLACK_DIAMOND_SUIT = '♦';
- 
-     public const string  BLACK_CLUB_SUIT = '♣';
+    public const string  BLACK_HEART_SUIT = '♥';
 
-     /**
+    public const string  BLACK_DIAMOND_SUIT = '♦';
+
+    public const string  BLACK_CLUB_SUIT = '♣';
+
+    /**
      * Constant name for underscore (aliases: underline, underdash, low line or low dash)
      * 
      * @var string
      */
     public const string UNDERSCORE = "_";
-    
-    
+
+
     public const string HYPHEN = "-";
+
+    // Symbolz for Mac special keys
+    public const string MAC_KBD_CTRL = '⌃';  // Control
+    public const string MAC_KBD_OPT = '⌥';  // Option
+    public const string MAC_KBD_SHFT = '⇧';  // Shift
+    public const string MAC_KBD_CMD = '⌘';  // Command
+    public const string MAC_KBD_CMD_ALT = '';  // Alt. Command (apple)
+
+    // @see: ftp://ftp.unicode.org/Public/MAPPINGS/VENDORS/APPLE/KEYBOARD.TXT
+    // These are the official Unicode symbol mappings published by Apple.
+    public const string  APPLE_RET_LTR = '↩'; // Return left tp right
+    public const string  APPLE_RET_RTL = '↪'; // Return right to left
+    public const string  APPLE_ESC = '⎋'; // Escape
+    public const string  APPLE_CAP_LCK = '⇪'; // Caps lock
+    public const string  APPLE_EJT = '❘⃝'; // Eject
+    public const string  APPLE_PWR = '⏏'; // Power
+
+    
+       
 }

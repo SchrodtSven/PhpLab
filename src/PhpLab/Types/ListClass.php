@@ -14,23 +14,27 @@ declare(strict_types=1);
 
 namespace SchrodtSven\PhpLab\Types;
 
+use Countable;
 use SchrodtSven\PhpLab\Types\StringClass;
 use SchrodtSven\PhpLab\Types\StackInterface;
 use SchrodtSven\PhpLab\Types\Dry\StackOperationTrait;
 use SchrodtSven\PhpLab\Types\Dry\ArrayAccessTrait;
 use SchrodtSven\PhpLab\Types\Dry\ArrayCallbackTrait;
+use SchrodtSven\PhpLab\Types\Dry\ArraySortTrait;
 
-class ListClass implements \ArrayAccess, StackInterface
+class ListClass implements \ArrayAccess, StackInterface, Countable
 {
     use ArrayAccessTrait;
     use StackOperationTrait;
     use ArrayCallbackTrait;
-    
+    use ArraySortTrait;
     public function __construct(protected array $dta = [])
     {
         
     }
 
+    // needed in subclasses
+    // @fixme: use here to test if given dta is list
     public function isList(): bool
     {
         return array_is_list($this->dta);
@@ -39,5 +43,15 @@ class ListClass implements \ArrayAccess, StackInterface
     public function join(string $glue): StringClass
     {
         return new StringClass(implode($glue, $this->dta));
+    }
+
+    public function count(): int
+    {
+        return count($this->dta);
+    }
+
+    public function raw(): array
+    {
+        return $this->dta;
     }
 }

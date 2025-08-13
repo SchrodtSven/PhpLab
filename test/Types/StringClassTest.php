@@ -19,6 +19,14 @@ class StringClassTest extends TestCase
         $this->assertSame((string) $s->camelize(), $expected);
     }
 
+     #[TestWith(['Foo_bar', '[Foo_bar]', ']', '['])]
+     #[TestWith(['Ipsum', 'LoremIpsum Foo', ' Foo', 'Lorem'])]
+    public function testIfPreAndAppendWorxProperly(string $origin, string $expected, string $append, string $prepend): void
+    {
+        $s = new StringClass($origin);
+        $this->assertSame((string)($s->append($append)->prepend($prepend)), $expected);
+    }
+
     #[TestWith(['var foo = 23;', 4])]
     #[TestWith(['Foo bar    nn. Gas.  Guy Baz', 6])]
     public function testIfSplitCorrectlyByWhitespace(string $origin, int $count): void

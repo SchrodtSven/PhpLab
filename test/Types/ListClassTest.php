@@ -32,4 +32,9 @@ class ListClassTest extends TestCase
         $this->assertTrue(count($lst) == $count);
     }
     
+    public function testIfExceptionIsThrownOnNonList(): void
+    {
+        $this->expectException(\InvalidArgumentException::class);
+        $lst = new ListClass(['first' => 'Nick', 'last'=> 'Miller', 'Foo' => 42]);
+    }
 }

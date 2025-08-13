@@ -11,11 +11,7 @@ declare(strict_types=1);
  * @version 0.1
  * @since 2025-08-13
  */
-/**
- * 
- * 
- *
- */
+ 
 use PHPUnit\Framework\TestCase;
 use SchrodtSven\PhpLab\Types\StringClass;
 use PHPUnit\Framework\Attributes\TestWith;
@@ -30,6 +26,9 @@ class ListClassTest extends TestCase
     {   
         $lst = new ListClass($origin);
         $this->assertTrue(count($lst) == $count);
+        $r = new \Random\Randomizer;
+        $lst[] = 'Foo' . (string) $r->nextFloat();
+        $this->assertTrue(count($lst) == $count +1);
     }
     
     public function testIfExceptionIsThrownOnNonList(): void

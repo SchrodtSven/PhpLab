@@ -14,6 +14,7 @@ declare(strict_types=1);
 
 namespace SchrodtSven\PhpLab\Types;
 
+use PhpParser\NameContext;
 use SchrodtSven\PhpLab\Types\ListClass;
 use SchrodtSven\PhpLab\Types\Dry\StringContextTrait;
 use SchrodtSven\PhpLab\Types\Dry\StringBoolTrait;
@@ -21,6 +22,7 @@ use SchrodtSven\PhpLab\Types\Dry\StringEmbracingTrait;
 use SchrodtSven\PhpLab\Types\Dry\PrintfTrait;
 use SchrodtSven\PhpLab\Types\Dry\StringTransformingTrait;
 use SchrodtSven\PhpLab\Types\Dry\MultiByteStringTrait;
+use SchrodtSven\PhpLab\Data\NamedSymbols;
 
 class StringClass implements \Stringable
 {
@@ -134,5 +136,11 @@ class StringClass implements \Stringable
         } else {
             return $txtable;
         }
+    }
+
+    public function q(string $mark = NamedSymbols::SINGLE_QUOTES_START): self
+    {
+        $this->append($mark)->prepend($mark);
+        return $this;
     }
 }

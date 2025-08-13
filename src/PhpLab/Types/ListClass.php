@@ -21,13 +21,16 @@ use SchrodtSven\PhpLab\Types\Dry\StackOperationTrait;
 use SchrodtSven\PhpLab\Types\Dry\ArrayAccessTrait;
 use SchrodtSven\PhpLab\Types\Dry\ArrayCallbackTrait;
 use SchrodtSven\PhpLab\Types\Dry\ArraySortTrait;
+use SchrodtSven\PhpLab\Types\Dry\IteratorTrait;
 
-class ListClass implements \ArrayAccess, \Countable, StackInterface
+class ListClass implements \ArrayAccess, \Countable, StackInterface, \Iterator
 {
     use ArrayAccessTrait;
     use StackOperationTrait;
     use ArrayCallbackTrait;
     use ArraySortTrait;
+    use IteratorTrait;
+    
     public function __construct(protected array $dta = []) 
     {
         if(!array_is_list($this->dta)) {

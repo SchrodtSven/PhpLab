@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 /**
- * Tiny template for an REPL environment 
+ * Tiny template for a REPL environment 
  * - just awfully hacked prototype, not even a POC
  * 
  * @author Sven Schrodt<sven@schrodt.club>

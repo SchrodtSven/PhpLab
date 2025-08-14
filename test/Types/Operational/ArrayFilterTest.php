@@ -20,12 +20,13 @@ declare(strict_types=1);
 
 use PHPUnit\Framework\Attributes\Depends;
 use PHPUnit\Framework\Attributes\DataProvider;
+use PHPUnit\Framework\Attributes\CoversClass;
 use PHPUnit\Framework\TestCase;
 use SchrodtSven\PhpLab\Types\ListClass;
 use SchrodtSven\PhpLab\Types\ArrayClass;
 use SchrodtSven\PhpLab\Types\Operational\ArrayFilter;
-
-class ArrayFilterTest extends TestCase
+#[CoversClass(ArrayFilter::class)]
+final class ArrayFilterTest extends TestCase
 {
     private string $fn = 'src/PhpLab/Data/non-php/mock_detail.json';
     private ListClass $lst;
@@ -63,5 +64,15 @@ class ArrayFilterTest extends TestCase
         $ids = $this->filter->by('id')->between(991, 989);
         $this->assertSame(3, $ids->getFiltered()->count());
     }
+
+    public function testIfContainsWorxProperly(): void
+    {
+        $look4 = 'Romance';
+        $romantix = $this->filter->by('mvie_gnr')->contains($look4)->getFiltered()->col('mvie_gnr')->raw();
+        for($i=0;$i<count($romantix);$i++) {
+            $this->assertTrue(str_contains($romantix[$i], $look4));
+        }
+
+    }   
 
 }

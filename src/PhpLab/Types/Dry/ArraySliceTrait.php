@@ -31,12 +31,12 @@ trait ArraySliceTrait
         return new ListClass(array_slice($this->dta, $offset, $length));
     }
 
-    public function head(int $number=ListClass::SLC_DFT)
+    public function head(int $number=ListClass::SLC_DFT): ListClass
     {
         return $this->slice(0, $number);
     }
 
-    public function tail(int $number=ListClass::SLC_DFT)
+    public function tail(int $number=ListClass::SLC_DFT): ListClass
     {
         return $this->slice($number * -1);
     }

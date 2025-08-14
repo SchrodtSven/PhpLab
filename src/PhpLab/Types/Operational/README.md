@@ -58,7 +58,7 @@ print_r($filtered->raw());
 
 ```
 
-````
+```
 SchrodtSven\PhpLab\Types\ListClass Object
 (
     [dta:protected] => Array
@@ -94,11 +94,85 @@ SchrodtSven\PhpLab\Types\ListClass Object
 )
 ```
 
-#### Combining filter operations (ANDing)
+#### Combining filter operations 
+
+##### ANDing
+
+Combining filter operations with [this data set](https://github.com/SchrodtSven/PhpLab/blob/main/src/PhpLab/Data/non-php/mock_detail.json)
 
 ```php
 $fn = 'src/PhpLab/Data/non-php/mock_detail.json';
 $lst = ListClass::fromJsonFile($fn);
 $filter = $lst->getFilter();
-$filter->by('city')->eq('Berlin')->by('first_name')->in(['Felita', 'Harland'])->getFiltered()
+print_r(
+    $filter->by('city')
+                ->eq('Berlin')
+            ->by('mob_since')
+                ->in(range(2016, 2023))
+        ->getFiltered()
+        ->raw()
+);
+```
+
+```
+Array
+(
+    [0] => Array
+        (
+            [id] => 39
+            [first_name] => Chantal
+            [last_name] => Culcheth
+            [email] => cculcheth12@w3.org
+            [gender] => Female
+            [ip_address] => 244.109.74.156
+            [ds_dta] => error: undefined method `id' for nil:NilClass
+            [member_since] => 1950-07-07
+            [mob_since] => 2017
+            [city] => Berlin
+            [postal_code] => 12683
+            [country] => Germany
+            [lat] => 52.4981613
+            [lng] => 13.5581889
+            [mvie_gnr] => Drama
+        )
+
+    [1] => Array
+        (
+            [id] => 127
+            [first_name] => Felita
+            [last_name] => Restill
+            [email] => frestill3i@amazon.co.uk
+            [gender] => Female
+            [ip_address] => 135.159.140.114
+            [ds_dta] => error: undefined method `id' for nil:NilClass
+            [member_since] => 1981-07-23
+            [mob_since] => 2018
+            [city] => Berlin
+            [postal_code] => 12169
+            [country] => Germany
+            [lat] => 52.4555293
+            [lng] => 13.339803
+            [mvie_gnr] => Comedy
+        )
+
+    [2] => Array
+        (
+            [id] => 939
+            [first_name] => Cybil
+            [last_name] => Howroyd
+            [email] => chowroydq2@ox.ac.uk
+            [gender] => Female
+            [ip_address] => 234.4.77.145
+            [ds_dta] => error: undefined method `id' for nil:NilClass
+            [member_since] => 1998-08-05
+            [mob_since] => 2016
+            [city] => Berlin
+            [postal_code] => 10587
+            [country] => Germany
+            [lat] => 52.5170826
+            [lng] => 13.3236611
+            [mvie_gnr] => Comedy|Drama|Romance
+        )
+
+)
 ```

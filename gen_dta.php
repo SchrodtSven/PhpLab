@@ -21,4 +21,18 @@ $filter = $lst->getFilter();
 #print_r($filter->by('city')->eq('Berlin')->by('first_name')->in(['Felita', 'Harland'])->getFiltered());
 
 
-print_r($filter->by('first_name')->uniq());
+// print_r(
+//     $filter->by('last_name')
+//                 ->ends('ler')
+//             ->getFiltered()
+//             ->tail()
+//             ->raw()
+// );
+
+
+print_r( 
+    $filter->by('mvie_gnr')
+                    ->contains('Romance')
+                    ->getFiltered()->col('mvie_gnr')
+                    ->raw()
+);

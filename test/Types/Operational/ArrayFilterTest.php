@@ -27,14 +27,41 @@ use SchrodtSven\PhpLab\Types\Operational\ArrayFilter;
 
 class ArrayFilterTest extends TestCase
 {
-   
-public function testFilterBasix(): void
+    private string $fn = 'src/PhpLab/Data/non-php/mock_detail.json';
+    private ListClass $lst;
+    private ArrayFilter $filter;
+
+    public function setUp():void
+    {
+        
+        $this->lst = ListClass::fromJsonFile($this->fn);
+        $this->filter = $this->lst->getFilter();
+    }
+
+    public function testFilterBasix(): void
     {
         $stack = new ListClass();
         $this->assertTrue(count($stack) == 0);
         $this->assertInstanceOf(ArrayFilter::class, $stack->getFilter());
-        
     }
 
-   
+    public function testIfUniqWorxProperly(): void
+    {
+
+        $countries = ['France', 'Japan','Germany','United Kingdom'];
+
+        $uniq = $this->filter->by('country')->uniq();
+
+        $this->assertSame(count($countries), $uniq->count());
+        foreach($uniq as $itm) {
+            $this->assertTrue(in_array($itm, $countries));
+        }
+    }
+
+    public function testIfBetweenWorxProperly(): void
+    {
+        $ids = $this->filter->by('id')->between(991, 989);
+        $this->assertSame(3, $ids->getFiltered()->count());
+    }
+
 }

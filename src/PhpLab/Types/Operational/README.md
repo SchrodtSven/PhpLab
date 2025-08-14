@@ -7,7 +7,7 @@ Used for arrays with same “columns” in each “line” - to be used in futur
 ### API 
 
 ```php
- public const string EQ = '=='; // equals
+    public const string EQ = '=='; // equals
     public const string NE = '!='; // not equals
     public const string GT = '>'; // greater than
     public const string LT = '<'; // less than
@@ -18,19 +18,19 @@ Used for arrays with same “columns” in each “line” - to be used in futur
     public const string MIN = 'MIN'; // min()
     public const string MAX = 'MAX'; // max()
     public function __construct(protected ListClass $dta) {}
-    public function by(string $crit): self
-    public function contains(mixed $value): ListClass
-    public function between(mixed $min, mixed $max): ListClass
-    public function eq(mixed $value): ListClass
-    public function ne(mixed $value): ListClass
-    public function gt(mixed $value): ListClass
-    public function lt(mixed $value): ListClass
-    public function ge(mixed $value): ListClass
-    public function le(mixed $value): ListClass
-    public function generic(mixed $value, string $op): ListClass
-    public function min(string $col): mixed
-    public function max(string $col): mixed
-    public function uniq(string $col): ListClass
+    public function by(string $crit): self {}
+    public function contains(mixed $value): ListClass {}
+    public function between(mixed $min, mixed $max): ListClass {}
+    public function eq(mixed $value): ListClass {}
+    public function ne(mixed $value): ListClass {}
+    public function gt(mixed $value): ListClass {}
+    public function lt(mixed $value): ListClass {}
+    public function ge(mixed $value): ListClass {}
+    public function le(mixed $value): ListClass {}
+    public function generic(mixed $value, string $op): ListClass {}
+    public function min(string $col): mixed {}
+    public function max(string $col): mixed {}
+    public function uniq(string $col): ListClass {}
 ```
 
 ### Example usage
@@ -92,4 +92,13 @@ SchrodtSven\PhpLab\Types\ListClass Object
         )
 
 )
+```
+
+#### Combining filter operations (ANDing)
+
+```php
+$fn = 'src/PhpLab/Data/non-php/mock_detail.json';
+$lst = ListClass::fromJsonFile($fn);
+$filter = $lst->getFilter();
+$filter->by('city')->eq('Berlin')->by('first_name')->in(['Felita', 'Harland'])->getFiltered()
 ```

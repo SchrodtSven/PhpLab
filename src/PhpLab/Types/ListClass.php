@@ -86,4 +86,9 @@ class ListClass implements \ArrayAccess, \Countable, StackInterface, \Iterator, 
     {
         return new self(array_column($this->dta, $col));
     }
+
+    public static function fromJsonFile(string $fn): self 
+    {
+        return new self(json_decode(file_get_contents($fn), true));
+    }
 }

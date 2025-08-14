@@ -13,24 +13,34 @@ Used for arrays with same “columns” in each “line” - to be used in futur
     public const string LT = '<'; // less than
     public const string GE = '>'; // greater than or equals
     public const string LE = '<'; // less than or equals
+    public const string SW = 'SW'; // starts with
+    public const string EW = 'EW'; // ends with
     public const string CT = 'CT'; // contains
     public const string BT = 'BT'; // between
     public const string MIN = 'MIN'; // min()
     public const string MAX = 'MAX'; // max()
-    public function __construct(protected ListClass $dta) {}
-    public function by(string $crit): self {}
-    public function contains(mixed $value): ListClass {}
-    public function between(mixed $min, mixed $max): ListClass {}
-    public function eq(mixed $value): ListClass {}
-    public function ne(mixed $value): ListClass {}
-    public function gt(mixed $value): ListClass {}
-    public function lt(mixed $value): ListClass {}
-    public function ge(mixed $value): ListClass {}
-    public function le(mixed $value): ListClass {}
-    public function generic(mixed $value, string $op): ListClass {}
-    public function min(string $col): mixed {}
-    public function max(string $col): mixed {}
-    public function uniq(): ListClass {}
+    public const string IN = 'IN'; //  in() 
+    public const string NIN = 'NIИ'; // not in() 
+    public function __construct(protected ListClass $dta) 
+    public function by(string $crit): self
+    public function starts(mixed $value): self
+    public function contains(mixed $value): self
+    public function ends(mixed $value): self
+    public function between(mixed $min, mixed $max): self
+    public function in(array $dta): self
+    public function nin(array $dta): self
+    public function eq(mixed $value): self
+    public function ne(mixed $value): self
+    public function gt(mixed $value): self
+    public function lt(mixed $value): self
+    public function ge(mixed $value): self
+    public function le(mixed $value): self
+    public function generic(mixed $value, string $op): self
+    public function min(string $col): mixed
+    public function max(string $col): mixed
+    public function uniq(): ListClass
+    public function getFiltered(): ListClass
+    public function reset(): void
 ```
 
 ### Example usage

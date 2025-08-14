@@ -13,6 +13,8 @@ declare(strict_types=1);
  */
 
 namespace SchrodtSven\PhpLab\Streams;
+use SchrodtSven\PhpLab\Types\ListClass;
+
 class CsvManager
 {
 
@@ -58,6 +60,11 @@ class CsvManager
     public function asArray(): array
     {
         return $this->dta;
+    }
+
+    public function asList(): ListClass
+    {
+        return new ListClass($this->dta);
     }
 
     public function raw(): array

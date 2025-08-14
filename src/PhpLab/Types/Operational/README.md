@@ -17,7 +17,7 @@ use SchrodtSven\PhpLab\Types\Operational\ArrayFilter;
 $fn = 'src/PhpLab/Data/non-php/city_country_geo_pop.csv';
 $csv = new CsvManager($fn);
 
-$lst = new ListClass($csv->asArray());
+$lst = new $csv->asList();
 
 $filter = new ArrayFilter($lst);
 

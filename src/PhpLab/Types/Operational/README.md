@@ -2,6 +2,37 @@
 
 ## ArrayFilter
 
+Used for arrays with same “columns” in each “line” - to be used in future Data structure like Pandas DF
+
+### API 
+
+```php
+ public const string EQ = '=='; // equals
+    public const string NE = '!='; // not equals
+    public const string GT = '>'; // greater than
+    public const string LT = '<'; // less than
+    public const string GE = '>'; // greater than or equals
+    public const string LE = '<'; // less than or equals
+    public const string CT = 'CT'; // contains
+    public const string BT = 'BT'; // between
+    public const string MIN = 'MIN'; // min()
+    public const string MAX = 'MAX'; // max()
+    public function __construct(protected ListClass $dta) {}
+    public function by(string $crit): self
+    public function contains(mixed $value): ListClass
+    public function between(mixed $min, mixed $max): ListClass
+    public function eq(mixed $value): ListClass
+    public function ne(mixed $value): ListClass
+    public function gt(mixed $value): ListClass
+    public function lt(mixed $value): ListClass
+    public function ge(mixed $value): ListClass
+    public function le(mixed $value): ListClass
+    public function generic(mixed $value, string $op): ListClass
+    public function min(string $col): mixed
+    public function max(string $col): mixed
+    public function uniq(string $col): ListClass
+```
+
 ### Example usage
 
 Using [city_country_geo_pop.csv](https://github.com/SchrodtSven/PhpLab/blob/main/src/PhpLab/Data/non-php/city_country_geo_pop.csv) with 
@@ -17,7 +48,7 @@ use SchrodtSven\PhpLab\Types\Operational\ArrayFilter;
 $fn = 'src/PhpLab/Data/non-php/city_country_geo_pop.csv';
 $csv = new CsvManager($fn);
 
-$lst = new $csv->asList();
+$lst = $csv->asList();
 
 $filter = new ArrayFilter($lst);
 

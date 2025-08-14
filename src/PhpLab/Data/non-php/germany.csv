@@ -1,0 +1,1754 @@
+idx,city,country,iso3,capital,lat,lng,admin_name,population
+134,Berlin,Germany,DEU,primary,52.52,13.405,Berlin,4890363.0
+285,Stuttgart,Germany,DEU,admin,48.7775,9.18,Baden-Württemberg,2787724.0
+307,Munich,Germany,DEU,admin,48.1375,11.575,Bavaria,2606021.0
+326,Hamburg,Germany,DEU,admin,53.55,10.0,Hamburg,2484800.0
+705,Cologne,Germany,DEU,,50.9364,6.9528,North Rhine-Westphalia,1084831.0
+968,Frankfurt,Germany,DEU,minor,50.1106,8.6822,Hesse,773068.0
+1185,Düsseldorf,Germany,DEU,admin,51.2333,6.7833,North Rhine-Westphalia,629047.0
+1218,Leipzig,Germany,DEU,minor,51.34,12.375,Saxony,616093.0
+1261,Dortmund,Germany,DEU,minor,51.5139,7.4653,North Rhine-Westphalia,593317.0
+1276,Essen,Germany,DEU,minor,51.4508,7.0131,North Rhine-Westphalia,584580.0
+1304,Bremen,Germany,DEU,admin,53.0758,8.8072,Bremen,569396.0
+1318,Dresden,Germany,DEU,admin,51.05,13.74,Saxony,563311.0
+1358,Hannover,Germany,DEU,admin,52.3667,9.7167,Lower Saxony,545045.0
+1409,Nuremberg,Germany,DEU,minor,49.4539,11.0775,Bavaria,523026.0
+1466,Duisburg,Germany,DEU,minor,51.4347,6.7625,North Rhine-Westphalia,502211.0
+1921,Bochum,Germany,DEU,minor,51.4819,7.2158,North Rhine-Westphalia,365742.0
+1956,Wuppertal,Germany,DEU,minor,51.2667,7.1833,North Rhine-Westphalia,358876.0
+2069,Bielefeld,Germany,DEU,minor,52.0211,8.5347,North Rhine-Westphalia,338332.0
+2080,Bonn,Germany,DEU,minor,50.7333,7.1,North Rhine-Westphalia,336465.0
+2176,Münster,Germany,DEU,minor,51.9625,7.6256,North Rhine-Westphalia,320946.0
+2211,Mannheim,Germany,DEU,minor,49.4878,8.4661,Baden-Württemberg,315554.0
+2249,Karlsruhe,Germany,DEU,minor,49.0092,8.404,Baden-Württemberg,308707.0
+2287,Augsburg,Germany,DEU,minor,48.3689,10.8978,Bavaria,301033.0
+2425,Wiesbaden,Germany,DEU,admin,50.0825,8.24,Hesse,283083.0
+2519,Mönchengladbach,Germany,DEU,minor,51.2,6.4333,North Rhine-Westphalia,268465.0
+2576,Gelsenkirchen,Germany,DEU,minor,51.5167,7.1,North Rhine-Westphalia,263000.0
+2658,Aachen,Germany,DEU,minor,50.7756,6.0836,North Rhine-Westphalia,252136.0
+2667,Braunschweig,Germany,DEU,minor,52.2667,10.5167,Lower Saxony,251804.0
+2711,Chemnitz,Germany,DEU,minor,50.8333,12.9167,Saxony,248563.0
+2720,Kiel,Germany,DEU,admin,54.3233,10.1394,Schleswig-Holstein,247717.0
+2779,Halle,Germany,DEU,minor,51.4828,11.9697,Saxony-Anhalt,242083.0
+2802,Magdeburg,Germany,DEU,admin,52.1317,11.6392,Saxony-Anhalt,239364.0
+2841,Freiburg im Breisgau,Germany,DEU,minor,47.995,7.85,Baden-Württemberg,236140.0
+2924,Krefeld,Germany,DEU,minor,51.3333,6.5667,North Rhine-Westphalia,228426.0
+3026,Mainz,Germany,DEU,admin,49.9994,8.2736,Rhineland-Palatinate,220552.0
+3053,Lübeck,Germany,DEU,minor,53.8697,10.6864,Schleswig-Holstein,218095.0
+3144,Oberhausen,Germany,DEU,minor,51.4967,6.8706,North Rhine-Westphalia,210824.0
+3158,Rostock,Germany,DEU,,54.0833,12.1333,Mecklenburg-Western Pomerania,209920.0
+3233,Kassel,Germany,DEU,minor,51.3158,9.4979,Hesse,204202.0
+3462,Hagen,Germany,DEU,minor,51.3667,7.4833,North Rhine-Westphalia,189783.0
+3516,Potsdam,Germany,DEU,admin,52.4,13.0667,Brandenburg,185750.0
+3570,Saarbrücken,Germany,DEU,admin,49.2333,7.0,Saarland,181959.0
+3588,Hamm,Germany,DEU,minor,51.6667,7.8167,North Rhine-Westphalia,180849.0
+3705,Ludwigshafen,Germany,DEU,minor,49.4811,8.4353,Rhineland-Palatinate,174265.0
+3736,Oldenburg,Germany,DEU,minor,53.1439,8.2139,Lower Saxony,172830.0
+3749,Mülheim,Germany,DEU,minor,51.4275,6.8825,North Rhine-Westphalia,172404.0
+3860,Osnabrück,Germany,DEU,minor,52.2833,8.05,Lower Saxony,167366.0
+3891,Leverkusen,Germany,DEU,minor,51.0333,6.9833,North Rhine-Westphalia,165748.0
+3964,Heidelberg,Germany,DEU,minor,49.4167,8.7167,Baden-Württemberg,162273.0
+3965,Darmstadt,Germany,DEU,minor,49.8722,8.6528,Hesse,162243.0
+4000,Solingen,Germany,DEU,minor,51.1667,7.0833,North Rhine-Westphalia,160643.0
+4074,Regensburg,Germany,DEU,minor,49.0167,12.0833,Bavaria,157443.0
+4076,Herne,Germany,DEU,minor,51.55,7.2167,North Rhine-Westphalia,157368.0
+4136,Paderborn,Germany,DEU,minor,51.7181,8.7542,North Rhine-Westphalia,154755.0
+4151,Neuss,Germany,DEU,minor,51.2,6.7,North Rhine-Westphalia,154139.0
+4509,Ingolstadt,Germany,DEU,minor,48.7631,11.425,Bavaria,141029.0
+4790,Fürth,Germany,DEU,minor,49.4667,11.0,Bavaria,131433.0
+4882,Ulm,Germany,DEU,minor,48.4,9.9833,Baden-Württemberg,128928.0
+4899,Heilbronn,Germany,DEU,minor,49.15,9.2167,Baden-Württemberg,128334.0
+4920,Pforzheim,Germany,DEU,minor,48.895,8.705,Baden-Württemberg,127849.0
+4922,Würzburg,Germany,DEU,minor,49.7833,9.9333,Bavaria,127810.0
+4982,Wolfsburg,Germany,DEU,minor,52.4231,10.7872,Lower Saxony,125961.0
+5238,Göttingen,Germany,DEU,minor,51.5339,9.9356,Lower Saxony,118946.0
+5274,Bottrop,Germany,DEU,minor,51.5247,6.9228,North Rhine-Westphalia,118113.0
+5303,Reutlingen,Germany,DEU,minor,48.4833,9.2167,Baden-Württemberg,117547.0
+5344,Erlangen,Germany,DEU,minor,49.5833,11.0167,Bavaria,116562.0
+5401,Bremerhaven,Germany,DEU,,53.55,8.5833,Bremen,115468.0
+5412,Koblenz,Germany,DEU,minor,50.3597,7.5978,Rhineland-Palatinate,115268.0
+5515,Bergisch Gladbach,Germany,DEU,minor,50.9918,7.1303,North Rhine-Westphalia,112712.0
+5517,Remscheid,Germany,DEU,minor,51.1833,7.2,North Rhine-Westphalia,112613.0
+5537,Trier,Germany,DEU,minor,49.7567,6.6414,Rhineland-Palatinate,112195.0
+5569,Recklinghausen,Germany,DEU,minor,51.585,7.1619,North Rhine-Westphalia,111734.0
+5591,Jena,Germany,DEU,minor,50.9272,11.5861,Thuringia,111191.0
+5871,Moers,Germany,DEU,,51.4592,6.6197,North Rhine-Westphalia,105287.0
+5907,Salzgitter,Germany,DEU,minor,52.15,10.3333,Lower Saxony,104548.0
+6007,Siegen,Germany,DEU,minor,50.8833,8.0167,North Rhine-Westphalia,102560.0
+6015,Gütersloh,Germany,DEU,minor,51.9,8.3833,North Rhine-Westphalia,102393.0
+6047,Hildesheim,Germany,DEU,minor,52.15,9.95,Lower Saxony,101858.0
+6075,Hanau,Germany,DEU,minor,50.1328,8.9169,Hesse,101364.0
+6086,Kaiserslautern,Germany,DEU,minor,49.4447,7.7689,Rhineland-Palatinate,101228.0
+6188,Cottbus,Germany,DEU,minor,51.7606,14.3342,Brandenburg,99515.0
+6237,Schwerin,Germany,DEU,admin,53.6333,11.4167,Mecklenburg-Western Pomerania,98596.0
+6381,Witten,Germany,DEU,,51.4333,7.3333,North Rhine-Westphalia,95897.0
+6446,Esslingen,Germany,DEU,minor,48.7333,9.3167,Baden-Württemberg,94941.0
+6482,Ludwigsburg,Germany,DEU,minor,48.8975,9.1922,Baden-Württemberg,94157.0
+6483,Gießen,Germany,DEU,minor,50.5833,8.6667,Hesse,94146.0
+6514,Gera,Germany,DEU,minor,50.8806,12.0833,Thuringia,93634.0
+6529,Düren,Germany,DEU,minor,50.8,6.4833,North Rhine-Westphalia,93207.0
+6558,Tübingen,Germany,DEU,minor,48.52,9.0556,Baden-Württemberg,92811.0
+6578,Flensburg,Germany,DEU,minor,54.7819,9.4367,Schleswig-Holstein,92550.0
+6579,Iserlohn,Germany,DEU,,51.3833,7.6667,North Rhine-Westphalia,92540.0
+6852,Villingen-Schwenningen,Germany,DEU,minor,48.0603,8.4586,Baden-Württemberg,88213.0
+6902,Ratingen,Germany,DEU,,51.3,6.85,North Rhine-Westphalia,87388.0
+6921,Zwickau,Germany,DEU,minor,50.7167,12.5,Saxony,87172.0
+6940,Lünen,Germany,DEU,,51.6167,7.5167,North Rhine-Westphalia,86868.0
+7017,Konstanz,Germany,DEU,,47.6667,9.1833,Baden-Württemberg,85859.0
+7108,Worms,Germany,DEU,minor,49.6319,8.3653,Rhineland-Palatinate,84646.0
+7129,Marl,Germany,DEU,,51.6667,7.1167,North Rhine-Westphalia,84331.0
+7212,Minden,Germany,DEU,minor,52.2883,8.9167,North Rhine-Westphalia,83076.0
+7258,Velbert,Germany,DEU,,51.3333,7.05,North Rhine-Westphalia,82445.0
+7290,Norderstedt,Germany,DEU,,53.7064,10.0103,Schleswig-Holstein,81880.0
+7450,Bamberg,Germany,DEU,minor,49.8914,10.8869,Bavaria,79935.0
+7468,Dessau-Rosslau,Germany,DEU,minor,51.8333,12.2333,Saxony-Anhalt,79655.0
+7481,Neumünster,Germany,DEU,minor,54.0714,9.99,Schleswig-Holstein,79502.0
+7583,Delmenhorst,Germany,DEU,minor,53.0506,8.6317,Lower Saxony,78385.0
+7604,Viersen,Germany,DEU,minor,51.2561,6.3972,North Rhine-Westphalia,78208.0
+7636,Rheine,Germany,DEU,,52.2833,7.4333,North Rhine-Westphalia,77893.0
+7639,Marburg,Germany,DEU,minor,50.81,8.7708,Hesse,77845.0
+7719,Lüneburg,Germany,DEU,minor,53.2525,10.4144,Lower Saxony,76837.0
+7732,Dorsten,Germany,DEU,,51.66,6.9642,North Rhine-Westphalia,76720.0
+7776,Troisdorf,Germany,DEU,,50.8161,7.1556,North Rhine-Westphalia,76251.0
+7796,Wilhelmshaven,Germany,DEU,minor,53.5286,8.1056,Lower Saxony,76089.0
+7815,Gladbeck,Germany,DEU,,51.5667,6.9667,North Rhine-Westphalia,75889.0
+7854,Landshut,Germany,DEU,minor,48.5397,12.1508,Bavaria,75457.0
+7887,Detmold,Germany,DEU,minor,51.9378,8.8833,North Rhine-Westphalia,75089.0
+7940,Bayreuth,Germany,DEU,minor,49.9481,11.5783,Bavaria,74506.0
+7953,Arnsberg,Germany,DEU,,51.3833,8.0833,North Rhine-Westphalia,74323.0
+8008,Castrop-Rauxel,Germany,DEU,,51.55,7.3167,North Rhine-Westphalia,73795.0
+8025,Brandenburg,Germany,DEU,minor,52.4167,12.5333,Brandenburg,73609.0
+8139,Aschaffenburg,Germany,DEU,minor,49.9667,9.15,Bavaria,72444.0
+8186,Bocholt,Germany,DEU,,51.8333,6.6167,North Rhine-Westphalia,71930.0
+8195,Lüdenscheid,Germany,DEU,minor,51.2167,7.6333,North Rhine-Westphalia,71865.0
+8387,Celle,Germany,DEU,minor,52.6256,10.0825,Lower Saxony,70138.0
+8404,Kempten,Germany,DEU,minor,47.7333,10.3167,Bavaria,70056.0
+8431,Fulda,Germany,DEU,minor,50.5508,9.6753,Hesse,69968.0
+8546,Lippstadt,Germany,DEU,,51.6667,8.35,North Rhine-Westphalia,68890.0
+8554,Aalen,Germany,DEU,minor,48.8333,10.1,Baden-Württemberg,68816.0
+8661,Dinslaken,Germany,DEU,,51.5667,6.7333,North Rhine-Westphalia,67762.0
+8691,Herford,Germany,DEU,minor,52.1333,8.6833,North Rhine-Westphalia,67459.0
+8714,Rüsselsheim,Germany,DEU,,50.0,8.4333,Hesse,67277.0
+8721,Kerpen,Germany,DEU,,50.8719,6.6961,North Rhine-Westphalia,67239.0
+8856,Neuwied,Germany,DEU,minor,50.4286,7.4614,Rhineland-Palatinate,65986.0
+8897,Weimar,Germany,DEU,minor,50.9811,11.3294,Thuringia,65620.0
+8963,Dormagen,Germany,DEU,,51.1,6.8167,North Rhine-Westphalia,65147.0
+8981,Sindelfingen,Germany,DEU,,48.7133,9.0028,Baden-Württemberg,64995.0
+9010,Plauen,Germany,DEU,minor,50.4833,12.1167,Saxony,64763.0
+9027,Grevenbroich,Germany,DEU,,51.0883,6.5875,North Rhine-Westphalia,64596.0
+9055,Rosenheim,Germany,DEU,minor,47.85,12.1333,Bavaria,64403.0
+9101,Neubrandenburg,Germany,DEU,minor,53.5569,13.2611,Mecklenburg-Western Pomerania,63989.0
+9237,Friedrichshafen,Germany,DEU,,47.65,9.4833,Baden-Württemberg,62932.0
+9288,Herten,Germany,DEU,,51.6,7.1333,North Rhine-Westphalia,62473.0
+9296,Bergheim,Germany,DEU,minor,50.9667,6.65,North Rhine-Westphalia,62376.0
+9303,Schwäbisch Gmünd,Germany,DEU,,48.8,9.8,Baden-Württemberg,62325.0
+9401,Offenburg,Germany,DEU,minor,48.4667,7.9333,Baden-Württemberg,61670.0
+9446,Garbsen,Germany,DEU,,52.4183,9.5981,Lower Saxony,61349.0
+9447,Wesel,Germany,DEU,minor,51.6586,6.6178,North Rhine-Westphalia,61330.0
+9485,Neu-Ulm,Germany,DEU,minor,48.3833,10.0,Baden-Württemberg,61043.0
+9493,Hürth,Germany,DEU,,50.8775,6.8761,North Rhine-Westphalia,60969.0
+9502,Unna,Germany,DEU,minor,51.5347,7.6889,North Rhine-Westphalia,60892.0
+9662,Langenfeld,Germany,DEU,,51.1167,6.95,North Rhine-Westphalia,59783.0
+9665,Euskirchen,Germany,DEU,minor,50.6597,6.7917,North Rhine-Westphalia,59772.0
+9679,Greifswald,Germany,DEU,minor,54.0833,13.3833,Mecklenburg-Western Pomerania,59691.0
+9727,Stralsund,Germany,DEU,minor,54.3092,13.0819,Mecklenburg-Western Pomerania,59363.0
+9765,Göppingen,Germany,DEU,minor,48.7025,9.6528,Baden-Württemberg,59053.0
+9892,Frankfurt (Oder),Germany,DEU,minor,52.3419,14.5517,Brandenburg,58230.0
+9933,Hameln,Germany,DEU,minor,52.1,9.3667,Lower Saxony,57905.0
+10006,Meerbusch,Germany,DEU,,51.2667,6.6667,North Rhine-Westphalia,57422.0
+10075,Baden-Baden,Germany,DEU,minor,48.7628,8.2408,Baden-Württemberg,57025.0
+10147,Görlitz,Germany,DEU,minor,51.1528,14.9872,Saxony,56574.0
+10154,Lingen,Germany,DEU,,52.5231,7.3231,Lower Saxony,56542.0
+10165,Stolberg,Germany,DEU,,50.7667,6.2333,North Rhine-Westphalia,56455.0
+10182,Sankt Augustin,Germany,DEU,,50.77,7.1867,North Rhine-Westphalia,56369.0
+10222,Waiblingen,Germany,DEU,minor,48.8303,9.3169,Baden-Württemberg,56081.0
+10231,Eschweiler,Germany,DEU,,50.8167,6.2833,North Rhine-Westphalia,56049.0
+10262,Hilden,Germany,DEU,,51.1714,6.9394,North Rhine-Westphalia,55815.0
+10313,Pulheim,Germany,DEU,,51.0,6.8,North Rhine-Westphalia,55530.0
+10344,Langenhagen,Germany,DEU,,52.4394,9.74,Lower Saxony,55367.0
+10361,Nordhorn,Germany,DEU,minor,52.4319,7.0678,Lower Saxony,55242.0
+10413,Bad Homburg,Germany,DEU,minor,50.2167,8.6,Hesse,54996.0
+10438,Bad Salzuflen,Germany,DEU,,52.0833,8.7467,North Rhine-Westphalia,54808.0
+10452,Schweinfurt,Germany,DEU,,50.05,10.2333,Bavaria,54675.0
+10457,Hattingen,Germany,DEU,,51.3992,7.1858,North Rhine-Westphalia,54637.0
+10533,Wetzlar,Germany,DEU,minor,50.5667,8.5,Hesse,54187.0
+10570,Neustadt,Germany,DEU,minor,49.35,8.15,Rhineland-Palatinate,53981.0
+10585,Passau,Germany,DEU,minor,48.5744,13.4647,Bavaria,53907.0
+10660,Kleve,Germany,DEU,minor,51.79,6.14,North Rhine-Westphalia,53388.0
+10667,Ahlen,Germany,DEU,,51.7633,7.8911,North Rhine-Westphalia,53348.0
+10761,Frechen,Germany,DEU,,50.9167,6.8167,North Rhine-Westphalia,52811.0
+10787,Wolfenbüttel,Germany,DEU,minor,52.1622,10.5369,Lower Saxony,52681.0
+10816,Bad Kreuznach,Germany,DEU,minor,49.85,7.8667,Rhineland-Palatinate,52529.0
+10840,Ibbenbüren,Germany,DEU,,52.2778,7.7167,North Rhine-Westphalia,52421.0
+10910,Gummersbach,Germany,DEU,minor,51.0333,7.5667,North Rhine-Westphalia,52001.0
+11004,Ravensburg,Germany,DEU,minor,47.7831,9.6114,Baden-Württemberg,51482.0
+11008,Böblingen,Germany,DEU,minor,48.6856,9.0153,Baden-Württemberg,51460.0
+11015,Peine,Germany,DEU,minor,52.3203,10.2336,Lower Saxony,51411.0
+11020,Speyer,Germany,DEU,minor,49.3194,8.4311,Rhineland-Palatinate,51368.0
+11032,Rastatt,Germany,DEU,minor,48.85,8.2,Baden-Württemberg,51310.0
+11137,Elmshorn,Germany,DEU,,53.7519,9.6511,Schleswig-Holstein,50772.0
+11176,Emden,Germany,DEU,minor,53.3669,7.2061,Lower Saxony,50535.0
+11226,Goslar,Germany,DEU,minor,51.9072,10.43,Lower Saxony,50203.0
+11238,Willich,Germany,DEU,,51.2631,6.5492,North Rhine-Westphalia,50144.0
+11264,Heidenheim,Germany,DEU,minor,48.6761,10.1544,Baden-Württemberg,50025.0
+11322,Erftstadt,Germany,DEU,,50.8167,6.7667,North Rhine-Westphalia,49882.0
+11323,Lörrach,Germany,DEU,minor,47.6167,7.6667,Baden-Württemberg,49876.0
+11327,Cuxhaven,Germany,DEU,minor,53.8611,8.6944,Lower Saxony,49854.0
+11335,Gronau,Germany,DEU,,52.2125,7.0417,North Rhine-Westphalia,49824.0
+11384,Leonberg,Germany,DEU,,48.8014,9.0131,Baden-Württemberg,49512.0
+11393,Rheda-Wiedenbrück,Germany,DEU,,51.8417,8.3,North Rhine-Westphalia,49486.0
+11396,Bad Oeynhausen,Germany,DEU,,52.2,8.8,North Rhine-Westphalia,49477.0
+11412,Singen,Germany,DEU,,47.7628,8.84,Baden-Württemberg,49441.0
+11428,Freising,Germany,DEU,minor,48.4028,11.7489,Bavaria,49339.0
+11442,Bergkamen,Germany,DEU,,51.6167,7.6333,North Rhine-Westphalia,49263.0
+11461,Straubing,Germany,DEU,minor,48.8833,12.5667,Bavaria,49164.0
+11487,Frankenthal,Germany,DEU,minor,49.5333,8.35,Rhineland-Palatinate,49051.0
+11492,Bornheim,Germany,DEU,,50.7592,7.005,North Rhine-Westphalia,49025.0
+11576,Soest,Germany,DEU,minor,51.5711,8.1092,North Rhine-Westphalia,48607.0
+11620,Stade,Germany,DEU,minor,53.6008,9.4764,Lower Saxony,48353.0
+11625,Alsdorf,Germany,DEU,,50.8833,6.1667,North Rhine-Westphalia,48328.0
+11655,Dachau,Germany,DEU,minor,48.2603,11.4342,Bavaria,48195.0
+11688,Hennef,Germany,DEU,,50.7833,7.2833,North Rhine-Westphalia,48002.0
+11732,Oranienburg,Germany,DEU,minor,52.7544,13.2369,Brandenburg,47752.0
+11764,Landau,Germany,DEU,minor,49.2,8.1167,Rhineland-Palatinate,47610.0
+11797,Dülmen,Germany,DEU,,51.8308,7.2783,North Rhine-Westphalia,47468.0
+11850,Melle,Germany,DEU,,52.2044,8.3389,Lower Saxony,47228.0
+11904,Herzogenrath,Germany,DEU,,50.8667,6.1,North Rhine-Westphalia,46941.0
+11920,Neunkirchen,Germany,DEU,minor,49.35,7.1667,Saarland,46882.0
+11971,Schwerte,Germany,DEU,,51.4458,7.5653,North Rhine-Westphalia,46658.0
+11972,Hof,Germany,DEU,minor,50.3167,11.9167,Bavaria,46656.0
+11981,Bruchsal,Germany,DEU,,49.1333,8.6,Baden-Württemberg,46587.0
+12016,Rodgau,Germany,DEU,,50.0167,8.8833,Hesse,46426.0
+12017,Albstadt,Germany,DEU,,48.2119,9.0239,Baden-Württemberg,46422.0
+12037,Halle-Neustadt,Germany,DEU,,51.4789,11.9214,Saxony-Anhalt,46280.0
+12068,Filderstadt,Germany,DEU,,48.6803,9.2183,Baden-Württemberg,46188.0
+12097,Bünde,Germany,DEU,,52.2,8.6,North Rhine-Westphalia,46030.0
+12102,Gotha,Germany,DEU,minor,50.9492,10.705,Thuringia,46019.0
+12140,Fellbach,Germany,DEU,,48.8086,9.2758,Baden-Württemberg,45896.0
+12148,Memmingen,Germany,DEU,minor,47.9878,10.1811,Bavaria,45857.0
+12165,Kaufbeuren,Germany,DEU,minor,47.88,10.6225,Bavaria,45792.0
+12265,Weinheim,Germany,DEU,,49.55,8.6667,Baden-Württemberg,45275.0
+12267,Neustadt am Rübenberge,Germany,DEU,,52.5,9.4667,Lower Saxony,45262.0
+12396,Lehrte,Germany,DEU,,52.3667,9.9667,Lower Saxony,44823.0
+12404,Falkensee,Germany,DEU,,52.5583,13.0917,Brandenburg,44806.0
+12405,Brühl,Germany,DEU,,50.8333,6.9,North Rhine-Westphalia,44804.0
+12535,Pinneberg,Germany,DEU,minor,53.6333,9.8,Schleswig-Holstein,44279.0
+12541,Kaarst,Germany,DEU,,51.2167,6.6167,North Rhine-Westphalia,44253.0
+12552,Erkelenz,Germany,DEU,,51.0833,6.3167,North Rhine-Westphalia,44215.0
+12625,Wismar,Germany,DEU,minor,53.9,11.4667,Mecklenburg-Western Pomerania,43878.0
+12629,Erkrath,Germany,DEU,,51.2239,6.9147,North Rhine-Westphalia,43856.0
+12647,Bietigheim-Bissingen,Germany,DEU,,48.9667,9.1333,Baden-Württemberg,43755.0
+12677,Gifhorn,Germany,DEU,minor,52.4886,10.5464,Lower Saxony,43625.0
+12707,Borken,Germany,DEU,minor,51.8333,6.8667,North Rhine-Westphalia,43489.0
+12710,Heinsberg,Germany,DEU,minor,51.0631,6.0964,North Rhine-Westphalia,43476.0
+12804,Nettetal,Germany,DEU,,51.3167,6.2833,North Rhine-Westphalia,43095.0
+12813,Kamen,Germany,DEU,,51.5917,7.6653,North Rhine-Westphalia,43058.0
+12835,Aurich,Germany,DEU,minor,53.4714,7.4836,Lower Saxony,42970.0
+12896,Laatzen,Germany,DEU,,52.3167,9.8,Lower Saxony,42675.0
+12944,Amberg,Germany,DEU,minor,49.4444,11.8483,Bavaria,42534.0
+12965,Seevetal,Germany,DEU,,53.3833,9.9667,Lower Saxony,42449.0
+12975,Eisenach,Germany,DEU,minor,50.9761,10.3206,Thuringia,42408.0
+13002,Homburg,Germany,DEU,minor,49.3167,7.3333,Saarland,42297.0
+13010,Dreieich,Germany,DEU,,50.0,8.7,Hesse,42260.0
+13022,Ansbach,Germany,DEU,minor,49.3,10.5833,Bavaria,42221.0
+13058,Bensheim,Germany,DEU,,49.6667,8.6167,Hesse,42089.0
+13072,Siegburg,Germany,DEU,minor,50.8014,7.2044,North Rhine-Westphalia,42049.0
+13111,Kirchheim unter Teck,Germany,DEU,,48.6483,9.4511,Baden-Württemberg,41907.0
+13116,Schwäbisch Hall,Germany,DEU,minor,49.1122,9.7375,Baden-Württemberg,41898.0
+13128,Coburg,Germany,DEU,minor,50.2667,10.9667,Bavaria,41842.0
+13175,Wunstorf,Germany,DEU,,52.4275,9.4294,Lower Saxony,41689.0
+13232,Königswinter,Germany,DEU,,50.6736,7.1947,North Rhine-Westphalia,41495.0
+13246,Eberswalde,Germany,DEU,minor,52.8333,13.8333,Brandenburg,41461.0
+13260,Nürtingen,Germany,DEU,,48.6333,9.3333,Baden-Württemberg,41403.0
+13273,Germering,Germany,DEU,,48.1333,11.3667,Bavaria,41355.0
+13280,Nordhausen,Germany,DEU,minor,51.505,10.7911,Thuringia,41339.0
+13290,Hückelhoven,Germany,DEU,,51.0608,6.2197,North Rhine-Westphalia,41301.0
+13312,Schwabach,Germany,DEU,minor,49.3292,11.0208,Bavaria,41227.0
+13410,Buxtehude,Germany,DEU,,53.4769,9.7011,Lower Saxony,40919.0
+13443,Buchholz in der Nordheide,Germany,DEU,,53.3167,9.8667,Lower Saxony,40810.0
+13444,Neumarkt,Germany,DEU,minor,49.2833,11.4667,Bavaria,40808.0
+13476,Pirmasens,Germany,DEU,minor,49.2,7.6,Rhineland-Palatinate,40682.0
+13507,Lemgo,Germany,DEU,,52.0272,8.9117,North Rhine-Westphalia,40594.0
+13533,Freiberg,Germany,DEU,minor,50.9119,13.3428,Saxony,40485.0
+13539,Halberstadt,Germany,DEU,minor,51.8958,11.0467,Saxony-Anhalt,40457.0
+13546,Leinfelden-Echterdingen,Germany,DEU,,48.6928,9.1428,Baden-Württemberg,40420.0
+13564,Hofheim,Germany,DEU,minor,50.0833,8.45,Hesse,40371.0
+13602,Löhne,Germany,DEU,,52.2,8.7,North Rhine-Westphalia,40265.0
+13605,Ahaus,Germany,DEU,,52.0667,7.0,North Rhine-Westphalia,40245.0
+13616,Schorndorf,Germany,DEU,,48.8,9.5333,Baden-Württemberg,40204.0
+13623,Völklingen,Germany,DEU,,49.25,6.8333,Saarland,40192.0
+13757,Maintal,Germany,DEU,,50.15,8.8333,Hesse,39815.0
+13763,Ostfildern,Germany,DEU,,48.7333,9.25,Baden-Württemberg,39806.0
+13803,Ettlingen,Germany,DEU,,48.9333,8.4,Baden-Württemberg,39699.0
+13844,Freital,Germany,DEU,,51.0167,13.65,Saxony,39558.0
+13922,Neu Isenburg,Germany,DEU,,50.05,8.7,Hesse,39287.0
+13924,Niederkassel,Germany,DEU,,50.8167,7.0333,North Rhine-Westphalia,39281.0
+13946,Langen,Germany,DEU,,49.9833,8.6667,Hesse,39217.0
+13968,Mettmann,Germany,DEU,minor,51.25,6.9667,North Rhine-Westphalia,39134.0
+13970,Ilmenau,Germany,DEU,,50.6839,10.9194,Thuringia,39127.0
+13976,Stendal,Germany,DEU,minor,52.6,11.85,Saxony-Anhalt,39105.0
+13986,Pirna,Germany,DEU,minor,50.9622,13.9403,Saxony,39054.0
+13992,Weißenfels,Germany,DEU,,51.2,11.9667,Saxony-Anhalt,39041.0
+14034,Königs Wusterhausen,Germany,DEU,,52.2917,13.625,Brandenburg,38929.0
+14117,Kamp-Lintfort,Germany,DEU,,51.5,6.5333,North Rhine-Westphalia,38665.0
+14145,Würselen,Germany,DEU,,50.8167,6.1333,North Rhine-Westphalia,38598.0
+14155,Papenburg,Germany,DEU,,53.0667,7.4,Lower Saxony,38556.0
+14262,Greven,Germany,DEU,,52.0917,7.6083,North Rhine-Westphalia,38207.0
+14269,Wesseling,Germany,DEU,,50.8167,6.9667,North Rhine-Westphalia,38192.0
+14278,Kehl,Germany,DEU,,48.5667,7.8167,Baden-Württemberg,38154.0
+14283,Bautzen,Germany,DEU,minor,51.1814,14.4242,Saxony,38140.0
+14330,Backnang,Germany,DEU,,48.9464,9.4306,Baden-Württemberg,37957.0
+14352,Bitterfeld,Germany,DEU,,51.6167,12.3167,Saxony-Anhalt,37894.0
+14446,Fürstenfeldbruck,Germany,DEU,minor,48.1778,11.2556,Bavaria,37695.0
+14469,Warendorf,Germany,DEU,minor,51.9539,7.9933,North Rhine-Westphalia,37616.0
+14519,Tuttlingen,Germany,DEU,minor,47.985,8.8233,Baden-Württemberg,37458.0
+14563,Beckum,Germany,DEU,,51.755,8.0403,North Rhine-Westphalia,37333.0
+14640,Cloppenburg,Germany,DEU,minor,52.85,8.05,Lower Saxony,37056.0
+14649,Coesfeld,Germany,DEU,minor,51.95,7.1667,North Rhine-Westphalia,37030.0
+14656,Suhl,Germany,DEU,minor,50.6106,10.6931,Thuringia,37009.0
+14732,Erding,Germany,DEU,minor,48.2833,11.9,Bavaria,36813.0
+14804,Sinsheim,Germany,DEU,,49.25,8.8833,Baden-Württemberg,36601.0
+14865,Porta Westfalica,Germany,DEU,,52.2167,8.9333,North Rhine-Westphalia,36374.0
+14870,Emsdetten,Germany,DEU,,52.1728,7.5344,North Rhine-Westphalia,36354.0
+14889,Winsen,Germany,DEU,minor,53.3667,10.2167,Lower Saxony,36295.0
+14911,Mühlhausen,Germany,DEU,minor,51.2167,10.45,Thuringia,36226.0
+14928,Voerde,Germany,DEU,,51.6,6.6833,North Rhine-Westphalia,36196.0
+14963,Meppen,Germany,DEU,minor,52.6936,7.2928,Lower Saxony,36117.0
+14988,Limburg,Germany,DEU,minor,50.3833,8.0667,Hesse,36053.0
+15006,Ingelheim,Germany,DEU,minor,49.9747,8.0564,Rhineland-Palatinate,36002.0
+15097,Crailsheim,Germany,DEU,,49.1347,10.0706,Baden-Württemberg,35760.0
+15100,Bad Vilbel,Germany,DEU,,50.1781,8.7361,Hesse,35758.0
+15138,Leer,Germany,DEU,minor,53.2308,7.4528,Lower Saxony,35663.0
+15230,Lage,Germany,DEU,,51.9889,8.7944,North Rhine-Westphalia,35423.0
+15284,Mörfelden-Walldorf,Germany,DEU,,50.0,8.5833,Hesse,35291.0
+15292,Goch,Germany,DEU,,51.6839,6.1619,North Rhine-Westphalia,35270.0
+15315,Sankt Ingbert,Germany,DEU,,49.3,7.1167,Saarland,35216.0
+15324,Datteln,Germany,DEU,,51.6539,7.3417,North Rhine-Westphalia,35191.0
+15333,Deggendorf,Germany,DEU,minor,48.8333,12.9667,Bavaria,35172.0
+15339,Barsinghausen,Germany,DEU,,52.3,9.4811,Lower Saxony,35156.0
+15357,Steinfurt,Germany,DEU,minor,52.1475,7.3442,North Rhine-Westphalia,35102.0
+15452,Balingen,Germany,DEU,minor,48.2731,8.8506,Baden-Württemberg,34945.0
+15461,Dietzenbach,Germany,DEU,,50.0167,8.7833,Hesse,34928.0
+15497,Kempen,Germany,DEU,,51.3658,6.4194,North Rhine-Westphalia,34841.0
+15527,Seelze,Germany,DEU,,52.3961,9.5981,Lower Saxony,34742.0
+15528,Wermelskirchen,Germany,DEU,,51.15,7.2167,North Rhine-Westphalia,34739.0
+15540,Saarlouis,Germany,DEU,minor,49.3167,6.75,Saarland,34717.0
+15602,Wedel,Germany,DEU,,53.5833,9.7,Schleswig-Holstein,34538.0
+15604,Zweibrücken,Germany,DEU,minor,49.25,7.3667,Rhineland-Palatinate,34534.0
+15605,Viernheim,Germany,DEU,,49.5417,8.5786,Hesse,34534.0
+15615,Ahrensburg,Germany,DEU,,53.6747,10.2411,Schleswig-Holstein,34509.0
+15686,Merseburg,Germany,DEU,minor,51.3544,11.9928,Saxony-Anhalt,34335.0
+15701,Geldern,Germany,DEU,,51.5197,6.3325,North Rhine-Westphalia,34298.0
+15757,Korschenbroich,Germany,DEU,,51.1833,6.5167,North Rhine-Westphalia,34187.0
+15776,Kornwestheim,Germany,DEU,,48.8598,9.1852,Baden-Württemberg,34130.0
+15797,Radebeul,Germany,DEU,,51.1,13.65,Saxony,34096.0
+15825,Hemer,Germany,DEU,,51.3833,7.7667,North Rhine-Westphalia,34024.0
+15833,Biberach,Germany,DEU,minor,48.1,9.7833,Baden-Württemberg,34008.0
+15861,Stuhr,Germany,DEU,,53.0167,8.75,Lower Saxony,33952.0
+15869,Uelzen,Germany,DEU,minor,52.9647,10.5658,Lower Saxony,33934.0
+15943,Vechta,Germany,DEU,minor,52.7306,8.2886,Lower Saxony,33769.0
+16009,Rheinfelden (Baden),Germany,DEU,,47.5611,7.7917,Baden-Württemberg,33581.0
+16048,Schwedt (Oder),Germany,DEU,,53.05,14.2667,Brandenburg,33495.0
+16068,Bad Nauheim,Germany,DEU,,50.3667,8.75,Hesse,33445.0
+16189,Jülich,Germany,DEU,,50.9222,6.3583,North Rhine-Westphalia,33158.0
+16266,Forchheim,Germany,DEU,minor,49.7197,11.0581,Bavaria,32972.0
+16305,Lampertheim,Germany,DEU,,49.6,8.4667,Hesse,32870.0
+16346,Delbrück,Germany,DEU,,51.7667,8.5667,North Rhine-Westphalia,32774.0
+16354,Achim,Germany,DEU,,53.0653,9.0342,Lower Saxony,32752.0
+16394,Herrenberg,Germany,DEU,,48.5967,8.8708,Baden-Württemberg,32649.0
+16396,Fürstenwalde,Germany,DEU,,52.3667,14.0667,Brandenburg,32646.0
+16499,Geesthacht,Germany,DEU,,53.4375,10.3675,Schleswig-Holstein,32336.0
+16520,Naumburg,Germany,DEU,minor,51.15,11.8167,Saxony-Anhalt,32289.0
+16531,Bernburg,Germany,DEU,minor,51.8,11.7333,Saxony-Anhalt,32261.0
+16534,Itzehoe,Germany,DEU,minor,53.925,9.5164,Schleswig-Holstein,32258.0
+16558,Georgsmarienhütte,Germany,DEU,,52.2,8.0667,Lower Saxony,32190.0
+16565,Bramsche,Germany,DEU,,52.4,7.9833,Lower Saxony,32179.0
+16629,Radolfzell am Bodensee,Germany,DEU,,47.7333,8.9667,Baden-Württemberg,32043.0
+16639,Wernigerode,Germany,DEU,,51.835,10.7853,Saxony-Anhalt,32024.0
+16685,Ganderkesee,Germany,DEU,,53.0358,8.5483,Lower Saxony,31939.0
+16735,Oer-Erkenschwick,Germany,DEU,,51.6422,7.2508,North Rhine-Westphalia,31838.0
+16904,Neuruppin,Germany,DEU,minor,52.9331,12.8,Brandenburg,31422.0
+16942,Hoyerswerda,Germany,DEU,,51.4333,14.25,Saxony,31356.0
+16971,Altenburg,Germany,DEU,minor,50.985,12.4333,Thuringia,31315.0
+16985,Burgdorf,Germany,DEU,,52.45,10.0083,Lower Saxony,31287.0
+17023,Kreuztal,Germany,DEU,,50.9667,7.9667,North Rhine-Westphalia,31197.0
+17038,Rheinberg,Germany,DEU,,51.5467,6.6006,North Rhine-Westphalia,31150.0
+17069,Gevelsberg,Germany,DEU,,51.3167,7.3333,North Rhine-Westphalia,31097.0
+17092,Werl,Germany,DEU,,51.55,7.92,North Rhine-Westphalia,31045.0
+17184,Lohmar,Germany,DEU,,50.8167,7.2167,North Rhine-Westphalia,30846.0
+17196,Walsrode,Germany,DEU,,52.8667,9.5833,Lower Saxony,30819.0
+17199,Friedberg,Germany,DEU,minor,50.3333,8.75,Hesse,30818.0
+17203,Taunusstein,Germany,DEU,,50.1333,8.15,Hesse,30810.0
+17220,Weil am Rhein,Germany,DEU,,47.5947,7.6108,Baden-Württemberg,30769.0
+17237,Einbeck,Germany,DEU,,51.8167,9.8667,Lower Saxony,30728.0
+17274,Osterholz-Scharmbeck,Germany,DEU,minor,53.2167,8.8,Lower Saxony,30659.0
+17280,Bad Hersfeld,Germany,DEU,minor,50.8683,9.7075,Hesse,30652.0
+17281,Ennepetal,Germany,DEU,,51.2833,7.3333,North Rhine-Westphalia,30652.0
+17322,Haan,Germany,DEU,,51.1667,7.0,North Rhine-Westphalia,30542.0
+17357,Neuburg,Germany,DEU,minor,48.7333,11.1833,Bavaria,30467.0
+17388,Friedberg,Germany,DEU,,48.35,10.9833,Bavaria,30407.0
+17399,Schönebeck,Germany,DEU,,52.0167,11.75,Saxony-Anhalt,30389.0
+17447,Andernach,Germany,DEU,,50.4397,7.4017,Rhineland-Palatinate,30277.0
+17457,Gaggenau,Germany,DEU,,48.8039,8.3194,Baden-Württemberg,30250.0
+17531,Bretten,Germany,DEU,,49.0364,8.7061,Baden-Württemberg,30073.0
+17540,Merzig,Germany,DEU,minor,49.45,6.6167,Saarland,30051.0
+17548,Meschede,Germany,DEU,minor,51.35,8.2833,North Rhine-Westphalia,30025.0
+17618,Schwandorf,Germany,DEU,minor,49.3283,12.11,Bavaria,29990.0
+17654,Rietberg,Germany,DEU,,51.8,8.4333,North Rhine-Westphalia,29919.0
+17709,Bad Zwischenahn,Germany,DEU,,53.1836,8.0097,Lower Saxony,29803.0
+17746,Rendsburg,Germany,DEU,minor,54.3,9.6667,Schleswig-Holstein,29743.0
+17787,Werve,Germany,DEU,,51.6667,7.6167,North Rhine-Westphalia,29680.0
+17809,Waltrop,Germany,DEU,,51.6167,7.3833,North Rhine-Westphalia,29644.0
+17810,Oelde,Germany,DEU,,51.8333,8.15,North Rhine-Westphalia,29644.0
+17856,Güstrow,Germany,DEU,minor,53.7939,12.1764,Mecklenburg-Western Pomerania,29556.0
+17858,Landsberg,Germany,DEU,minor,48.0478,10.8989,Bavaria,29551.0
+17868,Unterschleißheim,Germany,DEU,,48.2833,11.5667,Bavaria,29523.0
+17907,Northeim,Germany,DEU,minor,51.7067,10.0011,Lower Saxony,29440.0
+17965,Tönisvorst,Germany,DEU,,51.3208,6.4931,North Rhine-Westphalia,29319.0
+17974,Vaihingen an der Enz,Germany,DEU,,48.9328,8.9564,Baden-Württemberg,29305.0
+18002,Winnenden,Germany,DEU,,48.8764,9.3978,Baden-Württemberg,29245.0
+18010,Saalfeld,Germany,DEU,minor,50.65,11.3667,Thuringia,29224.0
+18040,Blankenfelde,Germany,DEU,,52.35,13.4,Brandenburg,29159.0
+18052,Bühl,Germany,DEU,,48.6953,8.135,Baden-Württemberg,29133.0
+18068,Springe,Germany,DEU,,52.2167,9.55,Lower Saxony,29113.0
+18069,Kelkheim (Taunus),Germany,DEU,,50.1378,8.4497,Hesse,29112.0
+18095,Riesa,Germany,DEU,,51.3081,13.2939,Saxony,29076.0
+18132,Meißen,Germany,DEU,minor,51.1667,13.4833,Saxony,29011.0
+18198,Rösrath,Germany,DEU,,50.9,7.1833,North Rhine-Westphalia,28889.0
+18218,Emmendingen,Germany,DEU,minor,48.1214,7.8492,Baden-Württemberg,28856.0
+18280,Schwelm,Germany,DEU,minor,51.2667,7.2667,North Rhine-Westphalia,28723.0
+18289,Höxter,Germany,DEU,minor,51.7667,9.3667,North Rhine-Westphalia,28709.0
+18317,Geislingen an der Steige,Germany,DEU,,48.6244,9.8306,Baden-Württemberg,28655.0
+18365,Mechernich,Germany,DEU,,50.6,6.65,North Rhine-Westphalia,28567.0
+18376,Reinbek,Germany,DEU,,53.5089,10.2483,Schleswig-Holstein,28536.0
+18382,Hattersheim,Germany,DEU,,50.0722,8.4864,Hesse,28528.0
+18384,Verden,Germany,DEU,minor,52.9211,9.2306,Lower Saxony,28526.0
+18441,Ludwigsfelde,Germany,DEU,,52.2997,13.2667,Brandenburg,28424.0
+18482,Baunatal,Germany,DEU,,51.2589,9.4183,Hesse,28339.0
+18491,Henstedt-Ulzburg,Germany,DEU,,53.7833,10.0,Schleswig-Holstein,28323.0
+18526,Geilenkirchen,Germany,DEU,,50.9653,6.1194,North Rhine-Westphalia,28252.0
+18538,Kevelaer,Germany,DEU,,51.5833,6.25,North Rhine-Westphalia,28232.0
+18539,Königsbrunn,Germany,DEU,,48.2689,10.8908,Bavaria,28231.0
+18559,Grimma,Germany,DEU,,51.2386,12.7253,Saxony,28205.0
+18601,Arnstadt,Germany,DEU,minor,50.8342,10.9464,Thuringia,28124.0
+18639,Wegberg,Germany,DEU,,51.1417,6.2792,North Rhine-Westphalia,28074.0
+18651,Leichlingen,Germany,DEU,,51.1167,7.0167,North Rhine-Westphalia,28048.0
+18693,Zeitz,Germany,DEU,,51.0478,12.1383,Saxony-Anhalt,27976.0
+18768,Griesheim,Germany,DEU,,49.8639,8.5639,Hesse,27837.0
+18782,Lohne,Germany,DEU,,52.6667,8.2386,Lower Saxony,27814.0
+18819,Sundern,Germany,DEU,,51.3167,8.0,North Rhine-Westphalia,27741.0
+18844,Teltow,Germany,DEU,,52.4022,13.2706,Brandenburg,27697.0
+18892,Baesweiler,Germany,DEU,,50.9,6.1833,North Rhine-Westphalia,27620.0
+18930,Wetter (Ruhr),Germany,DEU,,51.3881,7.395,North Rhine-Westphalia,27550.0
+18983,Schloß Holte-Stukenbrock,Germany,DEU,,51.8833,8.6167,North Rhine-Westphalia,27467.0
+19002,Wangen im Allgäu,Germany,DEU,,47.6858,9.8342,Baden-Württemberg,27411.0
+19006,Overath,Germany,DEU,,50.95,7.3,North Rhine-Westphalia,27405.0
+19009,Butzbach,Germany,DEU,,50.4367,8.6622,Hesse,27402.0
+19034,Strausberg,Germany,DEU,,52.5833,13.8833,Brandenburg,27344.0
+19072,Ehingen an der Donau,Germany,DEU,,48.2833,9.7236,Baden-Württemberg,27276.0
+19086,Hamminkeln,Germany,DEU,,51.7319,6.5908,North Rhine-Westphalia,27248.0
+19132,Leimen,Germany,DEU,,49.3481,8.6911,Baden-Württemberg,27142.0
+19133,Hohen Neuendorf,Germany,DEU,,52.6667,13.2833,Brandenburg,27139.0
+19156,Rheinbach,Germany,DEU,,50.6333,6.95,North Rhine-Westphalia,27102.0
+19194,Wiesloch,Germany,DEU,,49.2942,8.6983,Baden-Württemberg,27049.0
+19271,Heppenheim,Germany,DEU,minor,49.6431,8.6389,Hesse,26946.0
+19274,Pfaffenhofen,Germany,DEU,minor,48.5333,11.5167,Bavaria,26943.0
+19392,Hennigsdorf,Germany,DEU,,52.6378,13.2036,Brandenburg,26728.0
+19420,Heiligenhaus,Germany,DEU,,51.3167,6.9667,North Rhine-Westphalia,26681.0
+19431,Bad Neuenahr-Ahrweiler,Germany,DEU,minor,50.5447,7.1133,Rhineland-Palatinate,26669.0
+19470,Aschersleben,Germany,DEU,,51.75,11.4667,Saxony-Anhalt,26604.0
+19540,Neckarsulm,Germany,DEU,,49.1917,9.2246,Baden-Württemberg,26495.0
+19554,Achern,Germany,DEU,,48.6333,8.0667,Baden-Württemberg,26471.0
+19586,Lauf,Germany,DEU,minor,49.5103,11.2772,Bavaria,26420.0
+19588,Groß-Gerau,Germany,DEU,minor,49.9192,8.485,Hesse,26418.0
+19603,Mühlacker,Germany,DEU,,48.95,8.8394,Baden-Württemberg,26394.0
+19650,Weiterstadt,Germany,DEU,,49.9,8.6,Hesse,26322.0
+19664,Bingen am Rhein,Germany,DEU,,49.9667,7.9,Rhineland-Palatinate,26309.0
+19665,Nordenham,Germany,DEU,,53.5,8.4667,Lower Saxony,26308.0
+19705,Zirndorf,Germany,DEU,,49.45,10.95,Bavaria,26234.0
+19752,Selm,Germany,DEU,,51.6833,7.4833,North Rhine-Westphalia,26163.0
+19829,Bad Honnef am Rhein,Germany,DEU,,50.645,7.2269,North Rhine-Westphalia,26061.0
+19849,Lübbecke,Germany,DEU,,52.3081,8.6231,North Rhine-Westphalia,26027.0
+19868,Harsewinkel,Germany,DEU,,51.9667,8.2331,North Rhine-Westphalia,25999.0
+19963,Unterhaching,Germany,DEU,,48.0658,11.61,Bavaria,25873.0
+19984,Lindau,Germany,DEU,,47.5458,9.6833,Bavaria,25846.0
+19996,Schleswig,Germany,DEU,minor,54.5186,9.5653,Schleswig-Holstein,25832.0
+20004,Kulmbach,Germany,DEU,minor,50.1,11.4333,Bavaria,25818.0
+20031,Helmstedt,Germany,DEU,minor,52.2281,11.0106,Lower Saxony,25779.0
+20055,Horb am Neckar,Germany,DEU,,48.4453,8.6911,Baden-Württemberg,25752.0
+20073,Rinteln,Germany,DEU,,52.1906,9.0814,Lower Saxony,25721.0
+20096,Ellwangen,Germany,DEU,,48.9611,10.1306,Baden-Württemberg,25678.0
+20107,Friedrichsdorf,Germany,DEU,,50.2556,8.6397,Hesse,25662.0
+20130,Geretsried,Germany,DEU,,47.8667,11.4667,Bavaria,25623.0
+20155,Sankt Wendel,Germany,DEU,minor,49.4667,7.1667,Saarland,25583.0
+20173,Idstein,Germany,DEU,,50.2206,8.2742,Hesse,25554.0
+20195,Vaterstetten,Germany,DEU,,48.105,11.7706,Bavaria,25530.0
+20197,Verl,Germany,DEU,,51.8831,8.5167,North Rhine-Westphalia,25522.0
+20202,Rottweil,Germany,DEU,minor,48.1681,8.6247,Baden-Württemberg,25513.0
+20204,Brilon,Germany,DEU,,51.3956,8.5678,North Rhine-Westphalia,25511.0
+20251,Sangerhausen,Germany,DEU,minor,51.4667,11.3,Saxony-Anhalt,25441.0
+20282,Öhringen,Germany,DEU,,49.2,9.5,Baden-Württemberg,25388.0
+20303,Roth,Germany,DEU,,49.2461,11.0911,Bavaria,25367.0
+20316,Lennestadt,Germany,DEU,,51.1236,8.0681,North Rhine-Westphalia,25352.0
+20333,Wiehl,Germany,DEU,,50.95,7.5333,North Rhine-Westphalia,25314.0
+20335,Salzkotten,Germany,DEU,,51.6708,8.6047,North Rhine-Westphalia,25311.0
+20339,Obertshausen,Germany,DEU,,50.0667,8.8333,Hesse,25307.0
+20365,Lüdinghausen,Germany,DEU,,51.7667,7.4333,North Rhine-Westphalia,25259.0
+20369,Weingarten,Germany,DEU,,47.8092,9.6444,Baden-Württemberg,25257.0
+20379,Delitzsch,Germany,DEU,,51.5264,12.3425,Saxony,25244.0
+20391,Pfungstadt,Germany,DEU,,49.8056,8.6044,Hesse,25231.0
+20397,Petershagen,Germany,DEU,,52.3833,8.9667,North Rhine-Westphalia,25222.0
+20428,Norden,Germany,DEU,,53.5967,7.2056,Lower Saxony,25179.0
+20434,Espelkamp,Germany,DEU,,52.3772,8.6328,North Rhine-Westphalia,25174.0
+20457,Ditzingen,Germany,DEU,,48.8264,9.0667,Baden-Württemberg,25145.0
+20544,Olpe,Germany,DEU,minor,51.0167,7.8333,North Rhine-Westphalia,25015.0
+20622,Plettenberg,Germany,DEU,,51.2167,7.8833,North Rhine-Westphalia,24954.0
+20629,Bad Oldesloe,Germany,DEU,minor,53.8117,10.3742,Schleswig-Holstein,24935.0
+20669,Schmallenberg,Germany,DEU,,51.149,8.2845,North Rhine-Westphalia,24878.0
+20671,Meckenheim,Germany,DEU,,50.6333,7.0167,North Rhine-Westphalia,24877.0
+20700,Sprockhövel,Germany,DEU,,51.3667,7.25,North Rhine-Westphalia,24838.0
+20719,Syke,Germany,DEU,,52.9131,8.8269,Lower Saxony,24810.0
+20732,Zittau,Germany,DEU,,50.8961,14.8072,Saxony,24794.0
+20764,Rudolstadt,Germany,DEU,,50.7169,11.3275,Thuringia,24749.0
+20767,Meiningen,Germany,DEU,minor,50.55,10.4167,Thuringia,24745.0
+20830,Warstein,Germany,DEU,,51.45,8.35,North Rhine-Westphalia,24647.0
+20854,Waldshut-Tiengen,Germany,DEU,minor,47.6231,8.2144,Baden-Württemberg,24605.0
+20858,Rathenow,Germany,DEU,minor,52.6,12.3333,Brandenburg,24597.0
+20878,Ronnenberg,Germany,DEU,,52.3194,9.6556,Lower Saxony,24570.0
+20883,Bad Mergentheim,Germany,DEU,,49.5,9.7667,Baden-Württemberg,24564.0
+20886,Isernhagen-Süd,Germany,DEU,,52.4342,9.8572,Lower Saxony,24563.0
+20908,Markkleeberg,Germany,DEU,,51.2778,12.3833,Saxony,24523.0
+20924,Haren,Germany,DEU,,52.7667,7.2167,Lower Saxony,24498.0
+20931,Waldkraiburg,Germany,DEU,,48.2167,12.4,Bavaria,24488.0
+20961,Attendorn,Germany,DEU,,51.1167,7.9,North Rhine-Westphalia,24448.0
+20998,Herzogenaurach,Germany,DEU,,49.57,10.8819,Bavaria,24404.0
+21001,Varel,Germany,DEU,,53.3969,8.1361,Lower Saxony,24397.0
+21073,Bedburg,Germany,DEU,,51.0,6.5625,North Rhine-Westphalia,24302.0
+21076,Freudenstadt,Germany,DEU,minor,48.4633,8.4111,Baden-Württemberg,24301.0
+21085,Staßfurt,Germany,DEU,,51.8667,11.5667,Saxony-Anhalt,24293.0
+21148,Calw,Germany,DEU,minor,48.7167,8.7333,Baden-Württemberg,24219.0
+21153,Übach-Palenberg,Germany,DEU,,50.9197,6.1194,North Rhine-Westphalia,24215.0
+21201,Sehnde,Germany,DEU,,52.3161,9.9642,Lower Saxony,24157.0
+21220,Eisenhüttenstadt,Germany,DEU,,52.145,14.6728,Brandenburg,24125.0
+21238,Wandlitz,Germany,DEU,,52.75,13.4497,Brandenburg,24104.0
+21353,Jüchen,Germany,DEU,,51.1011,6.5017,North Rhine-Westphalia,23940.0
+21381,Alfter,Germany,DEU,,50.7356,7.0092,North Rhine-Westphalia,23904.0
+21417,Westerstede,Germany,DEU,minor,53.25,7.9167,Lower Saxony,23854.0
+21435,Limbach-Oberfrohna,Germany,DEU,,50.8667,12.75,Saxony,23833.0
+21497,Döbeln,Germany,DEU,,51.1194,13.1128,Saxony,23763.0
+21508,Starnberg,Germany,DEU,minor,47.9972,11.3406,Bavaria,23741.0
+21517,Husum,Germany,DEU,minor,54.4667,9.05,Schleswig-Holstein,23735.0
+21540,Korbach,Germany,DEU,minor,51.2833,8.8667,Hesse,23706.0
+21555,Gelnhausen,Germany,DEU,,50.2,9.1667,Hesse,23679.0
+21644,Salzwedel,Germany,DEU,minor,52.85,11.15,Saxony-Anhalt,23543.0
+21646,Kaltenkirchen,Germany,DEU,,53.8397,9.9603,Schleswig-Holstein,23538.0
+21656,Hannoversch Münden,Germany,DEU,,51.4167,9.65,Lower Saxony,23530.0
+21670,Sonneberg,Germany,DEU,minor,50.35,11.1667,Thuringia,23507.0
+21692,Mosbach,Germany,DEU,minor,49.3522,9.1467,Baden-Württemberg,23484.0
+21694,Dillenburg,Germany,DEU,,50.7333,8.2833,Hesse,23480.0
+21748,Senftenberg,Germany,DEU,minor,51.5167,14.0167,Brandenburg,23405.0
+21775,Netphen,Germany,DEU,,50.9147,8.1,North Rhine-Westphalia,23363.0
+21791,Leutkirch im Allgäu,Germany,DEU,,47.8256,10.0222,Baden-Württemberg,23345.0
+21809,Warburg,Germany,DEU,,51.5,9.1697,North Rhine-Westphalia,23322.0
+21818,Quedlinburg,Germany,DEU,,51.7917,11.1472,Saxony-Anhalt,23313.0
+21850,Gersthofen,Germany,DEU,,48.4167,10.8667,Bavaria,23274.0
+21900,Wertheim,Germany,DEU,,49.7589,9.5175,Baden-Württemberg,23196.0
+21909,Rastede,Germany,DEU,,53.25,8.2,Lower Saxony,23180.0
+21919,Karben,Germany,DEU,,50.2322,8.7681,Hesse,23172.0
+21928,Bad Soden am Taunus,Germany,DEU,,50.1333,8.5,Hesse,23162.0
+21929,Vreden,Germany,DEU,,52.0333,6.8333,North Rhine-Westphalia,23161.0
+21983,Überlingen,Germany,DEU,,47.7667,9.165,Baden-Württemberg,23098.0
+21999,Apolda,Germany,DEU,minor,51.0167,11.5167,Thuringia,23072.0
+22011,Weilheim,Germany,DEU,minor,47.8333,11.15,Bavaria,23056.0
+22029,Bad Kissingen,Germany,DEU,minor,50.2,10.0667,Bavaria,23037.0
+22051,Bad Salzungen,Germany,DEU,minor,50.8117,10.2333,Thuringia,23013.0
+22085,Wallenhorst,Germany,DEU,,52.35,8.0167,Lower Saxony,22989.0
+22088,Nagold,Germany,DEU,,48.5519,8.7256,Baden-Württemberg,22985.0
+22093,Lengerich,Germany,DEU,,52.175,7.8667,North Rhine-Westphalia,22980.0
+22123,Friesoythe,Germany,DEU,,53.0206,7.8586,Lower Saxony,22945.0
+22124,Kitzingen,Germany,DEU,minor,49.7333,10.1667,Bavaria,22945.0
+22151,Edewecht,Germany,DEU,,53.1258,7.9825,Lower Saxony,22908.0
+22164,Senden,Germany,DEU,,48.3167,10.0667,Bavaria,22896.0
+22183,Neusäß,Germany,DEU,,48.4,10.8333,Bavaria,22872.0
+22192,Laupheim,Germany,DEU,,48.2289,9.8797,Baden-Württemberg,22863.0
+22282,Herdecke,Germany,DEU,,51.4,7.4333,North Rhine-Westphalia,22758.0
+22345,Burg,Germany,DEU,minor,52.2725,11.855,Saxony-Anhalt,22689.0
+22375,Stadthagen,Germany,DEU,minor,52.3247,9.2069,Lower Saxony,22643.0
+22391,Büdingen,Germany,DEU,,50.2908,9.1125,Hesse,22622.0
+22428,Haar,Germany,DEU,,48.1,11.7333,Bavaria,22555.0
+22448,Metzingen,Germany,DEU,,48.5367,9.2858,Baden-Württemberg,22528.0
+22517,Donaueschingen,Germany,DEU,,47.9531,8.5033,Baden-Württemberg,22431.0
+22519,Ottobrunn,Germany,DEU,,48.0667,11.6667,Bavaria,22430.0
+22561,Bad Rappenau,Germany,DEU,,49.2333,9.1,Baden-Württemberg,22356.0
+22630,Versmold,Germany,DEU,,52.0436,8.15,North Rhine-Westphalia,22274.0
+22680,Eppingen,Germany,DEU,,49.1333,8.9167,Baden-Württemberg,22226.0
+22683,Radevormwald,Germany,DEU,,51.2,7.35,North Rhine-Westphalia,22222.0
+22697,Ilsede,Germany,DEU,,52.2667,10.1833,Lower Saxony,22206.0
+22762,Waldkirch,Germany,DEU,,48.1,7.9667,Baden-Württemberg,22127.0
+22775,Heide,Germany,DEU,minor,54.1961,9.0933,Schleswig-Holstein,22114.0
+22816,Eschborn,Germany,DEU,,50.1436,8.57,Hesse,22070.0
+22817,Karlsfeld,Germany,DEU,,48.2167,11.4667,Bavaria,22069.0
+22823,Schwetzingen,Germany,DEU,,49.3833,8.5667,Baden-Württemberg,22062.0
+22829,Gardelegen,Germany,DEU,,52.5264,11.3925,Saxony-Anhalt,22054.0
+22860,Elsdorf,Germany,DEU,,50.9333,6.5667,North Rhine-Westphalia,22021.0
+22934,Glauchau,Germany,DEU,,50.8233,12.5444,Saxony,21951.0
+22958,Aichach,Germany,DEU,minor,48.45,11.1333,Bavaria,21908.0
+22992,Sonthofen,Germany,DEU,minor,47.5158,10.2811,Bavaria,21859.0
+22998,Flörsheim,Germany,DEU,,50.0167,8.4333,Hesse,21851.0
+23039,Soltau,Germany,DEU,,52.9833,9.8333,Lower Saxony,21808.0
+23097,Eislingen,Germany,DEU,,48.6933,9.7067,Baden-Württemberg,21745.0
+23098,Hockenheim,Germany,DEU,,49.3181,8.5472,Baden-Württemberg,21745.0
+23102,Bad Harzburg,Germany,DEU,,51.8811,10.5622,Lower Saxony,21738.0
+23146,Mühldorf,Germany,DEU,minor,48.2456,12.5228,Bavaria,21697.0
+23152,Geseke,Germany,DEU,,51.65,8.5167,North Rhine-Westphalia,21685.0
+23153,Bad Krozingen,Germany,DEU,,47.9167,7.7,Baden-Württemberg,21684.0
+23171,Lindlar,Germany,DEU,,51.0167,7.3833,North Rhine-Westphalia,21665.0
+23239,Spremberg,Germany,DEU,,51.5717,14.3794,Brandenburg,21585.0
+23242,Xanten,Germany,DEU,,51.6622,6.4539,North Rhine-Westphalia,21582.0
+23251,Seligenstadt,Germany,DEU,,50.0333,8.9667,Hesse,21568.0
+23261,Stadtallendorf,Germany,DEU,,50.8333,9.0167,Hesse,21552.0
+23285,Zerbst,Germany,DEU,,51.9681,12.0844,Saxony-Anhalt,21519.0
+23292,Eckernförde,Germany,DEU,,54.4742,9.8378,Schleswig-Holstein,21507.0
+23313,Günzburg,Germany,DEU,minor,48.4527,10.2713,Bavaria,21486.0
+23317,Rees,Germany,DEU,,51.7667,6.4,North Rhine-Westphalia,21475.0
+23354,Osterode,Germany,DEU,minor,51.7286,10.2522,Lower Saxony,21446.0
+23357,Waghäusel,Germany,DEU,,49.25,8.5167,Baden-Württemberg,21444.0
+23373,Zossen,Germany,DEU,,52.2167,13.4497,Brandenburg,21433.0
+23385,Puchheim,Germany,DEU,,48.15,11.35,Bavaria,21420.0
+23479,Sondershausen,Germany,DEU,minor,51.3667,10.8667,Thuringia,21317.0
+23511,Gauting,Germany,DEU,,48.0678,11.3739,Bavaria,21276.0
+23530,Traunstein,Germany,DEU,minor,47.8667,12.6333,Bavaria,21251.0
+23602,Wildeshausen,Germany,DEU,,52.9,8.4333,Lower Saxony,21154.0
+23625,Schramberg,Germany,DEU,,48.2269,8.3842,Baden-Württemberg,21125.0
+23638,Wipperfürth,Germany,DEU,,51.1167,7.4,North Rhine-Westphalia,21112.0
+23648,Traunreut,Germany,DEU,,47.9667,12.5833,Bavaria,21102.0
+23650,Wülfrath,Germany,DEU,,51.2833,7.0333,North Rhine-Westphalia,21100.0
+23651,Germersheim,Germany,DEU,minor,49.2167,8.3667,Rhineland-Palatinate,21099.0
+23709,Groß-Umstadt,Germany,DEU,,49.8667,8.9333,Hesse,21028.0
+23711,Zülpich,Germany,DEU,,50.7,6.65,North Rhine-Westphalia,21025.0
+23720,Nördlingen,Germany,DEU,,48.8511,10.4883,Bavaria,21009.0
+23836,Mössingen,Germany,DEU,,48.4064,9.0575,Baden-Württemberg,20900.0
+23844,Senden,Germany,DEU,,51.8572,7.4828,North Rhine-Westphalia,20895.0
+23846,Herborn,Germany,DEU,,50.6825,8.3061,Hesse,20894.0
+23905,Luckenwalde,Germany,DEU,minor,52.0833,13.1667,Brandenburg,20839.0
+23916,Bruchköbel,Germany,DEU,,50.1833,8.9167,Hesse,20825.0
+23928,Meinerzhagen,Germany,DEU,,51.1167,7.6333,North Rhine-Westphalia,20812.0
+23934,Stadtlohn,Germany,DEU,,51.9925,6.915,North Rhine-Westphalia,20807.0
+23944,Schortens,Germany,DEU,,53.5333,7.95,Lower Saxony,20797.0
+23958,Wittmund,Germany,DEU,minor,53.575,7.7808,Lower Saxony,20773.0
+23964,Hörstel,Germany,DEU,,52.2972,7.5861,North Rhine-Westphalia,20766.0
+24021,Enger,Germany,DEU,,52.1333,8.5667,North Rhine-Westphalia,20705.0
+24024,Werdau,Germany,DEU,,50.7333,12.3833,Saxony,20702.0
+24028,Nidderau,Germany,DEU,,50.25,8.9,Hesse,20700.0
+24058,Steinhagen,Germany,DEU,,52.005,8.4147,North Rhine-Westphalia,20671.0
+24065,Schwanewede,Germany,DEU,,53.2333,8.6,Lower Saxony,20661.0
+24092,Bad Waldsee,Germany,DEU,,47.9211,9.7519,Baden-Württemberg,20630.0
+24106,Bockum,Germany,DEU,,51.3333,6.5667,North Rhine-Westphalia,20617.0
+24109,Schifferstadt,Germany,DEU,,49.3833,8.3667,Rhineland-Palatinate,20615.0
+24115,Dingolfing,Germany,DEU,minor,48.6333,12.5,Bavaria,20607.0
+24139,Neufahrn bei Freising,Germany,DEU,,48.3167,11.6667,Bavaria,20590.0
+24148,Wachtberg,Germany,DEU,,50.6167,7.1333,North Rhine-Westphalia,20581.0
+24181,Fröndenberg,Germany,DEU,,51.4719,7.7658,North Rhine-Westphalia,20548.0
+24224,Coswig,Germany,DEU,,51.1333,13.5833,Saxony,20512.0
+24263,Uetze,Germany,DEU,,52.4661,10.2039,Lower Saxony,20471.0
+24266,Dülken,Germany,DEU,,51.2522,6.3353,North Rhine-Westphalia,20469.0
+24326,Greiz,Germany,DEU,minor,50.6547,12.1997,Thuringia,20397.0
+24332,Haßloch,Germany,DEU,,49.3631,8.2558,Rhineland-Palatinate,20387.0
+24349,Reichenbach/Vogtland,Germany,DEU,,50.6167,12.3,Saxony,20371.0
+24373,Neustrelitz,Germany,DEU,,53.3647,13.0636,Mecklenburg-Western Pomerania,20340.0
+24412,Duderstadt,Germany,DEU,,51.5125,10.2597,Lower Saxony,20286.0
+24451,Bad Schwartau,Germany,DEU,,53.9194,10.6975,Schleswig-Holstein,20255.0
+24461,Blieskastel,Germany,DEU,,49.2333,7.25,Saarland,20240.0
+24468,Ochtrup,Germany,DEU,,52.2056,7.1903,North Rhine-Westphalia,20230.0
+24475,Telgte,Germany,DEU,,51.9819,7.7856,North Rhine-Westphalia,20222.0
+24480,Lichtenfels,Germany,DEU,minor,50.1333,11.0333,Bavaria,20217.0
+24531,Schopfheim,Germany,DEU,,47.65,7.8167,Baden-Württemberg,20163.0
+24561,Giengen an der Brenz,Germany,DEU,,48.6217,10.245,Baden-Württemberg,20133.0
+24565,Kürten,Germany,DEU,,51.0497,7.2667,North Rhine-Westphalia,20128.0
+24574,Holzminden,Germany,DEU,minor,51.8297,9.4483,North Rhine-Westphalia,20120.0
+24576,Leinefelde,Germany,DEU,,51.3833,10.3333,Thuringia,20119.0
+24600,Oberkirch,Germany,DEU,,48.5333,8.0833,Baden-Württemberg,20092.0
+24630,Schmalkalden,Germany,DEU,,50.7167,10.45,Thuringia,20065.0
+24658,Tettnang,Germany,DEU,,47.6708,9.5875,Baden-Württemberg,20037.0
+24761,Donauwörth,Germany,DEU,minor,48.7,10.8,Bavaria,19994.0
+24765,Dillingen,Germany,DEU,,49.35,6.7333,Saarland,19989.0
+24793,Korntal-Münchingen,Germany,DEU,,48.8306,9.1214,Baden-Württemberg,19955.0
+24798,Waldbröl,Germany,DEU,,50.8789,7.615,North Rhine-Westphalia,19949.0
+24822,Hiddenhausen,Germany,DEU,,52.1667,8.6167,North Rhine-Westphalia,19924.0
+24845,Nottuln,Germany,DEU,,51.9167,7.2833,North Rhine-Westphalia,19901.0
+24895,Gerlingen,Germany,DEU,,48.8,9.0653,Baden-Württemberg,19853.0
+24903,Moosburg,Germany,DEU,,48.4667,11.9333,Bavaria,19832.0
+24925,Dillingen,Germany,DEU,minor,48.5667,10.4667,Bavaria,19814.0
+24939,Torgau,Germany,DEU,minor,51.5603,13.0056,Saxony,19802.0
+24947,Wilnsdorf,Germany,DEU,,50.8167,8.1,North Rhine-Westphalia,19793.0
+24977,Ennigerloh,Germany,DEU,,51.8367,8.0256,North Rhine-Westphalia,19757.0
+24990,Wittlich,Germany,DEU,minor,49.9869,6.8897,Rhineland-Palatinate,19740.0
+24997,Marsberg,Germany,DEU,,51.45,8.8333,North Rhine-Westphalia,19736.0
+25000,Sarstedt,Germany,DEU,,52.2394,9.8606,Lower Saxony,19735.0
+25016,Gröbenzell,Germany,DEU,,48.2,11.3667,Bavaria,19717.0
+25023,Mayen,Germany,DEU,,50.3333,7.2167,Rhineland-Palatinate,19708.0
+25025,Schenefeld,Germany,DEU,,53.6028,9.8233,Schleswig-Holstein,19707.0
+25028,Oschersleben,Germany,DEU,,52.0167,11.25,Saxony-Anhalt,19704.0
+25031,Bückeburg,Germany,DEU,,52.2608,9.0492,Lower Saxony,19701.0
+25091,Haiger,Germany,DEU,,50.7422,8.2039,Hesse,19623.0
+25098,Bad Aibling,Germany,DEU,,47.8639,12.01,Bavaria,19613.0
+25105,Bad Pyrmont,Germany,DEU,,51.9867,9.2636,Lower Saxony,19604.0
+25125,Rhede,Germany,DEU,,51.8333,6.7006,North Rhine-Westphalia,19595.0
+25134,Engelskirchen,Germany,DEU,,50.9833,7.4167,North Rhine-Westphalia,19584.0
+25154,Wenden,Germany,DEU,,50.9667,7.8667,North Rhine-Westphalia,19565.0
+25232,Eschwege,Germany,DEU,minor,51.1881,10.0528,Hesse,19472.0
+25235,Borna,Germany,DEU,,51.1167,12.5,Saxony,19470.0
+25237,Mölln,Germany,DEU,,53.6269,10.6847,Schleswig-Holstein,19469.0
+25238,Müllheim,Germany,DEU,,47.8,7.6333,Baden-Württemberg,19463.0
+25257,Hechingen,Germany,DEU,,48.3517,8.9633,Baden-Württemberg,19439.0
+25287,Weil der Stadt,Germany,DEU,,48.7508,8.8706,Baden-Württemberg,19401.0
+25288,Sulzbach-Rosenberg,Germany,DEU,,49.5,11.75,Bavaria,19401.0
+25300,Bad Driburg,Germany,DEU,,51.7333,9.0167,North Rhine-Westphalia,19390.0
+25305,Annaberg-Buchholz,Germany,DEU,minor,50.58,13.0022,Saxony,19382.0
+25326,Burghausen,Germany,DEU,,48.1667,12.8333,Bavaria,19364.0
+25343,Nauen,Germany,DEU,,52.6,12.8831,Brandenburg,19352.0
+25357,Wassenberg,Germany,DEU,,51.1,6.15,North Rhine-Westphalia,19339.0
+25362,Wolfratshausen,Germany,DEU,,47.9133,11.4278,Bavaria,19335.0
+25391,Heusenstamm,Germany,DEU,,50.05,8.8,Hesse,19306.0
+25427,Haldensleben,Germany,DEU,minor,52.2833,11.4167,Saxony-Anhalt,19267.0
+25431,Alzey,Germany,DEU,minor,49.7458,8.1153,Rhineland-Palatinate,19265.0
+25447,Gilching,Germany,DEU,,48.1167,11.3,Bavaria,19247.0
+25509,Schkeuditz,Germany,DEU,,51.4,12.2167,Saxony,19189.0
+25514,Bad Tölz,Germany,DEU,minor,47.7603,11.5567,Bavaria,19186.0
+25531,Schönefeld,Germany,DEU,,52.3883,13.5047,Brandenburg,19174.0
+25544,Blankenburg,Germany,DEU,,51.7953,10.9622,Saxony-Anhalt,19161.0
+25545,Seesen,Germany,DEU,,51.8931,10.1783,Lower Saxony,19159.0
+25551,Sömmerda,Germany,DEU,minor,51.1617,11.1169,Thuringia,19156.0
+25564,Schwalmtal,Germany,DEU,,51.2225,6.2625,North Rhine-Westphalia,19143.0
+25568,Schneverdingen,Germany,DEU,,53.1167,9.8,Lower Saxony,19140.0
+25580,Eitorf,Germany,DEU,,50.7697,7.4517,North Rhine-Westphalia,19132.0
+25617,Lebach,Germany,DEU,,49.41,6.91,Saarland,19095.0
+25716,Pfullingen,Germany,DEU,,48.4656,9.2261,Baden-Württemberg,19005.0
+25758,Radeberg,Germany,DEU,,51.1167,13.9167,Saxony,18980.0
+25770,Burscheid,Germany,DEU,,51.1,7.1167,North Rhine-Westphalia,18968.0
+25793,Kolbermoor,Germany,DEU,,47.85,12.0667,Bavaria,18945.0
+25802,Neviges,Germany,DEU,,51.3128,7.0869,North Rhine-Westphalia,18937.0
+25812,Bad Berleburg,Germany,DEU,,51.0497,8.4,North Rhine-Westphalia,18923.0
+25820,Prenzlau,Germany,DEU,minor,53.3167,13.8667,Brandenburg,18909.0
+25837,Bad Reichenhall,Germany,DEU,minor,47.7247,12.8769,Bavaria,18893.0
+25865,Hemmingen,Germany,DEU,,52.3236,9.7256,Lower Saxony,18870.0
+25882,Weißenburg,Germany,DEU,minor,49.0306,10.9719,Bavaria,18854.0
+25910,Alzenau in Unterfranken,Germany,DEU,,50.0667,9.0667,Bavaria,18829.0
+25925,Bad Dürkheim,Germany,DEU,minor,49.4594,8.1681,Rhineland-Palatinate,18818.0
+25930,Marktoberdorf,Germany,DEU,minor,47.7667,10.6167,Bavaria,18809.0
+25952,Bremervörde,Germany,DEU,,53.4833,9.1333,Lower Saxony,18793.0
+26015,Alfeld,Germany,DEU,,51.9886,9.8269,Lower Saxony,18723.0
+26103,Bergneustadt,Germany,DEU,,51.0333,7.65,North Rhine-Westphalia,18633.0
+26121,Uetersen,Germany,DEU,,53.6872,9.6692,Schleswig-Holstein,18618.0
+26148,Renningen,Germany,DEU,,48.7661,8.9347,Baden-Württemberg,18596.0
+26168,Rhynern,Germany,DEU,,51.6299,7.8581,North Rhine-Westphalia,18578.0
+26181,Crimmitschau,Germany,DEU,,50.8181,12.3875,Saxony,18567.0
+26210,Glinde,Germany,DEU,,53.5406,10.2111,Schleswig-Holstein,18547.0
+26215,Hochheim am Main,Germany,DEU,,50.0167,8.35,Hesse,18538.0
+26262,Rhaude,Germany,DEU,,53.1667,7.55,Lower Saxony,18495.0
+26263,Vlotho,Germany,DEU,,52.1667,8.8497,North Rhine-Westphalia,18495.0
+26271,Schwalmstadt,Germany,DEU,,50.9333,9.2167,Hesse,18488.0
+26286,Vellmar,Germany,DEU,,51.35,9.4667,Hesse,18474.0
+26292,Hoppegarten,Germany,DEU,,52.5167,13.6667,Brandenburg,18469.0
+26305,Hessisch Oldendorf,Germany,DEU,,52.1667,9.25,Lower Saxony,18458.0
+26322,Bönen,Germany,DEU,,51.5986,7.7592,North Rhine-Westphalia,18438.0
+26333,Lahnstein,Germany,DEU,,50.3011,7.6056,Rhineland-Palatinate,18433.0
+26345,Vechelde,Germany,DEU,,52.2608,10.372,Lower Saxony,18419.0
+26354,Kronberg,Germany,DEU,,50.1833,8.5,Hesse,18416.0
+26367,Konz,Germany,DEU,,49.7,6.5833,Rhineland-Palatinate,18403.0
+26374,Langen,Germany,DEU,,53.6167,8.5833,Lower Saxony,18395.0
+26395,Sigmaringen,Germany,DEU,minor,48.0867,9.2164,Baden-Württemberg,18375.0
+26400,Illertissen,Germany,DEU,,48.2167,10.0833,Bavaria,18368.0
+26421,Wörth am Rhein,Germany,DEU,,49.0517,8.2603,Rhineland-Palatinate,18350.0
+26479,Püttlingen,Germany,DEU,,49.2833,6.8833,Saarland,18295.0
+26491,Parchim,Germany,DEU,minor,53.4167,11.8333,Mecklenburg-Western Pomerania,18278.0
+26553,Bad Segeberg,Germany,DEU,minor,53.9167,10.3167,Schleswig-Holstein,18221.0
+26597,Taufkirchen,Germany,DEU,,48.05,11.6167,Bavaria,18185.0
+26639,Heusweiler,Germany,DEU,,49.35,6.9167,Saarland,18138.0
+26694,Großenhain,Germany,DEU,,51.2833,13.55,Saxony,18102.0
+26718,Bobingen,Germany,DEU,,48.2667,10.8167,Bavaria,18070.0
+26727,Ismaning,Germany,DEU,,48.2264,11.6725,Bavaria,18062.0
+26754,Frankenberg,Germany,DEU,,51.0589,8.7967,Hesse,18033.0
+26773,Buchen in Odenwald,Germany,DEU,,49.5217,9.3233,Baden-Württemberg,18018.0
+26850,Halstenbek,Germany,DEU,,53.6333,9.8667,Schleswig-Holstein,17978.0
+26979,Forst (Lausitz),Germany,DEU,minor,51.7333,14.6333,Brandenburg,17855.0
+27010,Werdohl,Germany,DEU,,51.2667,7.7667,North Rhine-Westphalia,17827.0
+27022,Freilassing,Germany,DEU,,47.8333,12.9667,Bavaria,17816.0
+27027,Oberasbach,Germany,DEU,,49.4219,10.9583,Bavaria,17810.0
+27066,Freudenberg,Germany,DEU,,50.8997,7.8667,North Rhine-Westphalia,17773.0
+27079,Weilerswist,Germany,DEU,,50.7667,6.8331,North Rhine-Westphalia,17763.0
+27082,Auerbach,Germany,DEU,,50.5094,12.4,Saxony,17759.0
+27086,Schrobenhausen,Germany,DEU,,48.5333,11.2667,Bavaria,17754.0
+27113,Bad Münder am Deister,Germany,DEU,,52.1992,9.4653,Lower Saxony,17728.0
+27138,Kreuzau,Germany,DEU,,50.75,6.4831,North Rhine-Westphalia,17687.0
+27140,Diepholz,Germany,DEU,minor,52.6072,8.3711,Lower Saxony,17685.0
+27170,Bad Säckingen,Germany,DEU,,47.55,7.95,Baden-Württemberg,17660.0
+27180,Nidda,Germany,DEU,,50.4128,9.0092,Hesse,17650.0
+27190,Bexbach,Germany,DEU,,49.3494,7.2594,Saarland,17642.0
+27202,Damme,Germany,DEU,,52.5208,8.1986,Lower Saxony,17639.0
+27271,Bad Wildungen,Germany,DEU,,51.1167,9.1167,Hesse,17595.0
+27299,Trossingen,Germany,DEU,,48.0756,8.6361,Baden-Württemberg,17571.0
+27361,Garching bei München,Germany,DEU,,48.25,11.65,Bavaria,17526.0
+27396,Stockach,Germany,DEU,,47.8514,9.0114,Baden-Württemberg,17490.0
+27399,Nümbrecht,Germany,DEU,,50.9053,7.5422,North Rhine-Westphalia,17486.0
+27473,Sinzig,Germany,DEU,,50.5453,7.2519,Rhineland-Palatinate,17437.0
+27482,Remagen,Germany,DEU,,50.5786,7.2306,Rhineland-Palatinate,17426.0
+27488,Cham,Germany,DEU,minor,49.2167,12.65,Bavaria,17421.0
+27504,Babenhausen,Germany,DEU,,49.9667,8.95,Hesse,17409.0
+27549,Kelsterbach,Germany,DEU,,50.0617,8.5311,Hesse,17375.0
+27561,Gescher,Germany,DEU,,51.9569,7.0056,North Rhine-Westphalia,17361.0
+27569,Bad Langensalza,Germany,DEU,,51.1081,10.6467,Thuringia,17349.0
+27610,Schwarzenbek,Germany,DEU,,53.5042,10.4792,Schleswig-Holstein,17317.0
+27621,Schwalbach,Germany,DEU,,49.2833,6.8167,Saarland,17309.0
+27632,Holzwickede,Germany,DEU,,51.5,7.6167,North Rhine-Westphalia,17298.0
+27645,Horn-Bad Meinberg,Germany,DEU,,51.8833,8.9667,North Rhine-Westphalia,17290.0
+27651,Brand,Germany,DEU,,50.7489,6.165,North Rhine-Westphalia,17284.0
+27653,Bad Münstereifel,Germany,DEU,,50.5531,6.7661,North Rhine-Westphalia,17282.0
+27702,Gunzenhausen,Germany,DEU,,49.1147,10.7542,Bavaria,17239.0
+27705,Oerlinghausen,Germany,DEU,,51.9667,8.6667,North Rhine-Westphalia,17238.0
+27712,Heilbad Heiligenstadt,Germany,DEU,minor,51.3789,10.1386,Thuringia,17233.0
+27726,Bendorf,Germany,DEU,,50.4297,7.5703,Rhineland-Palatinate,17221.0
+27744,Marktredwitz,Germany,DEU,,50.0,12.0667,Bavaria,17206.0
+27771,Bad Wörishofen,Germany,DEU,,48.0058,10.5969,Bavaria,17180.0
+27884,Stockelsdorf,Germany,DEU,,53.8833,10.65,Schleswig-Holstein,17087.0
+27888,Eutin,Germany,DEU,minor,54.1378,10.6181,Schleswig-Holstein,17086.0
+27910,Künzell,Germany,DEU,,50.55,9.7167,Hesse,17062.0
+27941,Kelheim,Germany,DEU,minor,48.9167,11.8667,Bavaria,17044.0
+27968,Wadgassen,Germany,DEU,,49.2667,6.7667,Saarland,17016.0
+27973,Kamenz,Germany,DEU,,51.2667,14.1,Saxony,17015.0
+28063,Ginsheim-Gustavsburg,Germany,DEU,,49.9833,8.3333,Hesse,16960.0
+28093,Hünfeld,Germany,DEU,,50.6667,9.7667,Hesse,16941.0
+28110,Eggenstein-Leopoldshafen,Germany,DEU,,49.0778,8.3925,Baden-Württemberg,16924.0
+28127,Kronach,Germany,DEU,minor,50.2411,11.3281,Bavaria,16906.0
+28151,Bruckmühl,Germany,DEU,,47.8833,11.9167,Bavaria,16894.0
+28166,Heidenau,Germany,DEU,,50.9833,13.8667,Saxony,16884.0
+28185,Thale,Germany,DEU,,51.75,11.05,Saxony-Anhalt,16868.0
+28210,Bitburg,Germany,DEU,minor,49.9667,6.5333,Rhineland-Palatinate,16852.0
+28214,Finnentrop,Germany,DEU,,51.1667,7.9667,North Rhine-Westphalia,16851.0
+28233,Wittenberge,Germany,DEU,,53.0,11.75,Brandenburg,16837.0
+28263,Bad Lippspringe,Germany,DEU,,51.7833,8.8167,North Rhine-Westphalia,16808.0
+28342,Königstein im Taunus,Germany,DEU,,50.1833,8.4667,Hesse,16744.0
+28360,Bürstadt,Germany,DEU,,49.6333,8.45,Hesse,16734.0
+28368,Penzberg,Germany,DEU,,47.75,11.3833,Bavaria,16729.0
+28376,Holzkirchen,Germany,DEU,,47.8833,11.7,Bavaria,16722.0
+28441,Bassum,Germany,DEU,,52.8494,8.7267,Lower Saxony,16658.0
+28449,Loxstedt,Germany,DEU,,53.4667,8.65,Lower Saxony,16651.0
+28473,Seeheim-Jugenheim,Germany,DEU,,49.75,8.65,Hesse,16627.0
+28495,Leopoldshöhe,Germany,DEU,,52.0167,8.6914,North Rhine-Westphalia,16614.0
+28496,Wurzen,Germany,DEU,,51.3667,12.7167,Saxony,16614.0
+28510,Marienberg,Germany,DEU,,50.6333,13.15,Saxony,16603.0
+28511,Reinheim,Germany,DEU,,49.8269,8.8308,Hesse,16603.0
+28548,Eppelborn,Germany,DEU,,49.3833,6.9667,Saarland,16565.0
+28575,Regenstauf,Germany,DEU,,49.1236,12.1283,Bavaria,16543.0
+28578,Raunheim,Germany,DEU,,50.0167,8.45,Hesse,16542.0
+28597,Hövelhof,Germany,DEU,,51.8167,8.65,North Rhine-Westphalia,16522.0
+28598,Brackenheim,Germany,DEU,,49.0833,9.0667,Baden-Württemberg,16521.0
+28668,Kirchhain,Germany,DEU,,50.8167,8.9167,Hesse,16462.0
+28680,Wardenburg,Germany,DEU,,53.0617,8.1967,Lower Saxony,16449.0
+28708,Altena,Germany,DEU,,51.3,7.6667,North Rhine-Westphalia,16430.0
+28720,Kierspe,Germany,DEU,,51.1333,7.5667,North Rhine-Westphalia,16422.0
+28738,Petersberg,Germany,DEU,,50.5667,9.7167,Hesse,16410.0
+28745,Poing,Germany,DEU,,48.1667,11.8167,Bavaria,16404.0
+28753,Pocking,Germany,DEU,,48.4,13.3167,Bavaria,16399.0
+28787,Brakel,Germany,DEU,,51.7167,9.1833,North Rhine-Westphalia,16372.0
+28788,Hude,Germany,DEU,,53.1111,8.4625,Lower Saxony,16372.0
+28794,Kirchlengern,Germany,DEU,,52.2,8.6331,North Rhine-Westphalia,16366.0
+28796,Straelen,Germany,DEU,,51.45,6.2667,North Rhine-Westphalia,16365.0
+28801,Guben,Germany,DEU,,51.9533,14.7167,Brandenburg,16363.0
+28821,Sulzbach,Germany,DEU,,49.2833,7.0667,Saarland,16353.0
+28830,Halver,Germany,DEU,,51.1833,7.4667,North Rhine-Westphalia,16347.0
+28834,Großostheim,Germany,DEU,,49.9167,9.0833,Bavaria,16342.0
+28837,Bad Essen,Germany,DEU,,52.3214,8.34,Lower Saxony,16339.0
+28850,Erwitte,Germany,DEU,,51.6167,8.35,North Rhine-Westphalia,16333.0
+28860,Elsen,Germany,DEU,,51.7333,8.6833,North Rhine-Westphalia,16323.0
+28871,Bargteheide,Germany,DEU,,53.7167,10.2667,Schleswig-Holstein,16301.0
+28872,Schmelz,Germany,DEU,,49.4167,6.8333,Saarland,16301.0
+28899,Wiefelstede,Germany,DEU,,53.2581,8.1172,Lower Saxony,16282.0
+28932,Oyten,Germany,DEU,,53.0611,9.0178,Lower Saxony,16258.0
+28933,Wendlingen am Neckar,Germany,DEU,,48.6747,9.3817,Baden-Württemberg,16258.0
+28939,Bad Bentheim,Germany,DEU,,52.3031,7.1597,Lower Saxony,16251.0
+28974,Künzelsau,Germany,DEU,minor,49.2833,9.6833,Baden-Württemberg,16228.0
+28986,Freiberg am Neckar,Germany,DEU,,48.9333,9.2,Baden-Württemberg,16216.0
+29008,Stahnsdorf,Germany,DEU,,52.3922,13.2167,Brandenburg,16203.0
+29045,Alsfeld,Germany,DEU,,50.7511,9.2711,Hesse,16177.0
+29072,Schlüchtern,Germany,DEU,,50.35,9.5167,Hesse,16151.0
+29110,Markranstädt,Germany,DEU,,51.3017,12.2211,Saxony,16132.0
+29163,Michelstadt,Germany,DEU,,49.6786,9.0039,Hesse,16097.0
+29171,Wendelstein,Germany,DEU,,49.3536,11.1483,Bavaria,16089.0
+29181,Brüggen,Germany,DEU,,51.2417,6.1822,North Rhine-Westphalia,16082.0
+29186,Großenkneten,Germany,DEU,,52.95,8.2667,Lower Saxony,16079.0
+29226,Marbach am Neckar,Germany,DEU,,48.9333,9.25,Baden-Württemberg,16053.0
+29252,Eilenburg,Germany,DEU,,51.4608,12.6358,Saxony,16031.0
+29263,Preetz,Germany,DEU,,54.2367,10.2822,Schleswig-Holstein,16024.0
+29265,Zeulenroda,Germany,DEU,,50.6486,11.9806,Thuringia,16021.0
+29277,Aue,Germany,DEU,,50.5881,12.7006,Saxony,16012.0
+29339,Illingen,Germany,DEU,,49.3667,7.0333,Saarland,15998.0
+29342,Weener,Germany,DEU,,53.1692,7.3564,Lower Saxony,15997.0
+29360,Füssen,Germany,DEU,,47.5667,10.7,Bavaria,15985.0
+29389,Erlensee,Germany,DEU,,50.1333,8.9333,Hesse,15969.0
+29390,Finsterwalde,Germany,DEU,,51.6282,13.7102,Brandenburg,15968.0
+29423,Süchteln,Germany,DEU,,51.2833,6.3833,North Rhine-Westphalia,15941.0
+29433,Schwarzenberg,Germany,DEU,,50.5453,12.7792,Saxony,15936.0
+29437,Königslutter am Elm,Germany,DEU,,52.25,10.8167,Lower Saxony,15933.0
+29485,Eilendorf,Germany,DEU,,50.7794,6.1625,North Rhine-Westphalia,15892.0
+29486,Walldorf,Germany,DEU,,49.3,8.65,Baden-Württemberg,15892.0
+29497,Wadern,Germany,DEU,,49.5167,6.8667,Saarland,15885.0
+29513,Drensteinfurt,Germany,DEU,,51.7944,7.7392,North Rhine-Westphalia,15874.0
+29554,Simmerath,Germany,DEU,,50.6069,6.3,North Rhine-Westphalia,15841.0
+29580,Ascheberg,Germany,DEU,,51.7889,7.62,North Rhine-Westphalia,15822.0
+29591,Taucha,Germany,DEU,,51.38,12.4936,Saxony,15816.0
+29618,Breisach am Rhein,Germany,DEU,,48.0333,7.5833,Baden-Württemberg,15793.0
+29645,Rahden,Germany,DEU,,52.4167,8.6167,North Rhine-Westphalia,15773.0
+29655,Garrel,Germany,DEU,,52.9581,8.0253,Lower Saxony,15762.0
+29695,Hille,Germany,DEU,,52.3331,8.75,North Rhine-Westphalia,15728.0
+29700,Lübbenau/Spreewald,Germany,DEU,,51.8667,13.9667,Brandenburg,15726.0
+29712,Ribnitz-Damgarten,Germany,DEU,,54.25,12.4667,Mecklenburg-Western Pomerania,15721.0
+29718,Langenberg,Germany,DEU,,51.3519,7.1217,North Rhine-Westphalia,15717.0
+29736,Dieburg,Germany,DEU,,49.9,8.85,Hesse,15699.0
+29741,Ebersbach an der Fils,Germany,DEU,,48.7147,9.5236,Baden-Württemberg,15692.0
+29789,Schiffweiler,Germany,DEU,,49.3667,7.1167,Saarland,15655.0
+29792,Mindelheim,Germany,DEU,minor,48.0333,10.4667,Bavaria,15654.0
+29818,Langenau,Germany,DEU,,48.4967,10.12,Baden-Württemberg,15633.0
+29843,Boppard,Germany,DEU,,50.2314,7.5908,Rhineland-Palatinate,15616.0
+29865,Templin,Germany,DEU,,53.1167,13.5,Brandenburg,15599.0
+29875,Epe,Germany,DEU,,52.1833,7.0333,North Rhine-Westphalia,15589.0
+29914,Bad Neustadt,Germany,DEU,minor,50.3219,10.2161,Bavaria,15558.0
+29916,Eppelheim,Germany,DEU,,49.4,8.6333,Baden-Württemberg,15555.0
+29969,Hofgeismar,Germany,DEU,,51.4833,9.4,Hesse,15521.0
+30036,Mainburg,Germany,DEU,,48.65,11.7833,Bavaria,15466.0
+30043,Neustadt in Holstein,Germany,DEU,,54.1072,10.8158,Schleswig-Holstein,15464.0
+30057,Sandhausen,Germany,DEU,,49.3439,8.6581,Baden-Württemberg,15455.0
+30094,Gehrden,Germany,DEU,,52.3117,9.6003,Lower Saxony,15426.0
+30121,Blomberg,Germany,DEU,,51.9333,9.0833,North Rhine-Westphalia,15407.0
+30220,Bad Bramstedt,Germany,DEU,,53.9186,9.8844,Schleswig-Holstein,15331.0
+30222,Ratekau,Germany,DEU,,53.95,10.7333,Schleswig-Holstein,15330.0
+30226,Odenthal,Germany,DEU,,51.0333,7.1167,North Rhine-Westphalia,15324.0
+30234,Burbach,Germany,DEU,,50.7444,8.0861,North Rhine-Westphalia,15315.0
+30271,Clausthal-Zellerfeld,Germany,DEU,,51.805,10.3356,Lower Saxony,15286.0
+30314,Ober-Ramstadt,Germany,DEU,,49.8333,8.75,Hesse,15252.0
+30401,Mering,Germany,DEU,,48.2625,10.9844,Bavaria,15196.0
+30423,Dorfen,Germany,DEU,,48.2667,12.15,Bavaria,15179.0
+30436,Niederkrüchten,Germany,DEU,,51.1989,6.2194,North Rhine-Westphalia,15170.0
+30478,Weißwasser/Oberlausitz,Germany,DEU,,51.5,14.6333,Saxony,15136.0
+30537,Brake,Germany,DEU,minor,53.3333,8.4833,Lower Saxony,15094.0
+30541,Schriesheim,Germany,DEU,,49.4736,8.6592,Baden-Württemberg,15091.0
+30576,Neustadt bei Coburg,Germany,DEU,,50.3289,11.1211,Bavaria,15064.0
+30580,Bad Wurzach,Germany,DEU,,47.9094,9.8994,Baden-Württemberg,15061.0
+30591,Markgröningen,Germany,DEU,,48.9047,9.0808,Baden-Württemberg,15054.0
+30607,Langelsheim,Germany,DEU,,51.9381,10.335,Lower Saxony,15043.0
+30619,Grenzach-Wyhlen,Germany,DEU,,47.545,7.6758,Baden-Württemberg,15037.0
+30627,Ritterhude,Germany,DEU,,53.1831,8.7561,Bremen,15033.0
+30632,Fritzlar,Germany,DEU,,51.1333,9.2833,Hesse,15031.0
+30654,Landsberg,Germany,DEU,,51.5333,12.1667,Saxony-Anhalt,15015.0
+30670,Witzenhausen,Germany,DEU,,51.3422,9.8578,Hesse,15005.0
+30786,Büttelborn,Germany,DEU,,49.9,8.5167,Hesse,14992.0
+30857,Bissendorf,Germany,DEU,,52.2333,8.1667,Lower Saxony,14942.0
+30858,Baiersbronn,Germany,DEU,,48.5058,8.3711,Baden-Württemberg,14942.0
+30871,Schiffdorf,Germany,DEU,,53.5358,8.6589,Lower Saxony,14935.0
+30878,Malsch,Germany,DEU,,48.8808,8.3342,Baden-Württemberg,14929.0
+30880,Beckingen,Germany,DEU,,49.3928,6.7008,Saarland,14928.0
+30884,Usingen,Germany,DEU,,50.3344,8.5375,Hesse,14926.0
+30957,Grefrath,Germany,DEU,,51.3333,6.3333,North Rhine-Westphalia,14880.0
+31000,Jever,Germany,DEU,minor,53.5744,7.9008,Lower Saxony,14847.0
+31002,Niedernhausen,Germany,DEU,,50.1667,8.3167,Hesse,14845.0
+31014,Isny im Allgäu,Germany,DEU,,47.6919,10.0394,Baden-Württemberg,14835.0
+31031,Hückeswagen,Germany,DEU,,51.145,7.3417,North Rhine-Westphalia,14825.0
+31041,Schwabmünchen,Germany,DEU,,48.1789,10.755,Bavaria,14819.0
+31087,Pattensen,Germany,DEU,,52.2667,9.7667,Lower Saxony,14790.0
+31102,Hilchenbach,Germany,DEU,,50.9983,8.1094,North Rhine-Westphalia,14775.0
+31122,Selb,Germany,DEU,,50.1667,12.1333,Bavaria,14763.0
+31133,Much,Germany,DEU,,50.9167,7.4,North Rhine-Westphalia,14758.0
+31158,Friedland,Germany,DEU,,51.4217,9.9144,Lower Saxony,14744.0
+31192,Rellingen,Germany,DEU,,53.65,9.8167,Schleswig-Holstein,14725.0
+31212,Neustadt an der Donau,Germany,DEU,,48.8,11.7667,Bavaria,14714.0
+31236,Harsefeld,Germany,DEU,,53.45,9.5,Lower Saxony,14696.0
+31248,Groß-Zimmern,Germany,DEU,,49.8833,8.8333,Hesse,14687.0
+31293,Langwedel,Germany,DEU,,52.9667,9.2167,Lower Saxony,14654.0
+31354,Plochingen,Germany,DEU,,48.7117,9.4164,Baden-Württemberg,14611.0
+31362,Langenselbold,Germany,DEU,,50.1833,9.0333,Hesse,14608.0
+31363,Hatten,Germany,DEU,,53.0083,8.3167,Lower Saxony,14608.0
+31381,Montabaur,Germany,DEU,minor,50.4375,7.8258,Rhineland-Palatinate,14595.0
+31405,Lauda-Königshofen,Germany,DEU,,49.5686,9.7039,Baden-Württemberg,14578.0
+31406,Tostedt,Germany,DEU,,53.2833,9.7167,Lower Saxony,14578.0
+31423,Münster,Germany,DEU,,49.9167,8.8667,Hesse,14566.0
+31444,Stein bei Nürnberg,Germany,DEU,,49.4167,11.0167,Bavaria,14556.0
+31450,Ratzeburg,Germany,DEU,minor,53.7,10.75,Schleswig-Holstein,14553.0
+31455,Wilsdruff,Germany,DEU,,51.0522,13.5383,Saxony,14551.0
+31467,Ottweiler,Germany,DEU,,49.3667,7.1667,Saarland,14543.0
+31478,Abensberg,Germany,DEU,,48.8,11.85,Bavaria,14534.0
+31512,Neu-Anspach,Germany,DEU,,50.2931,8.5089,Hesse,14512.0
+31513,Immenstadt im Allgäu,Germany,DEU,,47.5667,10.2167,Bavaria,14512.0
+31517,Olsberg,Germany,DEU,,51.35,8.4833,North Rhine-Westphalia,14509.0
+31525,Eberbach,Germany,DEU,,49.4667,8.9833,Baden-Württemberg,14504.0
+31552,Uhingen,Germany,DEU,,48.7058,9.5919,Baden-Württemberg,14492.0
+31564,Burglengenfeld,Germany,DEU,,49.2,12.0333,Bavaria,14484.0
+31599,Sassenberg,Germany,DEU,,51.9897,8.0408,North Rhine-Westphalia,14455.0
+31615,Neubiberg,Germany,DEU,,48.0833,11.6833,Bavaria,14449.0
+31633,Eggenfelden,Germany,DEU,,48.4039,12.7642,Bavaria,14437.0
+31650,Eching,Germany,DEU,,48.3,11.6167,Bavaria,14430.0
+31678,Spenge,Germany,DEU,,52.1333,8.4833,North Rhine-Westphalia,14416.0
+31716,Gernsbach,Germany,DEU,,48.7633,8.3342,Baden-Württemberg,14397.0
+31723,Lohfelden,Germany,DEU,,51.2667,9.5333,Hesse,14393.0
+31731,Rheydt,Germany,DEU,,51.1667,6.45,North Rhine-Westphalia,14389.0
+31774,Riegelsberg,Germany,DEU,,49.2833,6.9167,Saarland,14360.0
+31778,Markdorf,Germany,DEU,,47.7208,9.3917,Baden-Württemberg,14356.0
+31785,Löbau,Germany,DEU,,51.0944,14.6667,Saxony,14352.0
+31788,Tornesch,Germany,DEU,,53.7,9.7167,Schleswig-Holstein,14350.0
+31789,Rehlingen-Siersburg,Germany,DEU,,49.3686,6.6786,Saarland,14349.0
+31793,Niederzier,Germany,DEU,,50.8831,6.4667,North Rhine-Westphalia,14345.0
+31818,Mittweida,Germany,DEU,,50.9856,12.9811,Saxony,14332.0
+31855,Lotte,Germany,DEU,,52.2764,7.9167,North Rhine-Westphalia,14314.0
+31861,Lengede,Germany,DEU,,52.2,10.3,Lower Saxony,14308.0
+31883,Neutraubling,Germany,DEU,,48.9936,12.1953,Bavaria,14295.0
+31888,Bad Camberg,Germany,DEU,,50.3,8.2667,Hesse,14294.0
+31903,Grafing bei München,Germany,DEU,,48.05,11.9667,Bavaria,14285.0
+31951,Langerwehe,Germany,DEU,,50.8167,6.3497,North Rhine-Westphalia,14257.0
+31971,Brühl,Germany,DEU,,49.4,8.5333,Baden-Württemberg,14242.0
+32010,Lich,Germany,DEU,,50.5217,8.8208,Hesse,14218.0
+32015,Wennigsen,Germany,DEU,,52.2742,9.5708,Lower Saxony,14216.0
+32016,Zeven,Germany,DEU,,53.3,9.2833,Lower Saxony,14216.0
+32025,Mittegroßefehn,Germany,DEU,,53.3833,7.5833,Lower Saxony,14210.0
+32046,Maisach,Germany,DEU,,48.2167,11.2667,Bavaria,14199.0
+32055,Oschatz,Germany,DEU,,51.3003,13.1072,Saxony,14195.0
+32059,Kalkar,Germany,DEU,,51.7389,6.2925,North Rhine-Westphalia,14191.0
+32073,Murrhardt,Germany,DEU,,48.98,9.5814,Baden-Württemberg,14180.0
+32082,Uslar,Germany,DEU,,51.6597,9.6358,Lower Saxony,14174.0
+32085,Edingen-Neckarhausen,Germany,DEU,,49.2833,8.6167,Baden-Württemberg,14173.0
+32091,Feucht,Germany,DEU,,49.3757,11.213,Bavaria,14169.0
+32106,Dippoldiswalde,Germany,DEU,,50.8933,13.6667,Saxony,14161.0
+32127,Lauchhammer,Germany,DEU,,51.5,13.8,Brandenburg,14143.0
+32160,Bovenden,Germany,DEU,,51.5897,9.9222,Lower Saxony,14124.0
+32165,Landau an der Isar,Germany,DEU,,48.6667,12.6667,Bavaria,14121.0
+32186,Wittstock,Germany,DEU,,53.1636,12.4856,Brandenburg,14104.0
+32201,Belm,Germany,DEU,,52.3,8.1333,Lower Saxony,14095.0
+32206,Hohenstein-Ernstthal,Germany,DEU,,50.8,12.7167,Saxony,14092.0
+32221,Aldenhoven,Germany,DEU,,50.8958,6.2831,North Rhine-Westphalia,14081.0
+32233,Neuenkirchen,Germany,DEU,,52.2411,7.3689,North Rhine-Westphalia,14072.0
+32241,Rotenburg an der Fulda,Germany,DEU,,50.9961,9.7278,Hesse,14066.0
+32254,Grünstadt,Germany,DEU,,49.5692,8.1681,Rhineland-Palatinate,14057.0
+32267,Ahrensfelde,Germany,DEU,,52.5758,13.5764,Brandenburg,14050.0
+32323,Leuna,Germany,DEU,,51.3167,12.0167,Saxony-Anhalt,14011.0
+32384,Schneeberg,Germany,DEU,,50.5942,12.6456,Saxony,13994.0
+32395,Lorsch,Germany,DEU,,49.6539,8.5675,Hesse,13989.0
+32408,Bebra,Germany,DEU,,50.9711,9.7903,Hesse,13983.0
+32420,Erbach,Germany,DEU,minor,49.6583,8.9958,Hesse,13977.0
+32438,Lübben (Spreewald),Germany,DEU,minor,51.95,13.9,Brandenburg,13966.0
+32494,Vöhringen,Germany,DEU,,48.2833,10.0833,Bavaria,13933.0
+32497,Höchstadt an der Aisch,Germany,DEU,,49.7,10.8,Bavaria,13931.0
+32498,Grünberg,Germany,DEU,,50.6,8.95,Hesse,13930.0
+32511,Aßlar,Germany,DEU,,50.5833,8.4667,Hesse,13924.0
+32523,Weißenhorn,Germany,DEU,,48.3,10.1667,Bavaria,13913.0
+32528,Denzlingen,Germany,DEU,,48.0683,7.8825,Baden-Württemberg,13910.0
+32532,Oberhaching,Germany,DEU,,48.0167,11.5833,Bavaria,13909.0
+32533,Sankt Leon-Rot,Germany,DEU,,49.2653,8.5986,Baden-Württemberg,13909.0
+32535,Melsungen,Germany,DEU,,51.1333,9.55,Hesse,13906.0
+32538,Buchloe,Germany,DEU,,48.0375,10.725,Bavaria,13904.0
+32559,Meerane,Germany,DEU,,50.8519,12.4636,Saxony,13888.0
+32564,Quakenbrück,Germany,DEU,,52.6772,7.9575,Lower Saxony,13884.0
+32567,Philippsburg,Germany,DEU,,49.2333,8.45,Baden-Württemberg,13882.0
+32574,Lauterbach,Germany,DEU,minor,50.6378,9.3944,Hesse,13880.0
+32582,Friesenheim,Germany,DEU,,48.3731,7.8833,Baden-Württemberg,13876.0
+32588,Ettenheim,Germany,DEU,,48.2556,7.8119,Baden-Württemberg,13871.0
+32595,Hilpoltstein,Germany,DEU,,49.1833,11.1833,Bavaria,13868.0
+32613,Erbach,Germany,DEU,,48.3281,9.8878,Baden-Württemberg,13859.0
+32625,Markt Schwaben,Germany,DEU,,48.1911,11.8681,Bavaria,13853.0
+32643,Michendorf,Germany,DEU,,52.3,13.0167,Brandenburg,13845.0
+32676,Bad Soden-Salmünster,Germany,DEU,,50.2667,9.3667,Hesse,13823.0
+32685,Haßfurt,Germany,DEU,minor,50.0167,10.5,Bavaria,13818.0
+32689,Wanzleben,Germany,DEU,,52.0667,11.4333,Saxony-Anhalt,13813.0
+32701,Meckenbeuren,Germany,DEU,,47.7,9.5625,Baden-Württemberg,13807.0
+32702,Krumbach,Germany,DEU,,48.25,10.3667,Bavaria,13807.0
+32733,Löningen,Germany,DEU,,52.7167,7.7667,Lower Saxony,13796.0
+32746,Hünxe,Germany,DEU,,51.6417,6.7672,North Rhine-Westphalia,13787.0
+32774,Gräfelfing,Germany,DEU,,48.1189,11.4289,Bavaria,13769.0
+32789,Eppstein,Germany,DEU,,50.1333,8.4,Hesse,13758.0
+32804,Frankenberg,Germany,DEU,,50.9108,13.0378,Saxony,13750.0
+32805,Holzgerlingen,Germany,DEU,,48.6392,9.0108,Baden-Württemberg,13750.0
+32827,Beverstedt,Germany,DEU,,53.4333,8.8167,Lower Saxony,13738.0
+32872,Eichstätt,Germany,DEU,minor,48.8919,11.1839,Bavaria,13714.0
+32874,Marienheide,Germany,DEU,,51.0833,7.5333,North Rhine-Westphalia,13710.0
+32888,Biedenkopf,Germany,DEU,,50.9128,8.5322,Hesse,13703.0
+32904,Angermünde,Germany,DEU,,53.0333,14.0,Brandenburg,13692.0
+32914,Bergen,Germany,DEU,,54.4167,13.4333,Mecklenburg-Western Pomerania,13689.0
+32921,Genthin,Germany,DEU,,52.4,12.1667,Saxony-Anhalt,13685.0
+32923,Schmölln,Germany,DEU,,50.895,12.3564,Thuringia,13684.0
+32931,Hettstedt,Germany,DEU,,51.6333,11.5,Saxony-Anhalt,13678.0
+32939,Sendenhorst,Germany,DEU,,51.8439,7.8278,North Rhine-Westphalia,13671.0
+32960,Bad Dürrheim,Germany,DEU,,48.0167,8.5333,Baden-Württemberg,13659.0
+33035,Pfullendorf,Germany,DEU,,47.9242,9.2567,Baden-Württemberg,13616.0
+33068,Barßel,Germany,DEU,,53.1703,7.7467,Lower Saxony,13601.0
+33100,Rommerskirchen,Germany,DEU,,51.0347,6.6914,North Rhine-Westphalia,13580.0
+33109,Neckargemünd,Germany,DEU,,49.3939,8.7975,Baden-Württemberg,13576.0
+33124,Lappersdorf,Germany,DEU,,49.0525,12.0903,Bavaria,13568.0
+33129,Pegnitz,Germany,DEU,,49.7564,11.545,Bavaria,13561.0
+33136,Asperg,Germany,DEU,,48.9,9.1333,Baden-Württemberg,13559.0
+33146,Haselünne,Germany,DEU,,52.6667,7.4667,Lower Saxony,13552.0
+33169,Wentorf bei Hamburg,Germany,DEU,,53.4931,10.2533,Hamburg,13539.0
+33183,Spaichingen,Germany,DEU,,48.0758,8.7378,Baden-Württemberg,13531.0
+33195,Pfarrkirchen,Germany,DEU,minor,48.4167,12.9167,Bavaria,13522.0
+33198,Bad Salzdetfurth,Germany,DEU,,52.0653,10.0092,Lower Saxony,13520.0
+33206,Tauberbischofsheim,Germany,DEU,minor,49.6225,9.6628,Baden-Württemberg,13513.0
+33224,Wiesmoor,Germany,DEU,,53.4,7.7333,Lower Saxony,13502.0
+33234,Wolfhagen,Germany,DEU,,51.3167,9.1667,Hesse,13493.0
+33259,Schermbeck,Germany,DEU,,51.695,6.8756,North Rhine-Westphalia,13479.0
+33283,Bad Laasphe,Germany,DEU,,50.9303,8.4167,North Rhine-Westphalia,13467.0
+33345,Neustadt,Germany,DEU,minor,49.5967,10.6089,Bavaria,13419.0
+33353,Dinklage,Germany,DEU,,52.6667,8.1333,Lower Saxony,13410.0
+33459,Hösbach,Germany,DEU,,50.0,9.2,Bavaria,13354.0
+33486,Bedburg,Germany,DEU,,51.7667,6.1833,North Rhine-Westphalia,13341.0
+33498,Weilburg,Germany,DEU,,50.4833,8.25,Hesse,13334.0
+33503,Ubstadt-Weiher,Germany,DEU,,49.1656,8.625,Baden-Württemberg,13332.0
+33556,Velen,Germany,DEU,,51.8939,6.9897,North Rhine-Westphalia,13304.0
+33559,Manching,Germany,DEU,,48.7186,11.4972,Bavaria,13302.0
+33560,Saarwellingen,Germany,DEU,,49.35,6.8333,Saarland,13302.0
+33591,Weinsberg,Germany,DEU,,49.1518,9.2857,Baden-Württemberg,13290.0
+33592,Cremlingen,Germany,DEU,,52.2489,10.6542,Lower Saxony,13289.0
+33599,Zehdenick,Germany,DEU,,52.9833,13.3333,Brandenburg,13283.0
+33605,Hüllhorst,Germany,DEU,,52.2833,8.6667,North Rhine-Westphalia,13281.0
+33623,Schüttorf,Germany,DEU,,52.3167,7.2167,Lower Saxony,13273.0
+33625,Ergolding,Germany,DEU,,48.5833,12.1667,Bavaria,13272.0
+33634,Sulingen,Germany,DEU,,52.6667,8.8,Lower Saxony,13268.0
+33662,Olfen,Germany,DEU,,51.7167,7.3833,North Rhine-Westphalia,13253.0
+33671,Herbrechtingen,Germany,DEU,,48.6253,10.1739,Baden-Württemberg,13247.0
+33672,Fehmarnsund,Germany,DEU,,54.4454,11.1702,Schleswig-Holstein,13247.0
+33687,Östringen,Germany,DEU,,49.2194,8.7108,Baden-Württemberg,13241.0
+33689,Gangelt,Germany,DEU,,50.9831,6.0,North Rhine-Westphalia,13240.0
+33693,Beverungen,Germany,DEU,,51.6628,9.3725,North Rhine-Westphalia,13238.0
+33725,Beelitz,Germany,DEU,,52.2333,12.9667,Brandenburg,13219.0
+33760,Trebur,Germany,DEU,,49.925,8.4056,Hesse,13196.0
+33793,Bischofsheim,Germany,DEU,,49.9833,8.35,Hesse,13176.0
+33858,Mutterstadt,Germany,DEU,,49.4333,8.35,Rhineland-Palatinate,13139.0
+33877,Ketsch,Germany,DEU,,49.3658,8.5336,Baden-Württemberg,13128.0
+33885,Sankt Georgen im Schwarzwald,Germany,DEU,,48.1247,8.3308,Baden-Württemberg,13122.0
+33888,Plattling,Germany,DEU,,48.7667,12.8667,Bavaria,13121.0
+33895,Brieselang,Germany,DEU,,52.5833,13.0,Brandenburg,13118.0
+33906,Wehr,Germany,DEU,,47.6297,7.9044,Baden-Württemberg,13113.0
+33908,Treuchtlingen,Germany,DEU,,48.9553,10.9094,Bavaria,13112.0
+33911,Rosbach vor der Höhe,Germany,DEU,,50.2986,8.7006,Hesse,13110.0
+33937,Barsbüttel,Germany,DEU,,53.5689,10.1711,Hamburg,13096.0
+33983,Hungen,Germany,DEU,,50.4667,8.9,Hesse,13073.0
+33996,Scheeßel,Germany,DEU,,53.1706,9.4831,Lower Saxony,13065.0
+34039,Hadamar,Germany,DEU,,50.45,8.05,Hesse,13042.0
+34054,Rödental,Germany,DEU,,50.2833,11.0667,Bavaria,13033.0
+34082,Linnich,Germany,DEU,,50.9789,6.2678,North Rhine-Westphalia,13015.0
+34086,Bohmte,Germany,DEU,,52.3667,8.3167,Lower Saxony,13013.0
+34096,Wasserburg am Inn,Germany,DEU,,48.0617,12.2333,Bavaria,13004.0
+34157,Neunkirchen,Germany,DEU,,50.7997,8.0,North Rhine-Westphalia,13000.0
+34206,Schleiden,Germany,DEU,,50.5331,6.4667,North Rhine-Westphalia,12977.0
+34214,Roding,Germany,DEU,,49.2,12.5167,Bavaria,12972.0
+34228,Wickede,Germany,DEU,,51.4964,7.8658,North Rhine-Westphalia,12967.0
+34259,Wächtersbach,Germany,DEU,,50.2547,9.2919,Hesse,12948.0
+34316,Möckern,Germany,DEU,,52.1406,11.9525,Saxony-Anhalt,12918.0
+34330,Besigheim,Germany,DEU,,48.9983,9.1417,Baden-Württemberg,12909.0
+34334,Quierschied,Germany,DEU,,49.3167,7.0333,Saarland,12907.0
+34356,Roßdorf,Germany,DEU,,49.85,8.75,Hesse,12898.0
+34423,Wadersloh,Germany,DEU,,51.7386,8.2514,North Rhine-Westphalia,12863.0
+34469,Fuldatal,Germany,DEU,,51.3833,9.55,Hesse,12837.0
+34481,Herzberg am Harz,Germany,DEU,,51.6575,10.3411,Lower Saxony,12829.0
+34512,Bad Urach,Germany,DEU,,48.4931,9.3986,Baden-Württemberg,12812.0
+34545,Spiesen-Elversberg,Germany,DEU,,49.3167,7.1333,Saarland,12797.0
+34575,Peißenberg,Germany,DEU,,47.795,11.0603,Bavaria,12781.0
+34578,Twistringen,Germany,DEU,,52.8,8.65,Lower Saxony,12779.0
+34610,Kaufungen,Germany,DEU,,51.2811,9.6186,Hesse,12764.0
+34650,Wietmarschen,Germany,DEU,,52.5333,7.1333,Lower Saxony,12742.0
+34676,Gärtringen,Germany,DEU,,48.6408,8.9006,Baden-Württemberg,12731.0
+34685,Sulz am Neckar,Germany,DEU,,48.3628,8.6317,Baden-Württemberg,12724.0
+34703,Kirchheim bei München,Germany,DEU,,48.1833,11.75,Bavaria,12714.0
+34746,Altenstadt,Germany,DEU,,50.2856,8.945,Hesse,12689.0
+34760,Feuchtwangen,Germany,DEU,,49.1667,10.3167,Bavaria,12683.0
+34766,Hersbruck,Germany,DEU,,49.5081,11.4328,Bavaria,12681.0
+34782,Winterberg,Germany,DEU,,51.2,8.5167,North Rhine-Westphalia,12671.0
+34791,Bad Abbach,Germany,DEU,,48.9333,12.05,Bavaria,12666.0
+34793,Blaubeuren,Germany,DEU,,48.4119,9.785,Baden-Württemberg,12665.0
+34807,Tamm,Germany,DEU,,48.9167,9.1167,Baden-Württemberg,12658.0
+34823,Waltershausen,Germany,DEU,,50.8975,10.5558,Thuringia,12650.0
+34829,Alpen,Germany,DEU,,51.575,6.5125,North Rhine-Westphalia,12649.0
+34832,Schongau,Germany,DEU,,47.8167,10.9,Bavaria,12648.0
+34840,Bad Windsheim,Germany,DEU,,49.5,10.4167,Bavaria,12643.0
+34905,Steinheim,Germany,DEU,,51.8658,9.0944,North Rhine-Westphalia,12612.0
+34906,Jüterbog,Germany,DEU,,51.9933,13.0728,Brandenburg,12612.0
+34916,Bretzfeld,Germany,DEU,,49.1833,9.4333,Baden-Württemberg,12608.0
+34924,Brunsbüttel,Germany,DEU,,53.8964,9.1386,Schleswig-Holstein,12603.0
+34938,Hessisch Lichtenau,Germany,DEU,,51.2,9.7167,Hesse,12598.0
+34951,New Germany,South Africa,ZAF,,-29.8,30.8833,KwaZulu-Natal,12592.0
+34952,Dossenheim,Germany,DEU,,49.45,8.6667,Baden-Württemberg,12592.0
+34963,Vilsbiburg,Germany,DEU,,48.45,12.35,Bavaria,12584.0
+35004,Niefern-Öschelbronn,Germany,DEU,,48.9164,8.7842,Baden-Württemberg,12562.0
+35043,Hirschaid,Germany,DEU,,49.8167,10.9833,Bavaria,12543.0
+35059,Emstek,Germany,DEU,,52.8167,8.15,Lower Saxony,12535.0
+35068,Röthenbach an der Pegnitz,Germany,DEU,,49.4847,11.2475,Bavaria,12531.0
+35069,Preußisch Oldendorf,Germany,DEU,,52.2833,8.5,North Rhine-Westphalia,12531.0
+35094,Ladenburg,Germany,DEU,,49.4667,8.6167,Baden-Württemberg,12517.0
+35098,Zella-Mehlis,Germany,DEU,,50.6597,10.6669,Thuringia,12514.0
+35101,Gladenbach,Germany,DEU,,50.7681,8.5828,Hesse,12513.0
+35112,Edemissen,Germany,DEU,,52.3833,10.2667,Lower Saxony,12506.0
+35166,Neuenburg am Rhein,Germany,DEU,,47.8147,7.5619,Baden-Württemberg,12482.0
+35245,Bad Sassendorf,Germany,DEU,,51.5831,8.1667,North Rhine-Westphalia,12451.0
+35246,Graben-Neudorf,Germany,DEU,,49.1592,8.4894,Baden-Württemberg,12451.0
+35293,Velten,Germany,DEU,,52.6833,13.1833,Brandenburg,12424.0
+35316,Gaildorf,Germany,DEU,,49.0,9.7667,Baden-Württemberg,12408.0
+35333,Hagenow,Germany,DEU,,53.4167,11.1833,Mecklenburg-Western Pomerania,12399.0
+35354,Titisee-Neustadt,Germany,DEU,,47.9122,8.2147,Baden-Württemberg,12390.0
+35362,Ebersberg,Germany,DEU,minor,48.0833,11.9667,Bavaria,12386.0
+35402,Issum,Germany,DEU,,51.5389,6.4236,North Rhine-Westphalia,12364.0
+35406,Bad Freienwalde,Germany,DEU,,52.7856,14.0325,Brandenburg,12360.0
+35411,Essenbach,Germany,DEU,,48.6167,12.2167,Bavaria,12358.0
+35433,Gaimersheim,Germany,DEU,,48.8167,11.3667,Bavaria,12352.0
+35448,Jork,Germany,DEU,,53.5344,9.6817,Lower Saxony,12344.0
+35459,Bad Fallingbostel,Germany,DEU,minor,52.8675,9.6967,Lower Saxony,12340.0
+35490,Enkesen,Germany,DEU,,51.4667,7.9667,North Rhine-Westphalia,12326.0
+35519,Anklam,Germany,DEU,,53.85,13.6833,Mecklenburg-Western Pomerania,12312.0
+35531,Wernau,Germany,DEU,,48.6886,9.4222,Baden-Württemberg,12306.0
+35534,Frohburg,Germany,DEU,,51.0561,12.555,Saxony,12305.0
+35589,Teningen,Germany,DEU,,48.1269,7.8103,Baden-Württemberg,12281.0
+35611,Burladingen,Germany,DEU,,48.2903,9.1094,Baden-Württemberg,12273.0
+35615,Ludwigslust,Germany,DEU,,53.3244,11.4972,Mecklenburg-Western Pomerania,12270.0
+35620,Dinkelsbühl,Germany,DEU,,49.0708,10.3194,Bavaria,12267.0
+35634,Neuhausen auf den Fildern,Germany,DEU,,48.6844,9.2744,Baden-Württemberg,12258.0
+35650,Laichingen,Germany,DEU,,48.4897,9.6861,Baden-Württemberg,12250.0
+35680,Nordstemmen,Germany,DEU,,52.1667,9.7667,Lower Saxony,12238.0
+35681,Linkenheim-Hochstetten,Germany,DEU,,49.1261,8.41,Baden-Württemberg,12238.0
+35691,Zetel,Germany,DEU,,53.4197,7.9742,Lower Saxony,12233.0
+35698,Steinheim am der Murr,Germany,DEU,,48.9667,9.2833,Baden-Württemberg,12228.0
+35702,Apen,Germany,DEU,,53.2214,7.8097,Lower Saxony,12226.0
+35705,Maxhütte-Haidhof,Germany,DEU,,49.2,12.1,Bavaria,12225.0
+35716,Haaren,Germany,DEU,,50.7956,6.1269,North Rhine-Westphalia,12216.0
+35789,Oftersheim,Germany,DEU,,49.3706,8.5847,Baden-Württemberg,12183.0
+35807,Osterhofen,Germany,DEU,,48.7019,13.02,Bavaria,12171.0
+35835,Tholey,Germany,DEU,,49.4667,7.0333,Saarland,12160.0
+35856,Rielasingen-Worblingen,Germany,DEU,,47.7314,8.8386,Baden-Württemberg,12147.0
+35863,Havixbeck,Germany,DEU,,51.8111,7.4167,North Rhine-Westphalia,12141.0
+35882,Meitingen,Germany,DEU,,48.5333,10.8333,Bavaria,12133.0
+35922,Perleberg,Germany,DEU,minor,53.0667,11.8667,Brandenburg,12108.0
+35953,Lehre,Germany,DEU,,52.3167,10.6667,Lower Saxony,12097.0
+35965,Sassenburg,Germany,DEU,,52.5167,10.6333,Lower Saxony,12092.0
+35980,Durmersheim,Germany,DEU,,48.9383,8.2769,Baden-Württemberg,12085.0
+35988,Miesbach,Germany,DEU,minor,47.7833,11.8333,Bavaria,12083.0
+35994,Mettlach,Germany,DEU,,49.4942,6.6052,Saarland,12082.0
+36047,Wolgast,Germany,DEU,,54.05,13.7667,Mecklenburg-Western Pomerania,12055.0
+36063,Rosdorf,Germany,DEU,,51.5,9.9,Lower Saxony,12047.0
+36189,Mettingen,Germany,DEU,,52.3167,7.7806,North Rhine-Westphalia,12000.0
+36209,Oberschleißheim,Germany,DEU,,48.25,11.5667,Bavaria,11998.0
+36254,Gundelfingen,Germany,DEU,,48.05,7.8667,Baden-Württemberg,11977.0
+36268,Erkner,Germany,DEU,,52.4167,13.75,Brandenburg,11970.0
+36271,Murnau am Staffelsee,Germany,DEU,,47.6833,11.2,Bavaria,11969.0
+36281,Welver,Germany,DEU,,51.6167,7.9583,North Rhine-Westphalia,11966.0
+36359,Heddesheim,Germany,DEU,,49.5053,8.6033,Baden-Württemberg,11927.0
+36395,Harrislee,Germany,DEU,,54.7972,9.3764,Schleswig-Holstein,11910.0
+36399,Kronshagen,Germany,DEU,,54.3333,10.0833,Schleswig-Holstein,11908.0
+36436,Neustadt,Germany,DEU,,51.0239,14.2167,Saxony,11888.0
+36458,Gerstetten,Germany,DEU,,48.6225,10.0206,Baden-Württemberg,11876.0
+36470,Möhnesee,Germany,DEU,,51.4958,8.1306,North Rhine-Westphalia,11869.0
+36479,Eichenau,Germany,DEU,,48.1667,11.3167,Bavaria,11867.0
+36487,Monschau,Germany,DEU,,50.56,6.2564,North Rhine-Westphalia,11864.0
+36506,Lauenburg,Germany,DEU,,53.3833,10.5667,Schleswig-Holstein,11855.0
+36552,Wolnzach,Germany,DEU,,48.6,11.6167,Bavaria,11835.0
+36566,Raesfeld,Germany,DEU,,51.7667,6.8333,North Rhine-Westphalia,11832.0
+36576,Hemsbach,Germany,DEU,,49.5903,8.6564,Baden-Württemberg,11828.0
+36586,Oestrich-Winkel,Germany,DEU,,50.0025,8.0175,Hesse,11823.0
+36593,Leingarten,Germany,DEU,,49.15,9.1167,Baden-Württemberg,11816.0
+36594,Lauffen am Neckar,Germany,DEU,,49.0833,9.15,Baden-Württemberg,11816.0
+36603,Langgöns,Germany,DEU,,50.5,8.6667,Hesse,11813.0
+36604,Walldürn,Germany,DEU,,49.5831,9.3681,Baden-Württemberg,11813.0
+36622,Oberderdingen,Germany,DEU,,49.0625,8.8019,Baden-Württemberg,11804.0
+36645,Neuenrade,Germany,DEU,,51.2839,7.78,North Rhine-Westphalia,11793.0
+36665,Zwönitz,Germany,DEU,,50.6167,12.8,Saxony,11786.0
+36672,Hauzenberg,Germany,DEU,,48.65,13.6333,Bavaria,11781.0
+36682,Pritzwalk,Germany,DEU,,53.15,12.1833,Brandenburg,11777.0
+36683,Leutenbach,Germany,DEU,,48.8883,9.3914,Baden-Württemberg,11777.0
+36701,Burgthann,Germany,DEU,,49.35,11.3,Bavaria,11771.0
+36715,Drolshagen,Germany,DEU,,51.0333,7.7667,North Rhine-Westphalia,11763.0
+36737,Bopfingen,Germany,DEU,,48.8569,10.3522,Baden-Württemberg,11755.0
+36743,Pößneck,Germany,DEU,,50.7,11.6,Thuringia,11752.0
+36744,Bad Dürrenberg,Germany,DEU,,51.2833,12.0667,Saxony-Anhalt,11752.0
+36747,Waldniel,Germany,DEU,,51.2131,6.2731,North Rhine-Westphalia,11750.0
+36774,Scharbeutz,Germany,DEU,,54.0214,10.7456,Schleswig-Holstein,11739.0
+36775,Lindenberg im Allgäu,Germany,DEU,,47.6,9.9,Bavaria,11739.0
+36849,Geisenheim,Germany,DEU,,49.9844,7.9672,Rhineland-Palatinate,11699.0
+36853,Rangsdorf,Germany,DEU,,52.2833,13.4333,Brandenburg,11695.0
+36860,Kissing,Germany,DEU,,48.3,10.9833,Bavaria,11691.0
+36868,Hildburghausen,Germany,DEU,minor,50.4167,10.75,Thuringia,11689.0
+36871,Schwaigern,Germany,DEU,,49.1333,9.05,Baden-Württemberg,11687.0
+36882,Peiting,Germany,DEU,,47.8,10.9333,Bavaria,11682.0
+36885,Billerbeck,Germany,DEU,,51.9792,7.295,North Rhine-Westphalia,11681.0
+36916,Limburgerhof,Germany,DEU,,49.4167,8.4,Rhineland-Palatinate,11669.0
+36929,Hallbergmoos,Germany,DEU,,48.3333,11.75,Bavaria,11662.0
+36946,Raubling,Germany,DEU,,47.7881,12.1047,Bavaria,11651.0
+37012,Ostrhauderfehn,Germany,DEU,,53.1167,7.6167,Lower Saxony,11622.0
+37045,Geisenfeld,Germany,DEU,,48.6667,11.6,Bavaria,11605.0
+37052,Wolmirstedt,Germany,DEU,,52.2519,11.6297,Saxony-Anhalt,11602.0
+37073,Mömbris,Germany,DEU,,50.0667,9.1667,Bavaria,11594.0
+37090,Weeze,Germany,DEU,,51.6267,6.1967,North Rhine-Westphalia,11587.0
+37132,Schwieberdingen,Germany,DEU,,48.8778,9.075,Baden-Württemberg,11568.0
+37146,Überherrn,Germany,DEU,,49.25,6.7,Saarland,11564.0
+37155,Meßstetten,Germany,DEU,,48.1806,8.9625,Baden-Württemberg,11560.0
+37211,Sinzheim,Germany,DEU,,48.7619,8.1669,Baden-Württemberg,11533.0
+37234,Stelle,Germany,DEU,,53.3667,10.1167,Lower Saxony,11523.0
+37296,Unterföhring,Germany,DEU,,48.2,11.65,Bavaria,11500.0
+37297,Ostbevern,Germany,DEU,,52.0389,7.8458,North Rhine-Westphalia,11500.0
+37318,Zeuthen,Germany,DEU,,52.3667,13.6167,Brandenburg,11491.0
+37323,Wittingen,Germany,DEU,,52.7167,10.7333,Lower Saxony,11489.0
+37327,Coswig,Germany,DEU,,51.8833,12.4333,Saxony-Anhalt,11488.0
+37336,Westerkappeln,Germany,DEU,,52.3806,7.6,North Rhine-Westphalia,11485.0
+37398,Eningen unter Achalm,Germany,DEU,,48.4831,9.2522,Baden-Württemberg,11456.0
+37407,Egelsbach,Germany,DEU,,49.9667,8.6667,Hesse,11452.0
+37422,Gräfenhainichen,Germany,DEU,,51.7167,12.4333,Saxony-Anhalt,11446.0
+37424,Kirchhundem,Germany,DEU,,51.0667,8.0833,North Rhine-Westphalia,11445.0
+37430,Trostberg an der Alz,Germany,DEU,,48.0167,12.55,Bavaria,11444.0
+37450,Harsum,Germany,DEU,,52.2,9.95,Lower Saxony,11438.0
+37468,Bad Schwalbach,Germany,DEU,minor,50.1333,8.0667,Hesse,11430.0
+37483,Höhenkirchen-Siegertsbrunn,Germany,DEU,,48.0167,11.7333,Bavaria,11422.0
+37491,Dautphe,Germany,DEU,,50.8333,8.55,Hesse,11418.0
+37501,Cadolzburg,Germany,DEU,,49.45,10.8667,Bavaria,11414.0
+37544,Marktheidenfeld,Germany,DEU,,49.85,9.6,Bavaria,11388.0
+37562,Grünwald,Germany,DEU,,48.0333,11.5167,Bavaria,11382.0
+37605,Recke,Germany,DEU,,52.37,7.7189,North Rhine-Westphalia,11370.0
+37627,Altdorf,Germany,DEU,,48.5667,12.1167,Bavaria,11362.0
+37638,Rudersberg,Germany,DEU,,48.8856,9.5281,Baden-Württemberg,11358.0
+37644,Engen,Germany,DEU,,47.8528,8.7714,Baden-Württemberg,11355.0
+37652,Rodenbach,Germany,DEU,,50.1389,9.0417,Hesse,11351.0
+37659,Rothenburg ob der Tauber,Germany,DEU,,49.3833,10.1833,Bavaria,11347.0
+37662,Ochsenfurt,Germany,DEU,,49.65,10.0667,Bavaria,11346.0
+37666,Handewitt,Germany,DEU,,54.7667,9.3167,Schleswig-Holstein,11345.0
+37670,Rheinau,Germany,DEU,,48.6678,7.9347,Baden-Württemberg,11343.0
+37683,Welzheim,Germany,DEU,,48.8747,9.6344,Baden-Württemberg,11335.0
+37694,Nußloch,Germany,DEU,,49.3236,8.6939,Baden-Württemberg,11331.0
+37726,Mülheim-Kärlich,Germany,DEU,,50.3869,7.4953,Rhineland-Palatinate,11312.0
+37741,Denkendorf,Germany,DEU,,48.6958,9.3175,Baden-Württemberg,11303.0
+37762,Drochtersen,Germany,DEU,,53.7,9.3833,Lower Saxony,11290.0
+37764,Bad Nenndorf,Germany,DEU,,52.3369,9.3786,Lower Saxony,11289.0
+37787,Eichenzell,Germany,DEU,,50.4833,9.7,Hesse,11277.0
+37804,Fallersleben,Germany,DEU,,52.4189,10.7169,Lower Saxony,11269.0
+37869,Möglingen,Germany,DEU,,48.8883,9.1292,Baden-Württemberg,11244.0
+37873,Prien am Chiemsee,Germany,DEU,,47.8667,12.3333,Bavaria,11243.0
+37900,Hagen im Bremischen,Germany,DEU,,53.3667,8.65,Lower Saxony,11233.0
+37910,Werther,Germany,DEU,,52.075,8.4125,North Rhine-Westphalia,11229.0
+37911,Lauingen,Germany,DEU,,48.5667,10.4333,Bavaria,11229.0
+37929,Herbolzheim,Germany,DEU,,48.2219,7.7775,Baden-Württemberg,11224.0
+37962,Diez,Germany,DEU,,50.3708,8.0158,Rhineland-Palatinate,11211.0
+37965,Schöningen,Germany,DEU,,52.1333,10.95,Lower Saxony,11209.0
+37968,Isselburg,Germany,DEU,,51.8331,6.4667,North Rhine-Westphalia,11208.0
+38007,Feldkirchen-Westerham,Germany,DEU,,47.9,11.85,Bavaria,11190.0
+38028,Kranenburg,Germany,DEU,,51.7897,6.0072,North Rhine-Westphalia,11181.0
+38051,Belzig,Germany,DEU,,52.1422,12.5956,Brandenburg,11172.0
+38103,Kriftel,Germany,DEU,,50.0833,8.45,Hesse,11151.0
+38118,Waldkirchen,Germany,DEU,,48.7305,13.6011,Bavaria,11143.0
+38119,Balve,Germany,DEU,,51.3333,7.8667,North Rhine-Westphalia,11143.0
+38122,Bannewitz,Germany,DEU,,50.9931,13.7167,Saxony,11142.0
+38135,Stollberg,Germany,DEU,,50.7083,12.7783,Saxony,11139.0
+38162,Braunfels,Germany,DEU,,50.5167,8.3833,Hesse,11131.0
+38195,Hasbergen,Germany,DEU,,52.2167,7.9167,Lower Saxony,11119.0
+38200,Gengenbach,Germany,DEU,,48.4,8.0167,Baden-Württemberg,11116.0
+38205,Kall,Germany,DEU,,50.55,6.55,North Rhine-Westphalia,11112.0
+38266,Herrsching am Ammersee,Germany,DEU,,48.0,11.1833,Bavaria,11088.0
+38326,Nörvenich,Germany,DEU,,50.8,6.65,North Rhine-Westphalia,11064.0
+38331,Planegg,Germany,DEU,,48.1047,11.4306,Bavaria,11063.0
+38341,Korb,Germany,DEU,,48.8417,9.3611,Baden-Württemberg,11058.0
+38347,Rutesheim,Germany,DEU,,48.8097,8.945,Baden-Württemberg,11056.0
+38421,Riedlingen,Germany,DEU,,48.1553,9.4728,Baden-Württemberg,11029.0
+38431,Gernsheim,Germany,DEU,,49.75,8.4833,Hesse,11024.0
+38478,Regen,Germany,DEU,minor,48.9667,13.1333,Bavaria,11005.0
+38484,Lorch,Germany,DEU,,48.7983,9.6883,Baden-Württemberg,11003.0
+38566,Schkopau,Germany,DEU,,51.3833,11.9667,Saxony-Anhalt,10989.0
+38575,Wildau,Germany,DEU,,52.3167,13.6333,Brandenburg,10984.0
+38622,Haigerloch,Germany,DEU,,48.3647,8.805,Baden-Württemberg,10968.0
+38652,Eisenberg,Germany,DEU,minor,50.9667,11.9,Thuringia,10957.0
+38653,Rüthen,Germany,DEU,,51.4933,8.4833,North Rhine-Westphalia,10957.0
+38657,Adendorf,Germany,DEU,,53.2833,10.45,Lower Saxony,10956.0
+38658,Neuhof,Germany,DEU,,50.4333,9.6167,Hesse,10956.0
+38665,Burgkirchen an der Alz,Germany,DEU,,48.1667,12.7167,Bavaria,10953.0
+38681,Lichtenstein,Germany,DEU,,50.7564,12.6317,Saxony,10946.0
+38728,Malente,Germany,DEU,,54.1667,10.55,Schleswig-Holstein,10929.0
+38733,Donzdorf,Germany,DEU,,48.6833,9.8167,Baden-Württemberg,10927.0
+38746,Wustermark,Germany,DEU,,52.55,12.95,Brandenburg,10922.0
+38763,Altensteig,Germany,DEU,,48.5864,8.6047,Baden-Württemberg,10916.0
+38764,Karlsdorf-Neuthard,Germany,DEU,,49.1364,8.5439,Baden-Württemberg,10916.0
+38777,Kenzingen,Germany,DEU,,48.1917,7.7683,Baden-Württemberg,10908.0
+38796,Osterwieck,Germany,DEU,,51.9667,10.7167,Saxony-Anhalt,10898.0
+38828,Langenzenn,Germany,DEU,,49.4944,10.7947,Bavaria,10887.0
+38834,Gottmadingen,Germany,DEU,,47.7356,8.7767,Baden-Württemberg,10885.0
+38835,Glückstadt,Germany,DEU,,53.7917,9.4219,Schleswig-Holstein,10885.0
+38845,Hammelburg,Germany,DEU,,50.1167,9.9,Bavaria,10883.0
+38865,Schönaich,Germany,DEU,,48.6569,9.0628,Baden-Württemberg,10874.0
+38871,Herxheim,Germany,DEU,,49.1469,8.22,Rhineland-Palatinate,10872.0
+38883,Lichtenau,Germany,DEU,,51.6,8.8833,North Rhine-Westphalia,10867.0
+38915,Hambühren,Germany,DEU,,52.6333,9.9833,Lower Saxony,10855.0
+38936,Steinbach am Taunus,Germany,DEU,,50.1667,8.5667,Hesse,10846.0
+38949,Nauheim,Germany,DEU,,49.9506,8.4631,Hesse,10840.0
+38980,Boizenburg,Germany,DEU,,53.3667,10.7167,Mecklenburg-Western Pomerania,10829.0
+39007,Stephanskirchen,Germany,DEU,,47.85,12.1833,Bavaria,10817.0
+39019,Taufkirchen,Germany,DEU,,48.3439,12.1303,Bavaria,10812.0
+39020,Mülsen,Germany,DEU,,50.7447,12.5747,Saxony,10812.0
+39070,Wald-Michelbach,Germany,DEU,,49.5667,8.8333,Hesse,10791.0
+39132,Kirchseeon,Germany,DEU,,48.0731,11.8861,Bavaria,10764.0
+39170,Fürth,Germany,DEU,,49.65,8.7833,Hesse,10751.0
+39181,Kleinblittersdorf,Germany,DEU,,49.1583,7.0361,Saarland,10747.0
+39236,Bad Orb,Germany,DEU,,50.2167,9.35,Hesse,10725.0
+39303,Diedorf,Germany,DEU,,48.35,10.7667,Bavaria,10705.0
+39308,Morbach,Germany,DEU,,49.8167,7.1167,Rhineland-Palatinate,10701.0
+39339,Bestwig,Germany,DEU,,51.3667,8.4,North Rhine-Westphalia,10695.0
+39358,Dallgow-Döberitz,Germany,DEU,,52.5331,13.05,Brandenburg,10687.0
+39363,Bischofswerda,Germany,DEU,,51.1275,14.1797,Saxony,10686.0
+39483,Ruppichteroth,Germany,DEU,,50.8439,7.4836,North Rhine-Westphalia,10637.0
+39490,Felsberg,Germany,DEU,,51.1333,9.4167,Hesse,10633.0
+39498,Barmstedt,Germany,DEU,,53.7833,9.7667,Schleswig-Holstein,10630.0
+39503,Emsbüren,Germany,DEU,,52.3925,7.2914,Lower Saxony,10626.0
+39517,Schleusingen,Germany,DEU,,50.5167,10.75,Thuringia,10620.0
+39526,Dießen am Ammersee,Germany,DEU,,47.95,11.1,Bavaria,10618.0
+39576,Tangerhütte,Germany,DEU,,52.4333,11.8,Saxony-Anhalt,10599.0
+39611,Böhl-Iggelheim,Germany,DEU,,49.3833,8.3,Rhineland-Palatinate,10583.0
+39651,Schönwalde-Siedlung,Germany,DEU,,52.65,12.9833,Brandenburg,10571.0
+39655,Aerzen,Germany,DEU,,52.0494,9.2653,Lower Saxony,10570.0
+39678,Neuenhaus,Germany,DEU,,52.5,6.9667,Lower Saxony,10561.0
+39687,Bad Iburg,Germany,DEU,,52.1592,8.0472,Lower Saxony,10559.0
+39709,Weinböhla,Germany,DEU,,51.1667,13.5667,Saxony,10549.0
+39721,Büdelsdorf,Germany,DEU,,54.3167,9.6833,Schleswig-Holstein,10546.0
+39738,Wendeburg,Germany,DEU,,52.3167,10.4,Lower Saxony,10542.0
+39742,Werlte,Germany,DEU,,52.85,7.6833,Lower Saxony,10539.0
+39746,Grevesmühlen,Germany,DEU,,53.8667,11.1667,Mecklenburg-Western Pomerania,10538.0
+39761,Weingarten,Germany,DEU,,49.0514,8.5306,Baden-Württemberg,10534.0
+39778,Reiskirchen,Germany,DEU,,50.6,8.8333,Hesse,10527.0
+39808,Flöha,Germany,DEU,,50.8558,13.0714,Saxony,10516.0
+39822,Plankstadt,Germany,DEU,,49.3933,8.5942,Baden-Württemberg,10511.0
+39823,Hilter,Germany,DEU,,52.15,8.15,Lower Saxony,10511.0
+39828,Burgau,Germany,DEU,,48.4322,10.4069,Bavaria,10509.0
+39865,Markt Indersdorf,Germany,DEU,,48.3667,11.3667,Bavaria,10498.0
+39872,Bad Wildbad,Germany,DEU,,48.7503,8.5506,Baden-Württemberg,10495.0
+39900,Gommern,Germany,DEU,,52.0667,11.8333,Saxony-Anhalt,10485.0
+39927,Burgstädt,Germany,DEU,,50.9167,12.8167,Saxony,10475.0
+39961,Olbernhau,Germany,DEU,,50.6667,13.3333,Saxony,10458.0
+39962,Friedeburg,Germany,DEU,,53.45,7.8333,Lower Saxony,10458.0
+39976,Lollar,Germany,DEU,,50.6497,8.7044,Hesse,10454.0
+40007,Wildberg,Germany,DEU,,48.6239,8.7472,Baden-Württemberg,10443.0
+40066,Nideggen,Germany,DEU,,50.7,6.4833,North Rhine-Westphalia,10419.0
+40076,Simbach am Inn,Germany,DEU,,48.2667,13.0167,Bavaria,10416.0
+40081,Altenberge,Germany,DEU,,52.0458,7.4653,North Rhine-Westphalia,10415.0
+40120,Nordkirchen,Germany,DEU,,51.7381,7.5256,North Rhine-Westphalia,10402.0
+40124,Braunsbedra,Germany,DEU,,51.2833,11.9,Saxony-Anhalt,10401.0
+40148,Demmin,Germany,DEU,,53.905,13.0439,Mecklenburg-Western Pomerania,10395.0
+40157,Neustadt,Germany,DEU,,50.85,9.1167,Hesse,10393.0
+40166,Nossen,Germany,DEU,,51.05,13.3,Saxony,10389.0
+40169,Kaufering,Germany,DEU,,48.0833,10.8833,Bavaria,10388.0
+40199,Altusried,Germany,DEU,,47.8,10.2167,Bavaria,10378.0
+40202,Steinfeld,Germany,DEU,,52.6,8.2167,Lower Saxony,10377.0
+40211,Neuenstadt am Kocher,Germany,DEU,,49.2333,9.3333,Baden-Württemberg,10372.0
+40217,Steinau an der Straße,Germany,DEU,,50.3167,9.4667,Hesse,10371.0
+40233,Klipphausen,Germany,DEU,,51.0833,13.5333,Saxony,10366.0
+40239,Augustdorf,Germany,DEU,,51.9,8.7333,North Rhine-Westphalia,10365.0
+40248,Nieder-Olm,Germany,DEU,,49.9083,8.2028,Rhineland-Palatinate,10362.0
+40254,Anröchte,Germany,DEU,,51.5667,8.3333,North Rhine-Westphalia,10359.0
+40313,Steinen,Germany,DEU,,47.6453,7.7403,Baden-Württemberg,10339.0
+40315,Aulendorf,Germany,DEU,,47.9542,9.6389,Baden-Württemberg,10338.0
+40350,Erlenbach am Main,Germany,DEU,,49.8039,9.1639,Bavaria,10326.0
+40363,Weilheim an der Teck,Germany,DEU,,48.615,9.5386,Baden-Württemberg,10324.0
+40375,Appenweier,Germany,DEU,,48.5397,7.98,Baden-Württemberg,10320.0
+40378,Höchst im Odenwald,Germany,DEU,,49.8,9.0,Hesse,10319.0
+40431,Großburgwedel,Germany,DEU,,52.4933,9.8586,Lower Saxony,10306.0
+40441,Merzenich,Germany,DEU,,50.8333,6.5333,North Rhine-Westphalia,10302.0
+40460,Bad Lauterberg,Germany,DEU,,51.6317,10.4706,Lower Saxony,10297.0
+40468,Kirchlinteln,Germany,DEU,,52.9428,9.3183,Lower Saxony,10295.0
+40474,Morsbach,Germany,DEU,,50.8667,7.7167,North Rhine-Westphalia,10293.0
+40504,Schalksmühle,Germany,DEU,,51.2167,7.5167,North Rhine-Westphalia,10284.0
+40506,Tangermünde,Germany,DEU,,52.5408,11.9689,Saxony-Anhalt,10283.0
+40524,Bogen,Germany,DEU,,48.9167,12.6833,Bavaria,10278.0
+40569,Goldenstedt,Germany,DEU,,52.7833,8.4167,Lower Saxony,10263.0
+40574,Lahstedt,Germany,DEU,,52.25,10.2167,Lower Saxony,10262.0
+40590,Querfurt,Germany,DEU,,51.3833,11.6,Saxony-Anhalt,10256.0
+40591,Blumberg,Germany,DEU,,47.8392,8.5342,Baden-Württemberg,10256.0
+40605,Kirchzarten,Germany,DEU,,47.965,7.9556,Baden-Württemberg,10252.0
+40608,Ostercappeln,Germany,DEU,,52.35,8.2333,Lower Saxony,10251.0
+40610,Goldbach,Germany,DEU,,49.9889,9.1864,Bavaria,10250.0
+40613,Süßen,Germany,DEU,,48.6797,9.7575,Baden-Württemberg,10248.0
+40643,Spelle,Germany,DEU,,52.3667,7.4667,Lower Saxony,10238.0
+40649,Königsbach-Stein,Germany,DEU,,48.9664,8.6089,Baden-Württemberg,10235.0
+40684,Betzdorf,Germany,DEU,,50.7856,7.8728,Rhineland-Palatinate,10223.0
+40759,Rehburg-Loccum,Germany,DEU,,52.4508,9.2078,Lower Saxony,10199.0
+40767,Beilngries,Germany,DEU,,49.0333,11.4667,Bavaria,10195.0
+40774,Niebüll,Germany,DEU,,54.7881,8.8296,Schleswig-Holstein,10192.0
+40807,Münchberg,Germany,DEU,,50.2,11.7667,Bavaria,10179.0
+40828,Birkenfeld,Germany,DEU,,48.8697,8.6361,Baden-Württemberg,10170.0
+40846,Mörlenbach,Germany,DEU,,49.5992,8.7347,Hesse,10166.0
+40856,Bleicherode,Germany,DEU,,51.4167,10.5667,Thuringia,10163.0
+40903,Werneck,Germany,DEU,,49.9833,10.1,Bavaria,10146.0
+40904,Lenggries,Germany,DEU,,47.6803,11.5739,Bavaria,10146.0
+40917,Visbek,Germany,DEU,,52.8366,8.3098,Lower Saxony,10141.0
+40960,Kirkel,Germany,DEU,,49.2833,7.2333,Saarland,10129.0
+40990,Altötting,Germany,DEU,minor,48.2267,12.6783,Bavaria,10119.0
+40992,Meuselwitz,Germany,DEU,,51.05,12.3,Thuringia,10117.0
+41032,Tutzing,Germany,DEU,,47.9089,11.2814,Bavaria,10106.0
+41100,Roßtal,Germany,DEU,,49.4,10.8833,Bavaria,10083.0
+41116,Weil im Schönbuch,Germany,DEU,,48.6214,9.0611,Baden-Württemberg,10078.0
+41142,Bieber,Germany,DEU,,50.6,8.5833,Hesse,10070.0
+41170,Willstätt,Germany,DEU,,48.5417,7.8964,Baden-Württemberg,10064.0
+41176,Heubach,Germany,DEU,,48.7881,9.9333,Baden-Württemberg,10063.0
+41180,Bobenheim-Roxheim,Germany,DEU,,49.5833,8.35,Rhineland-Palatinate,10062.0
+41210,Rüdesheim am Rhein,Germany,DEU,,49.9833,7.9306,Hesse,10054.0
+41229,Schotten,Germany,DEU,,50.5,9.1167,Hesse,10045.0
+41291,Kaldenkirchen,Germany,DEU,,51.3167,6.2833,North Rhine-Westphalia,10025.0
+41311,Trebbin,Germany,DEU,,52.2167,13.2,Brandenburg,10016.0
+41515,Wahlstedt,Germany,DEU,,53.95,10.2167,Schleswig-Holstein,9998.0
+41523,Bad Frankenhausen,Germany,DEU,,51.3558,11.1011,Thuringia,9995.0
+41524,Mengen,Germany,DEU,,48.0497,9.33,Baden-Württemberg,9995.0
+41557,Gudensberg,Germany,DEU,,51.1833,9.3667,Hesse,9983.0
+41582,Dettingen an der Erms,Germany,DEU,,48.53,9.3472,Baden-Württemberg,9977.0
+41588,Ainring,Germany,DEU,,47.8136,12.9428,Bavaria,9975.0
+41607,Ottendorf-Okrilla,Germany,DEU,,51.1792,13.8261,Saxony,9971.0
+41627,Altenholz,Germany,DEU,,54.4,10.1333,Schleswig-Holstein,9965.0
+41653,Friedrichsthal,Germany,DEU,,49.3256,7.0961,Saarland,9958.0
+41675,Aich,Germany,DEU,,48.6228,9.2372,Baden-Württemberg,9951.0
+41676,Bad König,Germany,DEU,,49.75,9.0167,Hesse,9951.0
+41677,Oelsnitz,Germany,DEU,,50.4167,12.1667,Saxony,9951.0
+41700,Bad Bevensen,Germany,DEU,,53.0792,10.5833,Lower Saxony,9943.0
+41726,Bad Ems,Germany,DEU,minor,50.3381,7.7106,Rhineland-Palatinate,9936.0
+41730,Marpingen,Germany,DEU,,49.45,7.05,Saarland,9935.0
+41734,Nohfelden,Germany,DEU,,49.5667,7.15,Saarland,9934.0
+41736,Waltenhofen,Germany,DEU,,47.6667,10.3,Bavaria,9933.0
+41751,Birkenau,Germany,DEU,,49.5625,8.7069,Hesse,9926.0
+41764,Oldenburg in Holstein,Germany,DEU,,54.3,10.8833,Schleswig-Holstein,9922.0
+41831,Maisenhausen,Germany,DEU,,50.0167,9.0,Bavaria,9897.0
+41837,Kümmersbruck,Germany,DEU,,49.4167,11.8833,Bavaria,9894.0
+41840,Pliezhausen,Germany,DEU,,48.5586,9.2058,Baden-Württemberg,9893.0
+41843,Schlitz,Germany,DEU,,50.6667,9.5667,Hesse,9892.0
+41848,Rödinghausen,Germany,DEU,,52.25,8.4667,North Rhine-Westphalia,9891.0
+41901,Kösching,Germany,DEU,,48.8167,11.5,Bavaria,9875.0
+41902,Heilsbronn,Germany,DEU,,49.3167,10.8,Bavaria,9875.0
+41966,Mittenwalde,Germany,DEU,,52.2667,13.5333,Brandenburg,9854.0
+41999,Bisingen,Germany,DEU,,48.3119,8.9178,Baden-Württemberg,9844.0
+42004,Merchweiler,Germany,DEU,,49.35,7.0333,Saarland,9843.0
+42049,Bockenem,Germany,DEU,,52.0117,10.1319,Lower Saxony,9830.0
+42059,Ilsfeld,Germany,DEU,,49.05,9.25,Baden-Württemberg,9826.0
+42094,Pasewalk,Germany,DEU,,53.5,14.0,Mecklenburg-Western Pomerania,9811.0
+42095,Vettweiß,Germany,DEU,,50.7389,6.5972,North Rhine-Westphalia,9811.0
+42101,Altlandsberg,Germany,DEU,,52.5667,13.7331,Brandenburg,9808.0
+42102,Köngen,Germany,DEU,,48.6819,9.3667,Baden-Württemberg,9808.0
+42108,Nordwalde,Germany,DEU,,52.0833,7.4833,North Rhine-Westphalia,9807.0
+42131,Laubach,Germany,DEU,,50.5333,8.99,Hesse,9801.0
+42139,Hönow,Germany,DEU,,52.5483,13.6378,Brandenburg,9800.0
+42149,Bad Liebenzell,Germany,DEU,,48.7742,8.7314,Baden-Württemberg,9795.0
+42163,Visselhövede,Germany,DEU,,52.9667,9.5833,Lower Saxony,9792.0
+42169,Magstadt,Germany,DEU,,48.7422,8.965,Baden-Württemberg,9789.0
+42243,Wölfersheim,Germany,DEU,,50.3975,8.8114,Hesse,9762.0
+42248,Plüderhausen,Germany,DEU,,48.795,9.6011,Baden-Württemberg,9760.0
+42271,Oberstdorf,Germany,DEU,,47.4167,10.2833,Bavaria,9753.0
+42317,Bad Breisig,Germany,DEU,,50.5092,7.2964,Rhineland-Palatinate,9740.0
+42324,Twist,Germany,DEU,,52.6167,7.0333,Lower Saxony,9738.0
+42331,Fürstenau,Germany,DEU,,52.5167,7.6667,Lower Saxony,9736.0
+42332,Osthofen,Germany,DEU,,49.7078,8.3289,Rhineland-Palatinate,9736.0
+42336,Everswinkel,Germany,DEU,,51.925,7.8478,North Rhine-Westphalia,9733.0
+42340,Giesen,Germany,DEU,,52.2,9.8833,Lower Saxony,9732.0
+42399,Oberhausen-Rheinhausen,Germany,DEU,,49.2606,8.485,Baden-Württemberg,9710.0
+42408,Worpswede,Germany,DEU,,53.2222,8.9278,Lower Saxony,9708.0
+42432,Schwaikheim,Germany,DEU,,48.8714,9.3531,Baden-Württemberg,9702.0
+42449,Dassel,Germany,DEU,,51.8033,9.6903,Lower Saxony,9698.0
+42457,Neu Bleckede,Germany,DEU,,53.3,10.7333,Lower Saxony,9694.0
+42502,Klötze,Germany,DEU,,52.6263,11.1616,Saxony-Anhalt,9680.0
+42509,Großröhrsdorf,Germany,DEU,,51.1444,14.0167,Saxony,9679.0
+42519,Brandis,Germany,DEU,,51.3347,12.6089,Saxony,9676.0
+42635,Veitshöchheim,Germany,DEU,,49.8328,9.8817,Bavaria,9634.0
+42681,Südlohn,Germany,DEU,,51.9436,6.8664,North Rhine-Westphalia,9616.0
+42695,Ohrdruf,Germany,DEU,,50.8281,10.7328,Thuringia,9613.0
+42701,Nersingen,Germany,DEU,,48.4289,10.1219,Bavaria,9611.0
+42737,Hemau,Germany,DEU,,49.0519,11.7828,Bavaria,9599.0
+42753,Höchberg,Germany,DEU,,49.7831,9.8817,Bavaria,9592.0
+42772,Grimmen,Germany,DEU,,54.11,13.0414,Mecklenburg-Western Pomerania,9586.0
+42775,Lüchow,Germany,DEU,minor,52.9667,11.15,Lower Saxony,9585.0
+42792,Osterburg,Germany,DEU,,52.7833,11.7667,Saxony-Anhalt,9580.0
+42807,Schulzendorf,Germany,DEU,,52.3667,13.5831,Brandenburg,9575.0
+42832,Miltenberg,Germany,DEU,minor,49.7039,9.2644,Bavaria,9566.0
+42883,Bad Gandersheim,Germany,DEU,,51.8719,10.0253,Lower Saxony,9552.0
+42927,Ehringshausen,Germany,DEU,,50.6,8.3833,Hesse,9540.0
+42931,Hohenhameln,Germany,DEU,,52.26,10.0664,Lower Saxony,9539.0
+42949,Wilkau-Haßlau,Germany,DEU,,50.6667,12.5167,Saxony,9534.0
+42992,Sebnitz,Germany,DEU,,50.9667,14.2833,Saxony,9522.0
+43029,Höhr-Grenzhausen,Germany,DEU,,50.435,7.6711,Rhineland-Palatinate,9509.0
+43051,Luckau,Germany,DEU,,51.85,13.7167,Brandenburg,9501.0
+43065,Großhansdorf,Germany,DEU,,53.6667,10.2667,Schleswig-Holstein,9498.0
+43117,Ilsenburg,Germany,DEU,,51.8667,10.6833,Saxony-Anhalt,9477.0
+43135,Wertingen,Germany,DEU,,48.5333,10.6667,Bavaria,9470.0
+43140,Molbergen,Germany,DEU,,52.8667,7.9333,Lower Saxony,9469.0
+43145,Kemberg,Germany,DEU,,51.7833,12.6333,Saxony-Anhalt,9467.0
+43152,Töging am Inn,Germany,DEU,,48.25,12.5667,Bavaria,9465.0
+43173,Runkel,Germany,DEU,,50.4053,8.155,Hesse,9457.0
+43174,Hohenmölsen,Germany,DEU,,51.1564,12.0981,Saxony-Anhalt,9457.0
+43190,Nittenau,Germany,DEU,,49.2,12.2667,Bavaria,9449.0
+43266,Teisendorf,Germany,DEU,,47.85,12.8167,Bavaria,9422.0
+43304,Aschheim,Germany,DEU,,48.1733,11.7178,Bavaria,9413.0
+43317,Kurort Steinbach-Hallenberg,Germany,DEU,,50.7006,10.5667,Thuringia,9408.0
+43396,Salzhemmendorf,Germany,DEU,,52.0667,9.5833,Lower Saxony,9378.0
+43417,Ichenhausen,Germany,DEU,,48.3667,10.3167,Bavaria,9372.0
+43429,Zorneding,Germany,DEU,,48.0833,11.8333,Bavaria,9369.0
+43430,Rehau,Germany,DEU,,50.25,12.0167,Bavaria,9369.0
+43431,Werneuchen,Germany,DEU,,52.6333,13.7333,Brandenburg,9369.0
+43438,Petersberg,Germany,DEU,,51.6,11.9667,Saxony-Anhalt,9366.0
+43446,Eisenberg,Germany,DEU,,49.5614,8.0725,Rhineland-Palatinate,9362.0
+43453,Obernkirchen,Germany,DEU,,52.2664,9.1178,Lower Saxony,9360.0
+43462,Wallerfangen,Germany,DEU,,49.3128,6.735,Saarland,9358.0
+43467,Schlangen,Germany,DEU,,51.8167,8.8331,North Rhine-Westphalia,9357.0
+43479,Adelsdorf,Germany,DEU,,49.7167,10.9,Bavaria,9352.0
+43480,Aidlingen,Germany,DEU,,48.6792,8.8969,Baden-Württemberg,9352.0
+43491,Kolkwitz,Germany,DEU,,51.75,14.25,Brandenburg,9348.0
+43497,Schaafheim,Germany,DEU,,49.9167,9.0167,Hesse,9346.0
+43517,Wehrheim,Germany,DEU,,50.3,8.5667,Hesse,9340.0
+43540,Zwenkau,Germany,DEU,,51.2175,12.3242,Saxony,9332.0
+43549,Heiligenhafen,Germany,DEU,,54.3739,10.9797,Schleswig-Holstein,9330.0
+43562,Bruchhausen-Vilsen,Germany,DEU,,52.8333,9.0,Lower Saxony,9325.0
+43596,Ehningen,Germany,DEU,,48.6589,8.9403,Baden-Württemberg,9315.0
+43615,Dornstadt,Germany,DEU,,48.4692,9.9417,Baden-Württemberg,9309.0
+43619,Torgelow,Germany,DEU,,53.6167,14.0,Mecklenburg-Western Pomerania,9307.0
+43624,Pfedelbach,Germany,DEU,,49.1833,9.5,Baden-Württemberg,9306.0
+43640,Ilvesheim,Germany,DEU,,49.4725,8.5675,Baden-Württemberg,9299.0
+43669,Kißlegg,Germany,DEU,,47.79,9.8842,Baden-Württemberg,9290.0
+43674,Tecklenburg,Germany,DEU,,52.2194,7.8125,North Rhine-Westphalia,9288.0
+43686,Bad Liebenwerda,Germany,DEU,,51.5167,13.4,Brandenburg,9284.0
+43697,Frickenhausen,Germany,DEU,,48.5928,9.3611,Baden-Württemberg,9279.0
+43706,Elsenfeld,Germany,DEU,,49.85,9.1667,Bavaria,9275.0
+43738,Freystadt,Germany,DEU,,49.2,11.3167,Bavaria,9265.0
+43749,Ochsenhausen,Germany,DEU,,48.0722,9.9481,Baden-Württemberg,9261.0
+43760,Weißenthurm,Germany,DEU,,50.4144,7.4606,Rhineland-Palatinate,9259.0
+43778,Borgholzhausen,Germany,DEU,,52.1,8.3,North Rhine-Westphalia,9253.0
+43783,Gomaringen,Germany,DEU,,48.452,9.1,Baden-Württemberg,9252.0
+43795,Niesky,Germany,DEU,,51.3,14.8167,Saxony,9249.0
+43816,Wunsiedel,Germany,DEU,minor,50.0167,12.0167,Bavaria,9243.0
+43833,Barleben,Germany,DEU,,52.2,11.6333,Saxony-Anhalt,9238.0
+43834,Rain,Germany,DEU,,48.6833,10.9167,Bavaria,9238.0
+43856,Dielheim,Germany,DEU,,49.2825,8.7347,Baden-Württemberg,9232.0
+43859,Rethen,Germany,DEU,,52.2861,9.825,Lower Saxony,9231.0
+43861,Neuenkirchen,Germany,DEU,,52.5167,8.0667,Lower Saxony,9230.0
+43897,Bad Laer,Germany,DEU,,52.1031,8.0892,Lower Saxony,9221.0
+43924,Altenbeken,Germany,DEU,,51.7667,8.9333,North Rhine-Westphalia,9212.0
+43925,Kandel,Germany,DEU,,49.0833,8.2,Rhineland-Palatinate,9212.0
+43947,Gnarrenburg,Germany,DEU,,53.3864,9.005,Lower Saxony,9205.0
+43951,Elsfleth,Germany,DEU,,53.2333,8.4667,Lower Saxony,9204.0
+43963,Saßnitz,Germany,DEU,,54.5164,13.6411,Mecklenburg-Western Pomerania,9199.0
+44026,Alsbach-Hähnlein,Germany,DEU,,49.7333,8.6,Hesse,9178.0
+44036,Elze,Germany,DEU,,52.1167,9.7333,Lower Saxony,9176.0
+44058,Trittau,Germany,DEU,,53.6167,10.4,Schleswig-Holstein,9170.0
+44059,Biblis,Germany,DEU,,49.7,8.4667,Hesse,9170.0
+44060,Dörverden,Germany,DEU,,52.85,9.2333,Lower Saxony,9170.0
+44078,Waldfeucht,Germany,DEU,,51.0714,5.9831,North Rhine-Westphalia,9164.0
+44108,Zörbig,Germany,DEU,,51.6167,12.1167,Saxony-Anhalt,9153.0
+44112,Grünheide,Germany,DEU,,52.4167,13.8167,Brandenburg,9152.0
+44113,Kyritz,Germany,DEU,,52.95,12.4,Brandenburg,9152.0
+44118,Vallendar,Germany,DEU,,50.3971,7.622,Rhineland-Palatinate,9151.0
+44165,Laufenburg (Baden),Germany,DEU,,47.5656,8.0647,Baden-Württemberg,9136.0
+44190,Mendig,Germany,DEU,,50.3744,7.2808,Rhineland-Palatinate,9128.0
+44222,Bad Schussenried,Germany,DEU,,48.0067,9.6586,Baden-Württemberg,9118.0
+44255,Reinfeld,Germany,DEU,,53.8333,10.4833,Schleswig-Holstein,9110.0
+44292,Nalbach,Germany,DEU,,49.3667,6.7667,Saarland,9100.0
+44310,Urbach,Germany,DEU,,48.8133,9.5789,Baden-Württemberg,9095.0
+44312,Fehrbellin,Germany,DEU,,52.7997,12.7667,Brandenburg,9094.0
+44376,Mainaschaff,Germany,DEU,,49.9833,9.0833,Bavaria,9075.0
+44381,Großbeeren,Germany,DEU,,52.3544,13.3061,Brandenburg,9073.0
+44408,Auerbach,Germany,DEU,,49.6833,11.6167,Bavaria,9066.0
+44459,Zwiesel,Germany,DEU,,49.0167,13.2333,Bavaria,9045.0
+44461,Berching,Germany,DEU,,49.1,11.4333,Bavaria,9044.0
+44468,Breckerfeld,Germany,DEU,,51.2667,7.4667,North Rhine-Westphalia,9041.0
+44490,Bockhorn,Germany,DEU,,53.4,8.0167,Lower Saxony,9035.0
+44495,Waldheim,Germany,DEU,,51.0667,13.0167,Saxony,9033.0
+44499,Westerland,Germany,DEU,,54.91,8.3075,Schleswig-Holstein,9032.0
+44500,Doberlug-Kirchhain,Germany,DEU,,51.6167,13.5667,Brandenburg,9032.0
+44501,Furth im Wald,Germany,DEU,,49.3097,12.84,Bavaria,9032.0
+44517,Pullach im Isartal,Germany,DEU,,48.05,11.5167,Bavaria,9026.0
+44518,Hemmoor,Germany,DEU,,53.7025,9.1394,Lower Saxony,9026.0
+44546,Neustadt,Germany,DEU,,50.7333,11.75,Thuringia,9017.0
+44568,Gerstungen,Germany,DEU,,50.9625,10.0597,Thuringia,9011.0
+44571,Brand-Erbisdorf,Germany,DEU,,50.8689,13.3219,Saxony,9010.0
+44584,Furtwangen im Schwarzwald,Germany,DEU,,48.0503,8.2092,Baden-Württemberg,9004.0
+44683,Neuötting,Germany,DEU,,48.2167,12.6833,Bavaria,8997.0
+44686,Zschopau,Germany,DEU,,50.75,13.0667,Saxony,8996.0
+44703,Perl,Germany,DEU,,49.4667,6.3667,Saarland,8992.0
+44723,Wenzenbach,Germany,DEU,,49.0747,12.1944,Bavaria,8987.0
+44741,Hilzingen,Germany,DEU,,47.7653,8.7844,Baden-Württemberg,8982.0
+44792,Neuried,Germany,DEU,,48.0933,11.4658,Bavaria,8967.0
+44800,Ortenberg,Germany,DEU,,50.3558,9.0553,Hesse,8962.0
+44824,Fuldabrück,Germany,DEU,,51.4,9.4667,Hesse,8953.0
+44840,Groß Kreutz,Germany,DEU,,52.4,12.7833,Brandenburg,8948.0
+44872,Plön,Germany,DEU,minor,54.1622,10.4214,Schleswig-Holstein,8941.0
+44886,Bad Lauchstädt,Germany,DEU,,51.3667,11.8333,Saxony-Anhalt,8939.0
+44901,Bestensee,Germany,DEU,,52.25,13.65,Brandenburg,8932.0
+44911,Hürtgenwald,Germany,DEU,,50.71,6.3744,North Rhine-Westphalia,8929.0
+44916,Neuhaus am Rennweg,Germany,DEU,,50.5167,11.15,Thuringia,8927.0
+44941,Eslohe,Germany,DEU,,51.25,8.1667,North Rhine-Westphalia,8920.0
+44955,Weilmünster,Germany,DEU,,50.4333,8.3667,Hesse,8916.0
+45006,Florstadt,Germany,DEU,,50.3158,8.8631,Hesse,8901.0
+45026,Bösel,Germany,DEU,,53.0058,7.9542,Lower Saxony,8895.0
+45033,Oststeinbek,Germany,DEU,,53.5442,10.1664,Hamburg,8889.0
+45079,Hallstadt,Germany,DEU,,49.9333,10.8833,Bavaria,8876.0
+45094,Hohenbrunn,Germany,DEU,,48.05,11.7,Bavaria,8871.0
+45117,Schleiz,Germany,DEU,minor,50.5833,11.8167,Thuringia,8866.0
+45136,Kusterdingen,Germany,DEU,,48.5312,9.1484,Baden-Württemberg,8863.0
+45163,Bellheim,Germany,DEU,,49.1981,8.2792,Rhineland-Palatinate,8855.0
+45176,Bersenbrück,Germany,DEU,,52.5333,7.9167,Lower Saxony,8850.0
+45202,Volkach,Germany,DEU,,49.8667,10.2167,Bavaria,8843.0
+45214,Naunhof,Germany,DEU,,51.2778,12.5883,Saxony,8839.0
+45230,Steinheim am Albuch,Germany,DEU,,48.6922,10.0642,Baden-Württemberg,8834.0
+45247,Heek,Germany,DEU,,52.1167,7.0997,North Rhine-Westphalia,8830.0
+45252,Kressbronn am Bodensee,Germany,DEU,,47.5958,9.6,Baden-Württemberg,8829.0
+45259,Memmelsdorf,Germany,DEU,,49.9328,10.9533,Bavaria,8827.0
+45317,Mühlhausen,Germany,DEU,,49.2475,8.7239,Baden-Württemberg,8808.0
+45340,Obernburg am Main,Germany,DEU,,49.84,9.1414,Bavaria,8801.0
+45364,Ballenstedt,Germany,DEU,,51.72,11.2375,Saxony-Anhalt,8794.0
+45409,Lienen,Germany,DEU,,52.1461,7.9739,North Rhine-Westphalia,8783.0
+45423,Waldenbuch,Germany,DEU,,48.6372,9.1317,Baden-Württemberg,8779.0
+45428,Garching an der Alz,Germany,DEU,,48.1167,12.5833,Bavaria,8778.0
+45431,Barth,Germany,DEU,,54.3667,12.7167,Mecklenburg-Western Pomerania,8777.0
+45448,Efringen-Kirchen,Germany,DEU,,47.6556,7.5658,Baden-Württemberg,8773.0
+45474,Großenlüder,Germany,DEU,,50.5833,9.5333,Hesse,8765.0
+45490,Borgentreich,Germany,DEU,,51.5667,9.25,North Rhine-Westphalia,8761.0
+45499,Ottobeuren,Germany,DEU,,47.9414,10.2994,Bavaria,8758.0
+45506,Vohburg an der Donau,Germany,DEU,,48.7667,11.6167,Bavaria,8756.0
+45540,Sonsbeck,Germany,DEU,,51.6089,6.3769,North Rhine-Westphalia,8747.0
+45556,Biederitz,Germany,DEU,,52.1608,11.7178,Saxony-Anhalt,8744.0
+45584,Meßkirch,Germany,DEU,,47.9928,9.1125,Baden-Württemberg,8737.0
+45590,Rauenberg,Germany,DEU,,49.2678,8.7036,Baden-Württemberg,8736.0
+45604,Bad Bergzabern,Germany,DEU,,49.1028,7.9991,Rhineland-Palatinate,8732.0
+45605,Löwenberg,Germany,DEU,,52.8833,13.15,Brandenburg,8732.0
+45608,Herzberg,Germany,DEU,minor,51.6833,13.2333,Brandenburg,8731.0
+45610,Obertraubling,Germany,DEU,,48.9658,12.1669,Bavaria,8729.0
+45617,Roetgen,Germany,DEU,,50.65,6.2,North Rhine-Westphalia,8727.0
+45696,Richterich,Germany,DEU,,50.8086,6.0625,North Rhine-Westphalia,8701.0
+45736,Wietze,Germany,DEU,,52.65,9.8333,Lower Saxony,8691.0
+45739,Ergoldsbach,Germany,DEU,,48.6833,12.2,Bavaria,8690.0
+45744,Heikendorf,Germany,DEU,,54.3722,10.2081,Schleswig-Holstein,8688.0
+45755,Titz,Germany,DEU,,51.0061,6.4242,North Rhine-Westphalia,8686.0
+45799,Flieden,Germany,DEU,,50.4167,9.5667,Hesse,8673.0
+45815,Nörten-Hardenberg,Germany,DEU,,51.6167,9.9333,Lower Saxony,8669.0
+45825,Meine,Germany,DEU,,52.3833,10.5333,Lower Saxony,8667.0
+45860,Tirschenreuth,Germany,DEU,minor,49.8833,12.3333,Bavaria,8655.0
+45873,Untergruppenbach,Germany,DEU,,49.0833,9.2667,Baden-Württemberg,8651.0
+45893,Timmendorfer Strand,Germany,DEU,,53.9944,10.7825,Schleswig-Holstein,8646.0
+45915,Budenheim,Germany,DEU,,50.0167,8.1667,Rhineland-Palatinate,8639.0
+45922,Niederwerrn,Germany,DEU,,50.0633,10.1728,Bavaria,8636.0
+45969,Beutelsbach,Germany,DEU,,48.8,9.3833,Baden-Württemberg,8622.0
+45970,Sande,Germany,DEU,,53.4833,8.0,Lower Saxony,8622.0
+45974,Nierstein,Germany,DEU,,49.8694,8.3375,Rhineland-Palatinate,8621.0
+46009,Barntrup,Germany,DEU,,51.9831,9.1167,North Rhine-Westphalia,8611.0
+46017,Kappeln,Germany,DEU,,54.6614,9.9311,Schleswig-Holstein,8607.0
+46040,Schwarzenbruck,Germany,DEU,,49.35,11.2333,Bavaria,8600.0
+46047,Ueckermünde,Germany,DEU,,53.7389,14.0444,Mecklenburg-Western Pomerania,8598.0
+46049,Bad Rothenfelde,Germany,DEU,,52.1117,8.1606,Lower Saxony,8597.0
+46070,Haibach,Germany,DEU,,49.9675,9.1969,Bavaria,8592.0
+46098,Viechtach,Germany,DEU,,49.0792,12.8847,Bavaria,8585.0
+46106,Heroldsberg,Germany,DEU,,49.5333,11.15,Bavaria,8582.0
+46219,Staufenberg,Germany,DEU,,50.6667,8.7167,Hesse,8551.0
+46243,Wissen,Germany,DEU,,50.7825,7.735,Rhineland-Palatinate,8543.0
+46244,Siegsdorf,Germany,DEU,,47.8167,12.65,Bavaria,8543.0
+46247,Bad Endorf,Germany,DEU,,47.9,12.3,Bavaria,8542.0
+46248,Mücheln,Germany,DEU,,51.3,11.8,Saxony-Anhalt,8542.0
+46263,Kandern,Germany,DEU,,47.7167,7.6667,Baden-Württemberg,8537.0
+46281,Rottenburg an der Laaber,Germany,DEU,,48.7019,12.0272,Bavaria,8533.0
+46299,Nonnweiler,Germany,DEU,,49.6167,6.95,Saarland,8526.0
+46308,Möckmühl,Germany,DEU,,49.3167,9.35,Baden-Württemberg,8524.0
+46321,Woltersdorf,Germany,DEU,,52.4478,13.7572,Brandenburg,8520.0
+46334,Neuenbürg,Germany,DEU,,48.8461,8.5889,Baden-Württemberg,8518.0
+46337,Reichelsheim,Germany,DEU,,49.7167,8.85,Hesse,8517.0
+46338,Möser,Germany,DEU,,52.2167,11.8,Saxony-Anhalt,8517.0
+46341,Schnaittach,Germany,DEU,,49.5592,11.3431,Bavaria,8516.0
+46351,Uedem,Germany,DEU,,51.6675,6.275,North Rhine-Westphalia,8513.0
+46389,Staufen im Breisgau,Germany,DEU,,47.8814,7.7314,Baden-Württemberg,8503.0
+47816,Erfurt,Germany,DEU,admin,50.9781,11.0289,Thuringia,
+2,Delhi,India,IND,admin,28.61,77.23,Delhi,32226000.0
+3,Guangzhou,China,CHN,admin,23.13,113.26,Guangdong,26940000.0
+4,Mumbai,India,IND,admin,19.0761,72.8775,Mahārāshtra,24973000.0
+13560,New Berlin,United States,USA,,42.9726,-88.1291,Wisconsin,40387.0
+43097,Berlin,United States,USA,,44.4869,-71.2599,New Hampshire,9485.0

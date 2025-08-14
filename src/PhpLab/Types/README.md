@@ -1,6 +1,12 @@
-# <kbd>SchrodtSven\Types</kbd>
+# <kbd>SchrodtSven\PHPLab\Types</kbd>
 
 Wrappers for PHP native data types, offering a fluent OOP interface
+
+# Compound types
+
+- ListClass  (0-based, numeric consecutive <kbd>int</kbd> indexed arrays)
+- DictClass 
+- ArrayClass
 
 ## Examples 
 

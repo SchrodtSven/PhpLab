@@ -23,8 +23,9 @@ use SchrodtSven\PhpLab\Types\Dry\ArrayCallbackTrait;
 use SchrodtSven\PhpLab\Types\Dry\ArraySortTrait;
 use SchrodtSven\PhpLab\Types\Dry\IteratorTrait;
 use SchrodtSven\PhpLab\Types\Dry\ArraySliceTrait;
+use SchrodtSven\PhpLab\Types\Operational\ArrayFilter;
 
-class ListClass implements \ArrayAccess, \Countable, StackInterface, \Iterator
+class ListClass implements \ArrayAccess, \Countable, StackInterface, \Iterator, \JsonSerializable
 {
     use ArrayAccessTrait;
     use StackOperationTrait;
@@ -69,5 +70,20 @@ class ListClass implements \ArrayAccess, \Countable, StackInterface, \Iterator
         return ($reIdx) 
             ? new ListClass(array_values($tmp))
             : new ArrayClass($tmp);
+    }
+
+    public function getFilter(): ArrayFilter
+    {
+        return new ArrayFilter($this);
+    }
+
+    public function jsonSerialize(): mixed
+    {
+        return json_encode($this->dta);
+    }
+
+    public function col(string $col): self
+    {
+        return new self(array_column($this->dta, $col));
     }
 }

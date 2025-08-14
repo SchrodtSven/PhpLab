@@ -16,15 +16,12 @@ namespace SchrodtSven\PhpLab\Types;
 use SchrodtSven\PhpLab\Types\ListClass;
 use SchrodtSven\PhpLab\Types\StringClass;
 
-class DictClass extends ListClass implements  \JsonSerializable
+class DictClass extends ListClass 
 {
    
     public function __construct(protected array $dta = []) 
     {}
 
     
-    public function jsonSerialize(): mixed
-    {
-        return json_encode($this->dta);
-    }
+    
 }

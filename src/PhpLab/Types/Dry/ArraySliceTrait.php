@@ -1,6 +1,9 @@
 <?php
 /**
- *  Trait managing array slices
+ *  Trait managing array slices 
+ * 
+ * - vertical (“lines”) and 
+ * - horizontal (“columns”)
  * 
  * @author Sven Schrodt<sven@schrodt.club>
  * @link https://github.com/SchrodtSven/PhpLab
@@ -35,7 +38,7 @@ trait ArraySliceTrait
 
     public function tail(int $number=ListClass::SLC_DFT)
     {
-        return $this->slice($number*-1);
+        return $this->slice($number * -1);
     }
 
     // * @FIXME implement support muliple columns

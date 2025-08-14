@@ -20,7 +20,7 @@ use Traversable;
 class ArrayFilter
 {
     protected string $criterion;
-
+    protected ListClass $origin;
 
     public const string EQ = '=='; // equals
     public const string NE = '!='; // not equals
@@ -48,7 +48,12 @@ class ArrayFilter
 
 
     protected mixed $vl;
-    public function __construct(protected ListClass $dta) {}
+
+    public function __construct(protected ListClass $dta) 
+    {
+        // Cloning dta in origin @see self::reset()
+        $this->origin = clone $this->dta;
+    }
 
     // @FIXME: multiple column 
     public function by(string $crit): self
@@ -125,10 +130,7 @@ class ArrayFilter
     public function generic(mixed $value, string $op): self
     {
         $this->dta = $this->dta->filter(function ($v, $k) use ($value, $op) {
-            if ($this->operate($v[$this->criterion], $op, $value))
-                return true;
-            else
-                return false;
+            return $this->operate($v[$this->criterion], $op, $value);
         });
 
         return $this;
@@ -174,5 +176,11 @@ class ArrayFilter
     public function getFiltered(): ListClass
     {
         return $this->dta;
+    }
+
+    public function reset(): void
+    {
+        unset($this->dta);
+        $this->dta = clone $this->origin;
     }
 }

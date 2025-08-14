@@ -11,28 +11,6 @@ use SchrodtSven\PhpLab\Data\Mocky;
 $fn = 'src/PhpLab/Data/non-php/mock_detail.json';
 $lst = ListClass::fromJsonFile($fn);
 $filter = $lst->getFilter();
-#print_r($lst->tail());
-
-#print_r($filter->by('id')->between(991, 989));
-
-#print_r($filter->by('gender')->nin(['Male', 'Female']));
-
-# ->by('last_name')->ends('er')
-#print_r($filter->by('city')->eq('Berlin')->by('first_name')->in(['Felita', 'Harland'])->getFiltered());
-
-
-// print_r(
-//     $filter->by('last_name')
-//                 ->ends('ler')
-//             ->getFiltered()
-//             ->tail()
-//             ->raw()
-// );
-
-
-print_r( 
-    $filter->by('mvie_gnr')
-                    ->contains('Romance')
-                    ->getFiltered()->col('mvie_gnr')
-                    ->raw()
-);
+$foo = $filter->min('member_since');
+$bar = $filter->max('member_since');
+print_r([$foo, $bar]);

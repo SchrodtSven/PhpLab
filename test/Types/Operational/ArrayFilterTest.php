@@ -25,6 +25,7 @@ use PHPUnit\Framework\TestCase;
 use SchrodtSven\PhpLab\Types\ListClass;
 use SchrodtSven\PhpLab\Types\ArrayClass;
 use SchrodtSven\PhpLab\Types\Operational\ArrayFilter;
+
 #[CoversClass(ArrayFilter::class)]
 final class ArrayFilterTest extends TestCase
 {
@@ -32,9 +33,9 @@ final class ArrayFilterTest extends TestCase
     private ListClass $lst;
     private ArrayFilter $filter;
 
-    public function setUp():void
+    public function setUp(): void
     {
-        
+
         $this->lst = ListClass::fromJsonFile($this->fn);
         $this->filter = $this->lst->getFilter();
     }
@@ -49,12 +50,12 @@ final class ArrayFilterTest extends TestCase
     public function testIfUniqWorxProperly(): void
     {
 
-        $countries = ['France', 'Japan','Germany','United Kingdom'];
+        $countries = ['France', 'Japan', 'Germany', 'United Kingdom'];
 
         $uniq = $this->filter->by('country')->uniq();
 
         $this->assertSame(count($countries), $uniq->count());
-        foreach($uniq as $itm) {
+        foreach ($uniq as $itm) {
             $this->assertTrue(in_array($itm, $countries));
         }
     }
@@ -63,16 +64,47 @@ final class ArrayFilterTest extends TestCase
     {
         $ids = $this->filter->by('id')->between(991, 989);
         $this->assertSame(3, $ids->getFiltered()->count());
+        
+        $this->filter->reset();
+        $min = mt_rand(0, 500);
+        $max = mt_rand($min+5, 1000);
+        $newIds = $this->filter->by('id')->between($min, $max)->getFiltered()->col('id')->raw();
+        for ($i = 0; $i < count($newIds); $i++) {
+                $curr = $newIds[$i];
+                
+                $this->assertTrue($curr >= $min && $curr <=$max);
+            }
     }
 
     public function testIfContainsWorxProperly(): void
     {
-        $look4 = 'Romance';
-        $romantix = $this->filter->by('mvie_gnr')->contains($look4)->getFiltered()->col('mvie_gnr')->raw();
-        for($i=0;$i<count($romantix);$i++) {
-            $this->assertTrue(str_contains($romantix[$i], $look4));
+
+        $genre = ['Crime', 'Romance', 'Drama', 'Adventure', 'Comedy', 'Fantasy', 'Musical'];
+        foreach ($genre as $look4) {
+            $this->filter->reset();
+            $curr = $this->filter->by('mvie_gnr')->contains($look4)->getFiltered()->col('mvie_gnr')->raw();
+            for ($i = 0; $i < count($curr); $i++) {
+                $this->assertTrue(str_contains($curr[$i], $look4));
+            }
         }
+    }
 
-    }   
+    public function testReset(): void
+    {
+        $this->filter->reset();
+        $this->assertTrue(count($this->filter->getFiltered()) == 1000);
+        $this->filter->by('gender')->eq('Female')->getFiltered();
+        $this->assertTrue(count($this->filter->getFiltered()) < 1000);
+        $this->filter->reset();
+        $this->assertTrue(count($this->filter->getFiltered()) == 1000);
+    }
 
+    public function testAggregates(): void
+    {
+        $this->filter->reset();
+        $this->assertTrue(str_starts_with($this->filter->min('member_since'), '1923'));
+        $this->assertTrue(str_starts_with($this->filter->max('member_since'), '2025'));
+    }
+
+    # member_since
 }

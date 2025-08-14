@@ -2,7 +2,7 @@
 
 ## ArrayFilter
 
-Used for arrays with same “columns” in each “line” - to be used in future Data structure like Pandas DF
+Used for arrays with same “columns” in each “line” - to be used in future data structure (like Pandas' DF)
 
 ### API 
 
@@ -30,7 +30,7 @@ Used for arrays with same “columns” in each “line” - to be used in futur
     public function generic(mixed $value, string $op): ListClass {}
     public function min(string $col): mixed {}
     public function max(string $col): mixed {}
-    public function uniq(string $col): ListClass {}
+    public function uniq(): ListClass {}
 ```
 
 ### Example usage
@@ -125,7 +125,6 @@ Array
             [email] => cculcheth12@w3.org
             [gender] => Female
             [ip_address] => 244.109.74.156
-            [ds_dta] => error: undefined method `id' for nil:NilClass
             [member_since] => 1950-07-07
             [mob_since] => 2017
             [city] => Berlin
@@ -144,7 +143,6 @@ Array
             [email] => frestill3i@amazon.co.uk
             [gender] => Female
             [ip_address] => 135.159.140.114
-            [ds_dta] => error: undefined method `id' for nil:NilClass
             [member_since] => 1981-07-23
             [mob_since] => 2018
             [city] => Berlin
@@ -163,7 +161,6 @@ Array
             [email] => chowroydq2@ox.ac.uk
             [gender] => Female
             [ip_address] => 234.4.77.145
-            [ds_dta] => error: undefined method `id' for nil:NilClass
             [member_since] => 1998-08-05
             [mob_since] => 2016
             [city] => Berlin

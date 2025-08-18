@@ -63,44 +63,52 @@ $csv = new CsvManager($fn);
 $lst = $csv->asList();
 
 $filter = new ArrayFilter($lst);
+$filtered = $filter->by('city')->contains('Berlin');
 
-$filtered = $filter->by('city')->eq('Berlin');
-
-print_r($filtered->raw());
-
-```
+print_r($filtered->getFiltered()->raw());
 
 ```
-SchrodtSven\PhpLab\Types\ListClass Object
+
+```
+Array
 (
-    [dta:protected] => Array
+    [0] => Array
         (
-            [0] => Array
-                (
-                    [idx] => 134
-                    [city] => Berlin
-                    [country] => Germany
-                    [iso3] => DEU
-                    [capital] => primary
-                    [lat] => 52.52
-                    [lng] => 13.405
-                    [admin_name] => Berlin
-                    [population] => 4890363.0
-                )
+            [idx] => 134
+            [city] => Berlin
+            [country] => Germany
+            [iso3] => DEU
+            [capital] => primary
+            [lat] => 52.52
+            [lng] => 13.405
+            [admin_name] => Berlin
+            [population] => 4890363.0
+        )
 
-            [1] => Array
-                (
-                    [idx] => 43097
-                    [city] => Berlin
-                    [country] => United States
-                    [iso3] => USA
-                    [capital] => 
-                    [lat] => 44.4869
-                    [lng] => -71.2599
-                    [admin_name] => New Hampshire
-                    [population] => 9485.0
-                )
+    [1] => Array
+        (
+            [idx] => 13560
+            [city] => New Berlin
+            [country] => United States
+            [iso3] => USA
+            [capital] => 
+            [lat] => 42.9726
+            [lng] => -88.1291
+            [admin_name] => Wisconsin
+            [population] => 40387.0
+        )
 
+    [2] => Array
+        (
+            [idx] => 43097
+            [city] => Berlin
+            [country] => United States
+            [iso3] => USA
+            [capital] => 
+            [lat] => 44.4869
+            [lng] => -71.2599
+            [admin_name] => New Hampshire
+            [population] => 9485.0
         )
 
 )

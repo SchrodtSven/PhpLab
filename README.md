@@ -100,17 +100,17 @@ Used as temporary container for testing implementations in modern <kbd>PHP</kbd>
 </code></pre>
 ### Lines of code
 <pre><code>
-github.com/AlDanial/cloc v 2.02  T=0.33 s (170.4 files/s, 397640.7 lines/s)
+github.com/AlDanial/cloc v 2.02  T=0.42 s (134.1 files/s, 312982.7 lines/s)
 -------------------------------------------------------------------------------
 Language                     files          blank        comment           code
 -------------------------------------------------------------------------------
-PHP                             47           4093          35913          90175
-Markdown                         6             89              0            345
+PHP                             47           4100          35913          90182
+Markdown                         6             88              0            354
 XML                              1              2              0             28
 Bourne Shell                     1              7              6             23
 Text                             1              0              0              2
 -------------------------------------------------------------------------------
-SUM:                            56           4191          35919          90573
+SUM:                            56           4197          35919          90589
 -------------------------------------------------------------------------------
 </code></pre>
 ### Unit testing
@@ -144,8 +144,8 @@ Configuration: /Users/svenschrodt/projects/PhpLab/phpunit.xml
 ............................................................. 1342 / 1400 ( 95%)
 ..........................................................    1400 / 1400 (100%)
 
-Time: 00:00.519, Memory: 35.81 MB
+Time: 00:00.522, Memory: 35.81 MB
 
-OK (1400 tests, 7092 assertions)
+OK (1400 tests, 7432 assertions)
 </code>
 </pre>

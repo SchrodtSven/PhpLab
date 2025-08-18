@@ -15,6 +15,7 @@ use SchrodtSven\PhpLab\Snaky\Kernel\Accessor;
 $foo = ['::2',
         '1:2',
         '1:2:2',
+        '2:5:2',
     //    ['foo', 'bar']
 ];
 foreach($foo as $itm) {
@@ -29,3 +30,16 @@ foreach($foo as $itm) {
 
 
 #var_dump(str_contains('1:2', ':'));
+
+
+
+$fn = 'src/PhpLab/Data/non-php/city_country_geo_pop.csv';
+$csv = new CsvManager($fn);
+
+$lst = $csv->asList();
+
+$filter = new ArrayFilter($lst);
+
+$filtered = $filter->by('city')->contains('Berlin');
+
+print_r($filtered->getFiltered()->raw());

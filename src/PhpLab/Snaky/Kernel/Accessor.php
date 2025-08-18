@@ -56,6 +56,7 @@ class Accessor implements \Stringable
     public function parseColumns()
     {
        //$this->columns = $accessor;
+       //@FIXME
     }
 
     public function parseScalar()

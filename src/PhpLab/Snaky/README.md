@@ -16,6 +16,7 @@ with($dataStructure)->do(function($item) {
 ```
 ## Subnamespaces 
 
-### # SchrodtSven\PhpLab\Snaky\Ctx
+
+### SchrodtSven\PhpLab\Snaky\Ctx
 
 Behaviour similar to <kbd>contextlib.contextmanager</kbd>

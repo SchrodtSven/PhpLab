@@ -2,6 +2,7 @@
 
 We want:
 
+
 #### Vertical slicing (“rows”)
 - [ ] access operators for slicing; stepping like
   - `[2:]` (third element to end)

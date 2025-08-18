@@ -3,7 +3,7 @@
 <time datetime="2025-08-18">2025-08-18</time>
 
 - Adding functionality to subnamespace ```Snaky```(python-, pandas-like behaviour)
-- Starting implementation (CtxManager, Accessor <kbd>[]<kbd> parsing)
+- Starting implementation (CtxManager, Accessor e.g:<kbd>['::2]</kbd> parsing)
 - Adding tests
 
 <time datetime="2025-08-15">2025-08-15</time>

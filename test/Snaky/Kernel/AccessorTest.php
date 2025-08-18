@@ -28,15 +28,15 @@ final class AccessorTest extends TestCase
     }
 
     #[DataProvider('accessorProvider')]
-     public function testAccessorisVertical(string $accessor, bool $default, bool $isVert, array $stEnSt): void
+    public function testAccessorisVertical(string $accessor, bool $default, bool $isVert, array $stEnSt): void
     {
         $acc = new Accessor($accessor);
         $this->assertSame($acc->getIsVertical(), $isVert);
     }
 
 
-       #[DataProvider('accessorProvider')]
-     public function testStartEndStep(string $accessor, bool $default, bool $isVert, array $stEnSt): void
+    #[DataProvider('accessorProvider')]
+    public function testStartEndStep(string $accessor, bool $default, bool $isVert, array $stEnSt): void
     {
         $acc = new Accessor($accessor);
         $this->assertSame($acc->getSlcEnd(), $stEnSt['end']);
@@ -46,12 +46,12 @@ final class AccessorTest extends TestCase
     public static function accessorProvider(): array
     {
         return [
-            'data set 1' => [':1:2', false, true, ['start'=>0,'end'=>1, 'step'=>2]],
-            'data set 2' => ['id', true, true, ['start'=>null,'end'=>null, 'step'=>null]],
-            'data set 3' => ['::3', false, true, ['start'=>0,'end'=>\PHP_INT_MAX, 'step'=>3]],
-            'data set 4' => ['::', false, true, ['start'=>0,'end'=>\PHP_INT_MAX, 'step'=>1]]
+            'data set 1' => [':1:2', false, true, ['start' => 0, 'end' => 1, 'step' => 2]],
+            'data set 2' => ['id', true, true, ['start' => null, 'end' => null, 'step' => null]],
+            'data set 3' => ['::3', false, true, ['start' => 0, 'end' => \PHP_INT_MAX, 'step' => 3]],
+            'data set 4' => ['::', false, true, ['start' => 0, 'end' => \PHP_INT_MAX, 'step' => 1]]
 
-            
+
         ];
     }
 }

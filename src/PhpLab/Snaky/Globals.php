@@ -12,7 +12,13 @@ declare(strict_types=1);
  */
 use SchrodtSven\PhpLab\Snaky\Ctx\CtxInterface;
 
+
 function with(CtxInterface $ctx)
+{
+    
+}
+
+function kprint(CtxInterface $ctx)
 {
     
 }

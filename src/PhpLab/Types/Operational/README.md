@@ -5,6 +5,7 @@
 Used for arrays with same “columns” in each “line” - to be used in future data structure (like Pandas' DF)
 
 The filter uses a fluent interface for <var>method chaining</var> - to get the currently filtered data see <kbd>ArrayFilter::getFiltered()</kbd>
+
 ### API 
 
 ```php

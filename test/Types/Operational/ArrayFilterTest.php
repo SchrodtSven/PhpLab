@@ -18,12 +18,9 @@ declare(strict_types=1);
  * @since 2025-08-14
  */
 
-use PHPUnit\Framework\Attributes\Depends;
-use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\Attributes\CoversClass;
 use PHPUnit\Framework\TestCase;
 use SchrodtSven\PhpLab\Types\ListClass;
-use SchrodtSven\PhpLab\Types\ArrayClass;
 use SchrodtSven\PhpLab\Types\Operational\ArrayFilter;
 
 #[CoversClass(ArrayFilter::class)]

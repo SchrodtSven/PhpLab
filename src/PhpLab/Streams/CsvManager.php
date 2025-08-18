@@ -14,8 +14,9 @@ declare(strict_types=1);
 
 namespace SchrodtSven\PhpLab\Streams;
 use SchrodtSven\PhpLab\Types\ListClass;
+use Stringable;
 
-class CsvManager
+class CsvManager implements Stringable
 {
 
     private array $dta = [];
@@ -54,7 +55,7 @@ class CsvManager
 
     public function toCsv(string $fn):  void
     {
-        file_put_contents($fn, $this->raw());
+        file_put_contents($fn, implode(PHP_EOL, $this->asArray()));
     }
 
     public function asArray(): array
@@ -62,12 +63,17 @@ class CsvManager
         return $this->dta;
     }
 
+    public function __toString(): string
+    {
+        return implode(PHP_EOL, $this->literal());
+    }
+
     public function asList(): ListClass
     {
         return new ListClass($this->dta);
     }
 
-    public function raw(): array
+    public function literal(): array
     {
         $tmp = [implode($this->sep, $this->cols)];
         foreach ($this->dta as $row) {
@@ -77,8 +83,10 @@ class CsvManager
         return $tmp;
     }
 
-    public function columns(): array
+    public function columns(bool $phpNatArr=true): array
     {
-        return $this->cols;
+        return ($phpNatArr)
+                ? $this->cols
+                : new ListClass($this->cols);
     }
 }

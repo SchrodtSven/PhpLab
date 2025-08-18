@@ -221,9 +221,9 @@ trait MultiByteStringTrait
         }
         
 
-        public function substrCount(string $haystack, string $needle, ?string $encoding = null): int
+        public function substrCount(string $needle, ?string $encoding = null): int
         {
-            return mb_substr_count($haystack, $needle, $encoding);
+            return mb_substr_count($this->dta, $needle, $encoding);
             
         }
         

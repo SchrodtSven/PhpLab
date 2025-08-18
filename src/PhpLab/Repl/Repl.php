@@ -76,4 +76,4 @@ class Repl
             : date('Y-m-d H:i:s');
     }
 }
-(new Repl)->loop();
+# (new Repl)->loop();

@@ -186,6 +186,36 @@ class Accessor implements \Stringable
 
         return $this;
     }
+
+    /**
+     * Get the value of slcStart
+     *
+     * @return ?int
+     */
+    public function getSlcStart(): ?int
+    {
+        return $this->slcStart;
+    }
+
+    /**
+     * Get the value of slcEnd
+     *
+     * @return ?int
+     */
+    public function getSlcEnd(): ?int
+    {
+        return $this->slcEnd;
+    }
+
+    /**
+     * Get the value of slcStep
+     *
+     * @return ?int
+     */
+    public function getSlcStep(): ?int
+    {
+        return $this->slcStep;
+    }
 }
 
 

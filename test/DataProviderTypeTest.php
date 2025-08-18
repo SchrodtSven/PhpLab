@@ -99,7 +99,8 @@ final class DataProviderTypeTest extends TestCase
             'data set 1' => [0, 0, 0],
             'data set 2' => [1, 0, 1],
             'data set 3' => [2, 1, 1],
-            'data set 4' => [3, 2, 1]
+            'data set 4' => [3, 2, 1],
+            'data set 5' => [42, 23, 19]
         ];
     }
 

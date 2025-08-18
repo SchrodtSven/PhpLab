@@ -66,9 +66,15 @@ final class ArrayFilterTest extends TestCase
         $this->assertSame(3, $ids->getFiltered()->count());
         
         $this->filter->reset();
+        // some random sclices
         $min = mt_rand(0, 500);
         $max = mt_rand($min+5, 1000);
-        $newIds = $this->filter->by('id')->between($min, $max)->getFiltered()->col('id')->raw();
+        $newIds = $this->filter->by('id')
+                                    ->between($min, $max)
+                                ->getFiltered()
+                                    ->col('id')
+                                    ->raw();
+        // iterate through slices from original data completly
         for ($i = 0; $i < count($newIds); $i++) {
                 $curr = $newIds[$i];
                 

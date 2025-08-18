@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Containing mock data for writing (ananymous test data)
+ * Containing mock data for writing (anonymous test data)
  * 
  * @author Sven Schrodt<sven@schrodt.club>
  * @link https://github.com/SchrodtSven/PhpLab

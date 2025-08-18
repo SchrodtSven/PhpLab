@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 /**
- * Class For filter operations on Lists(Dict, Arrray)
+ * Class For filter operations on Lists (and Dicts, Arrrays)
  * 
  * @author Sven Schrodt<sven@schrodt.club>
  * @link https://github.com/SchrodtSven/PhpLab
@@ -13,7 +13,7 @@ declare(strict_types=1);
 
 namespace SchrodtSven\PhpLab\Types\Operational;
 
-use PhpParser\Node\Expr\List_;
+
 use SchrodtSven\PhpLab\Types\ListClass;
 use Traversable;
 
@@ -180,7 +180,7 @@ class ArrayFilter
 
     public function reset(): void
     {
-        unset($this->dta);
+        //unset($this->dta);
         $this->dta = clone $this->origin;
     }
 }

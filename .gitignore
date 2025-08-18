@@ -8,3 +8,4 @@ vendor
 .phpunit.result.cache
 .phpunit.cache/
 README.tpl.md
+phpunit.garbage

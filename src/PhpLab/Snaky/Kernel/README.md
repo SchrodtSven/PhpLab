@@ -5,6 +5,7 @@ We want:
 - [ ] access operators for slicing; stepping like
   - `[2:]` (third element to end)
   - `[0::2]` (from start to end, stepped by 2)
+  - `[::2]` (SAME AS ABOVE)
 - [ ] filtering data with PHP 8.4+ the snaky way 🐍.
   - tbh: also and more important: the [🐼, 🐼] way.
 
@@ -45,9 +46,6 @@ Although we do have some classes operating as ```array```s, ```list```s, ```dict
 
 ### List
 ```php
-use Koalas\Type\ListClass;
-use Koalas\Internal\AccessParser;
-$ap = new AccessParser;
 $foo = new ListClass(['Werner', 'Herbert', 'Franzy']);
 
 # MASPIP - Make array sclicing possible in PHP like so:

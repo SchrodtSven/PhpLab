@@ -8,8 +8,7 @@ We want:
   - `[0::2]` (from start to end, stepped by 2)
   - `[::2]` (SAME AS ABOVE)
   
-- [ ] filtering data with PHP 8.4+ the snaky way 🐍.
-  - tbh: also and more important: the [🐼, 🐼] way.
+
 
 ####  “Horizontal sclices” (“columns”)
  
@@ -20,6 +19,9 @@ We want:
 > This is a <abbr title="Proof of concept">POC</abbr>, <abbr title="Work in progress">WIP</abbr>, <abbr title="Where to fly?">WTF</abbr> and only for myself with
 no mile stones or deadline.
 
+#### Filtering functions
+- [x] filtering data with PHP 8.4+ the snaky way 🐍.
+  - tbh: also and more important: the [🐼, 🐼] way.
 
 ### Ideas
 

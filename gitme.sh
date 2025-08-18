@@ -9,7 +9,7 @@ cat README.tpl.md > README.md
 
 echo "### Files" >> README.md 
 echo "<pre><code>" >> README.md
-tree -I "archive|dump|cache|phpunit|vendor|tmp"  >> README.md
+tree -I "non-php|phpunit|vendor|tmp"  >> README.md
 # Counting lines of code (filtered by .cloc contents) and add to README.md
 
 echo "</code></pre>" >> README.md

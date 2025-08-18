@@ -21,8 +21,6 @@ Used as temporary container for testing implementations in modern <kbd>PHP</kbd>
 ├── gen_dta.php
 ├── generate_test_data.php
 ├── gitme.sh
-├── grube.php
-├── grube.txt
 ├── LICENSE
 ├── main.php
 ├── phpunit.garbage
@@ -36,19 +34,7 @@ Used as temporary container for testing implementations in modern <kbd>PHP</kbd>
 │       ├── Data
 │       │   ├── ArrayExternalDataProvider.php
 │       │   ├── Mocky.php
-│       │   ├── NamedSymbols.php
-│       │   └── non-php
-│       │       ├── city_country_geo_pop.csv
-│       │       ├── customers_database.json
-│       │       ├── female_first.csv
-│       │       ├── germany.csv
-│       │       ├── last_name.csv
-│       │       ├── male_first.csv
-│       │       ├── meta_syntactic_vars.txt
-│       │       ├── mock_detail.json
-│       │       ├── mock.csv
-│       │       ├── mock.json
-│       │       └── worldcities.csv
+│       │   └── NamedSymbols.php
 │       ├── Repl
 │       │   ├── Interpreter.php
 │       │   ├── Lexer.php
@@ -93,21 +79,21 @@ Used as temporary container for testing implementations in modern <kbd>PHP</kbd>
         ├── StringClassTest.php
         └── StringTraitTest.php
 
-15 directories, 63 files
+14 directories, 50 files
 </code></pre>
 ### Lines of code
 <pre><code>
-github.com/AlDanial/cloc v 2.02  T=0.33 s (153.7 files/s, 400794.8 lines/s)
+github.com/AlDanial/cloc v 2.02  T=0.37 s (129.1 files/s, 350053.4 lines/s)
 -------------------------------------------------------------------------------
 Language                     files          blank        comment           code
 -------------------------------------------------------------------------------
-PHP                             41           4087          35796          90073
-Markdown                         5             53              0            285
+PHP                             40           4022          35770          89962
+Markdown                         5             53              0            271
 XML                              1              2              0             28
 Bourne Shell                     1              7              6             23
-Text                             2              5              0             12
+Text                             1              0              0              2
 -------------------------------------------------------------------------------
-SUM:                            50           4154          35802          90421
+SUM:                            48           4084          35776          90286
 -------------------------------------------------------------------------------
 </code></pre>
 ### Unit testing
@@ -141,8 +127,8 @@ Configuration: /Users/svenschrodt/projects/PhpLab/phpunit.xml
 ............................................................. 1342 / 1388 ( 96%)
 ..............................................                1388 / 1388 (100%)
 
-Time: 00:00.524, Memory: 35.81 MB
+Time: 00:00.525, Memory: 35.81 MB
 
-OK (1388 tests, 7321 assertions)
+OK (1388 tests, 6855 assertions)
 </code>
 </pre>

@@ -2,6 +2,7 @@
 Space for testing stuff in PHP - curr. 8.4+
 
 It is also being used as playground for other repos (e.g: [PhascolarctosCinereus](https://github.com/SchrodtSven/PhascolarctosCinereus))
+
 ## Motivation 
 
 Used as temporary container for testing implementations in modern <kbd>PHP</kbd>(8.4+) for personal usage/needs
@@ -18,16 +19,15 @@ Used as temporary container for testing implementations in modern <kbd>PHP</kbd>
 │   └── cicd_steps.txt
 ├── doq
 │   └── Changelog.md
-├── gen_dta.php
-├── generate_test_data.php
 ├── gitme.sh
+├── helper_toolz
+│   ├── gen_dta.php
+│   └── generate_test_data.php
 ├── LICENSE
 ├── main.php
-├── phpunit.garbage
 ├── phpunit.phar
 ├── phpunit.xml
 ├── README.md
-├── README.tpl.md
 ├── src
 │   └── PhpLab
 │       ├── Autoload.php
@@ -79,21 +79,21 @@ Used as temporary container for testing implementations in modern <kbd>PHP</kbd>
         ├── StringClassTest.php
         └── StringTraitTest.php
 
-14 directories, 50 files
+15 directories, 48 files
 </code></pre>
 ### Lines of code
 <pre><code>
-github.com/AlDanial/cloc v 2.02  T=0.37 s (129.1 files/s, 350053.4 lines/s)
+github.com/AlDanial/cloc v 2.02  T=0.51 s (91.6 files/s, 253598.3 lines/s)
 -------------------------------------------------------------------------------
 Language                     files          blank        comment           code
 -------------------------------------------------------------------------------
 PHP                             40           4022          35770          89962
-Markdown                         5             53              0            271
+Markdown                         4             49              0            262
 XML                              1              2              0             28
 Bourne Shell                     1              7              6             23
 Text                             1              0              0              2
 -------------------------------------------------------------------------------
-SUM:                            48           4084          35776          90286
+SUM:                            47           4080          35776          90277
 -------------------------------------------------------------------------------
 </code></pre>
 ### Unit testing
@@ -127,8 +127,8 @@ Configuration: /Users/svenschrodt/projects/PhpLab/phpunit.xml
 ............................................................. 1342 / 1388 ( 96%)
 ..............................................                1388 / 1388 (100%)
 
-Time: 00:00.525, Memory: 35.81 MB
+Time: 00:00.524, Memory: 35.81 MB
 
-OK (1388 tests, 6855 assertions)
+OK (1388 tests, 6834 assertions)
 </code>
 </pre>

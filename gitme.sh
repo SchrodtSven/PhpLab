@@ -4,7 +4,7 @@ if [ $# -eq 0 ]
     echo "Please add a commit message as agument (\$1)!"
     exit 23
 fi
-cat README.tpl.md > README.md
+cat tmp/README.tpl.md > README.md
 # Add current project file structure (filtered) to README.md
 
 echo "### Files" >> README.md 

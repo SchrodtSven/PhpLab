@@ -30,11 +30,20 @@ $tkr = new Tknizr(file_get_contents('src/PhpLab/Transpile/PhpDeuxZephir/codes/ex
 foreach ($tkr->removeWs()->getSanitized() as $i => $token) {
     echo "IDX: {$i} Line: {$token->line} ID:{$token->id} Name:{$token->getTokenName()} TXT:('{$token->text}')", PHP_EOL;
 }
-
+print(token_name(61));
+die;
 
 //print(implode('', $tkr->getTokens()));
-$parser = new Parser($tkr->removeWs()->getSanitized());
-// var_dump($parser);
+#$parser = new Parser($tkr->removeWs()->getSanitized());
+$parser = new Parser($tkr->getTokens());
+//var_dump($parser);die;
+
+
+#$f = $tkr->removeWs()->getSanitized()[0];
+#$f->text = 'LA ' . $f->text;
+// var_dump($f);
+
+// exit();
 
 
 

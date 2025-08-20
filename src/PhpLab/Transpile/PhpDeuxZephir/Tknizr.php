@@ -31,7 +31,7 @@ class Tknizr
 
 
     /**
-     * Remove whitespace tokens fro list of tokens
+     * Remove whitespace tokens from list of tokens
      */
     public function removeWs(): self
     {

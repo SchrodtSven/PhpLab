@@ -42,7 +42,7 @@ class Accessor implements \Stringable
         $this->analyze();
     }
 
-    public function analyze()
+    public function analyze(): void
     {
         if(is_array($this->accessor)) {
             $this->isVertical = false;

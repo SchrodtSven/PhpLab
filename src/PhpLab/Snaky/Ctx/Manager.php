@@ -15,5 +15,13 @@ namespace SchrodtSven\PhpLab\Snaky\Ctx;
 
 class Manager
 {
-    
+    public function __construct(object $cobj)
+    {
+
+    }    
+
+    public function do(callable $clj)
+    {
+        // do stuff
+    }
 }

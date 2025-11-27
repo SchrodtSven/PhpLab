@@ -15,5 +15,7 @@ namespace SchrodtSven\PhpLab\Snaky\Ctx;
 
 interface CtxInterface
 {
+    public function __construct(object $cobj);    
+
     public function do(callable $clj);    
 }

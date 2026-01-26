@@ -5,7 +5,7 @@ It is also being used as playground for other repos (e.g: [PhascolarctosCinereus
 
 ## Motivation 
 
-Used as temporary container for testing implementations in modern <kbd>PHP</kbd>(8.4+) for personal usage/needs
+Used as temporary container for testing implementations in modern <kbd>PHP</kbd>(8.* - 8.5) for personal usage/needs
 
 - snippets, doclets, partlets
 - PoCs, Ideas, future projects (see: directory ```Incub``` l8er - it yet does not exists)

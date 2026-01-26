@@ -32,11 +32,11 @@ class Manager implements CtxInterface
 
     protected function _enter()
     {
-
+        // prepare stuff
     }
 
     protected function _exit()
     {
-        
+        // wipe stuff (close resource(s) etc.)
     }
 }

@@ -17,11 +17,26 @@ class Manager implements CtxInterface
 {
     public function __construct(object $cobj)
     {
-
+        $this->_enter();
     }    
+
+    public function __destruct()
+    {
+       $this->_exit();
+    }
 
     public function do(callable $clj)
     {
-        // do stuff
+        // do stuff $clj && self::$cobj
+    }
+
+    protected function _enter()
+    {
+
+    }
+
+    protected function _exit()
+    {
+        
     }
 }

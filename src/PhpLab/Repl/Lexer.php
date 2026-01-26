@@ -16,6 +16,6 @@ class Lexer
 {
     public function tokenizeLn(string $ln):array
     {
-        return $parts = preg_split('/\s+/', $ln, -1, PREG_SPLIT_NO_EMPTY);
+        return preg_split('/\s+/', $ln, -1, PREG_SPLIT_NO_EMPTY);
     }
 }

@@ -13,7 +13,7 @@ declare(strict_types=1);
 
 namespace SchrodtSven\PhpLab\Snaky\Ctx;
 
-class Manager
+class Manager implements CtxInterface
 {
     public function __construct(object $cobj)
     {

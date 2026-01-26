@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 /**
- * Array Access Trait - allowing to access list/array dta via [] operators
+ * Array Access Trait - allowing to access list/array dta via [] operators  
  * 
- * - [0:3] - first four rowss
+ * - [0:3] - first four rows
  * @author Sven Schrodt<sven@schrodt.club>
  * @link https://github.com/SchrodtSven/PhpLab
  * @package PhpLab

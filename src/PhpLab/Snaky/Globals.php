@@ -11,14 +11,14 @@ declare(strict_types=1);
  * @since 2025-08-18
  */
 use SchrodtSven\PhpLab\Snaky\Ctx\CtxInterface;
+use SchrodtSven\PhpLab\Snaky\Ctx\Manager;
 
-
-function with(CtxInterface $ctx)
+function with(mixed $obj): CtxInterface
 {
-    
+    return new Manager($obj);
 }
 
-function kprint(CtxInterface $ctx)
+function kprint(mixed $obj)
 {
     
 }

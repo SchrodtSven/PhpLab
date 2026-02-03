@@ -6,8 +6,6 @@
 │   └── tpl
 │       ├── index.phtml
 │       └── index.tpl
-├── LICENSE
-├── README.md
 ├── build
 │   └── cicd_steps.txt
 ├── doq
@@ -19,13 +17,15 @@
 ├── helper_toolz
 │   ├── gen_dta.php
 │   └── generate_test_data.php
-├── httpd.md
 ├── httpd_dev_start.sh
+├── httpd.md
+├── LICENSE
 ├── main.php
 ├── phpunit.xml
 ├── pub
-│   ├── README.md
-│   └── index.php
+│   ├── index.php
+│   └── README.md
+├── README.md
 ├── src
 │   └── PhpLab
 │       ├── Autoload.php
@@ -33,6 +33,7 @@
 │       │   ├── ArrayExternalDataProvider.php
 │       │   ├── Mocky.php
 │       │   └── NamedSymbols.php
+│       ├── functions.php
 │       ├── Mvc
 │       │   ├── Request.php
 │       │   └── Router.php
@@ -46,8 +47,8 @@
 │       │   │   └── Manager.php
 │       │   ├── Globals.php
 │       │   ├── Kernel
-│       │   │   ├── AccessParser.php
 │       │   │   ├── Accessor.php
+│       │   │   ├── AccessParser.php
 │       │   │   ├── README.md
 │       │   │   ├── README.php
 │       │   │   └── SnakyAccessTrait.php
@@ -56,39 +57,38 @@
 │       │   └── CsvManager.php
 │       ├── Transpile
 │       │   ├── PhpDeuxZephir
+│       │   │   ├── codes
+│       │   │   │   ├── ex1.php
+│       │   │   │   └── ex2.php
 │       │   │   ├── Parser.php
 │       │   │   ├── README.md
 │       │   │   ├── Tknizr.php
 │       │   │   ├── Token.php
-│       │   │   ├── codes
-│       │   │   │   ├── ex1.php
-│       │   │   │   └── ex2.php
 │       │   │   └── tokens.php
 │       │   └── README.md
-│       ├── Types
-│       │   ├── ArrayClass.php
-│       │   ├── DictClass.php
-│       │   ├── Dry
-│       │   │   ├── ArrayAccessTrait.php
-│       │   │   ├── ArrayCallbackTrait.php
-│       │   │   ├── ArraySliceTrait.php
-│       │   │   ├── ArraySortTrait.php
-│       │   │   ├── IteratorTrait.php
-│       │   │   ├── MultiByteStringTrait.php
-│       │   │   ├── PrintfTrait.php
-│       │   │   ├── StackOperationTrait.php
-│       │   │   ├── StringBoolTrait.php
-│       │   │   ├── StringContextTrait.php
-│       │   │   ├── StringEmbracingTrait.php
-│       │   │   └── StringTransformingTrait.php
-│       │   ├── ListClass.php
-│       │   ├── Operational
-│       │   │   ├── ArrayFilter.php
-│       │   │   └── README.md
-│       │   ├── README.md
-│       │   ├── StackInterface.php
-│       │   └── StringClass.php
-│       └── functions.php
+│       └── Types
+│           ├── ArrayClass.php
+│           ├── DictClass.php
+│           ├── Dry
+│           │   ├── ArrayAccessTrait.php
+│           │   ├── ArrayCallbackTrait.php
+│           │   ├── ArraySliceTrait.php
+│           │   ├── ArraySortTrait.php
+│           │   ├── IteratorTrait.php
+│           │   ├── MultiByteStringTrait.php
+│           │   ├── PrintfTrait.php
+│           │   ├── StackOperationTrait.php
+│           │   ├── StringBoolTrait.php
+│           │   ├── StringContextTrait.php
+│           │   ├── StringEmbracingTrait.php
+│           │   └── StringTransformingTrait.php
+│           ├── ListClass.php
+│           ├── Operational
+│           │   ├── ArrayFilter.php
+│           │   └── README.md
+│           ├── README.md
+│           ├── StackInterface.php
+│           └── StringClass.php
 ├── test
 │   ├── DataProviderTypeTest.php
 │   ├── DependsTest.php
@@ -112,17 +112,17 @@
 </code></pre>
 ### Lines of code
 <pre><code>
-github.com/AlDanial/cloc v 2.06  T=0.04 s (1835.6 files/s, 526775.3 lines/s)
+github.com/AlDanial/cloc v 2.06  T=0.05 s (1530.1 files/s, 439081.1 lines/s)
 -------------------------------------------------------------------------------
 Language                     files          blank        comment           code
 -------------------------------------------------------------------------------
 PHP                             61            730           1190          19060
 Markdown                        10             87              0            383
 XML                              1              2              0             28
-Bourne Shell                     2              7              7             27
+Bourne Shell                     2              7              6             27
 Text                             1              0              0              2
 -------------------------------------------------------------------------------
-SUM:                            75            826           1197          19500
+SUM:                            75            826           1196          19500
 -------------------------------------------------------------------------------
 </code></pre>
 ### Unit testing

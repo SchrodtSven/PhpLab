@@ -2,18 +2,20 @@
 
 declare(strict_types=1);
 /**
- * Global functions 
+ *  Parsed entity objects' blue print
  * 
  * @author Sven Schrodt<sven@schrodt.club>
  * @link https://github.com/SchrodtSven/PhpLab
  * @package PhpLab
  * @version 0.23
- * @since 2025-11-27
+ * @since 2026-02-03
  */
 
-use SchrodtSven\PhpLab\Snaky\Ctx\Manager;
 
-function with(object $obj): Manager 
+namespace SchrodtSven\PhpLab\Parser;
+use SchrodtSven\PhpLab\Types\ListClass;
+
+class ParsedEntity extends ListClass
 {
-    return Manager($ob);
+
 }

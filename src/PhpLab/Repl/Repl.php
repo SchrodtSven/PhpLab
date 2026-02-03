@@ -6,9 +6,9 @@ declare(strict_types=1);
  * - just awfully hacked prototype, not even a POC
  * 
  * @author Sven Schrodt<sven@schrodt.club>
- * @link https://github.com/SchrodtSven/Phplab
- * @package Phplab
- * @version 0.1
+ * @link https://github.com/SchrodtSven/PhpLab
+ * @package PhpLab
+ * @version 0.23
  * @since 2025-08-11
  */
 class Repl

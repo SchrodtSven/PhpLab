@@ -10,7 +10,7 @@ declare(strict_types=1);
  * @author Sven Schrodt<sven@schrodt.club>
  * @link https://github.com/SchrodtSven/PhpLab
  * @package PhpLab
- * @version 0.1
+ * @version 0.23
  * @since 2025-08-14
  */
 use PHPUnit\Framework\Attributes\Depends;

@@ -1,0 +1,10 @@
+application/andrew-inset	.ez
+application/applixware	.aw
+application/atom+xml	.atom
+application/atomcat+xml	.atomcat
+application/atomsvc+xml	.atomsvc
+application/ccxml+xml	.ccxml
+application/cu-seeme	.cu
+application/davmount+xml	.davmount
+application/ecmascript	.ecma
+application/emma+xml	.emma

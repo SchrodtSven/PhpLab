@@ -5,9 +5,9 @@ declare(strict_types=1);
  * Auto loading for Phplab
  * 
  * @author Sven Schrodt<sven@schrodt.club>
- * @link https://github.com/SchrodtSven/Phplab
- * @package Phplab
- * @version 0.1
+ * @link https://github.com/SchrodtSven/PhpLab
+ * @package PhpLab
+ * @version 0.23
  * @since 2025-08-05
  */
 

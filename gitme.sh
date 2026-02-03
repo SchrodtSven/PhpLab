@@ -31,6 +31,7 @@ echo "</pre>" >> README.md
 
 # Adding, committing & pushing with message from STDIN
 git add .
-git commit -m "$1"
+now = date
+git commit -m "$1 - $now"
 git push origin
 echo "... done!"

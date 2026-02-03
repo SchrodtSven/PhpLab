@@ -23,16 +23,30 @@ class Autoload
     public const VENDOR = 'SchrodtSven\PhpLab';
 
 
+    /**
+     * Namespace prefix for project files
+     */
+    public const APP = 'SchrodtSven\App';
+
+
     private const MIMI =  'SchrodtSven\\';
+
+    /**
+     * Lib directory prefix
+     */
+    public const LIB_PREFIX = 'src/';
+
+
     /**
      * Lib prefix
      */
-    public const LIB_PREFIX = 'src/';
+    public const APP_PFX = 'App/';
+
 
     /**
      * Separator for namespaces
      */
-    public const NAMESPACE_SEPARATOR ='\\';
+    public const NAMESPACE_SEPARATOR = '\\';
 
     /**
      * Registering AL
@@ -45,28 +59,40 @@ class Autoload
          * Registering project specific auto loading
          */
         spl_autoload_register(function ($className) {
-            
+
             $filePathClass = str_replace(self::MIMI, '', $className);
-            
+
             // Check if namespace of class to be instantiated belongs to us
             if (str_starts_with($className,  self::VENDOR)) {
-                
+
                 //replace separator for namespaces with directory separator
                 $file = self::LIB_PREFIX . str_replace(
-                        self::NAMESPACE_SEPARATOR, 
-                        \DIRECTORY_SEPARATOR, 
-                        $filePathClass
-                    ) . '.php';
-                    
+                    self::NAMESPACE_SEPARATOR,
+                    \DIRECTORY_SEPARATOR,
+                    $filePathClass
+                ) . '.php';
+
                 // Check if destination class file exists  and include it, 
                 // if not so - __do not throw__ \E*, because of AL chain!
                 // @see https://www.php-fig.org/psr/psr-4/#2-specification : 
                 // "4. Autoloader implementations *MUST NOT* throw exceptions,
                 // MUST NOT raise errors of any level, and SHOULD NOT return a value."
-                
-                if (file_exists($file)) {
-                    require_once $file;
+
+
+            } else {
+                if (str_starts_with($className,  self::APP)) {
+
+                    // replace separator for namespaces with directory separator
+                    $file = str_replace(
+                        self::NAMESPACE_SEPARATOR,
+                        \DIRECTORY_SEPARATOR,
+                        $filePathClass
+                    ) . '.php';
                 }
+            }
+            // echo '<h6>Location: ' . $file . '</h6>' . PHP_EOL;
+            if (file_exists($file)) {
+                require_once $file;
             }
         });
     }

@@ -112,7 +112,7 @@
 </code></pre>
 ### Lines of code
 <pre><code>
-github.com/AlDanial/cloc v 2.06  T=0.04 s (1823.3 files/s, 523230.5 lines/s)
+github.com/AlDanial/cloc v 2.06  T=0.04 s (1812.5 files/s, 520128.4 lines/s)
 -------------------------------------------------------------------------------
 Language                     files          blank        comment           code
 -------------------------------------------------------------------------------

@@ -11,29 +11,29 @@ declare(strict_types=1);
  * @version 0.23
  * @since 2025-08-13
  */
- 
+
 use PHPUnit\Framework\TestCase;
-use SchrodtSven\PhpLab\Types\StringClass;
 use PHPUnit\Framework\Attributes\TestWith;
 use SchrodtSven\PhpLab\Types\ListClass;
+use SchrodtSven\PhpLab\Types\StringClass;
 
 class ListClassTest extends TestCase
 {
-    
+
     #[TestWith([['Baz', 'Foo', 'Gaz', 'Guy', 'bar', 'nn'], 6])]
     #[TestWith([[23, 42, 3.145], 3])]
     public function testIfCountWorxCorrectly(array $origin, int $count): void
-    {   
+    {
         $lst = new ListClass($origin);
         $this->assertTrue(count($lst) == $count);
         $r = new \Random\Randomizer;
         $lst[] = 'Foo' . (string) $r->nextFloat();
-        $this->assertTrue(count($lst) == $count +1);
+        $this->assertTrue(count($lst) == $count + 1);
     }
-    
+
     public function testIfExceptionIsThrownOnNonList(): void
     {
         $this->expectException(\InvalidArgumentException::class);
-        $lst = new ListClass(['first' => 'Nick', 'last'=> 'Miller', 'Foo' => 42]);
+        $lst = new ListClass(['first' => 'Nick', 'last' => 'Miller', 'Foo' => 42]);
     }
 }

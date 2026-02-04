@@ -30,8 +30,6 @@ class StringClass implements \Stringable
     use StringEmbracingTrait;
     use PrintfTrait;
     use StringBoolTrait;
-    #use SubStringTrait;
-    #use CodeBuildingTrait;
     use StringContextTrait;
     use StringTransformingTrait;
 

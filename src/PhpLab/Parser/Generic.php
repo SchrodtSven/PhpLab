@@ -48,7 +48,7 @@ class Generic
 
     public function splitEntitiesBy(string $sep): self
     {
-        $this->lines->map(function($itm) use($sep) {
+        $this->lines->walk(function($itm) use($sep) {
             return $itm->splitBy($sep);
         });
 

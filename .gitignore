@@ -4,7 +4,7 @@ grube.*
 .DS_Store
 phpunit.phar
 vendor/
-vendor
+.vendor
 .phpunit.result.cache
 .phpunit.cache/
 README.tpl.md

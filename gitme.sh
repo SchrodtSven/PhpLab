@@ -23,7 +23,7 @@ echo "<pre><code>" >> README.md
 
 
 # Processing unit tests and add results to README.md
-./phpunit.phar >> README.md
+phpunit  >> README.md
 
 # Sanitizing markup in README.md
 echo "</code>" >> README.md

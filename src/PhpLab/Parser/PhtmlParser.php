@@ -131,3 +131,4 @@ class PhtmlParser implements \Stringable
         $this->view = $view;
         return $this;
     }
+}

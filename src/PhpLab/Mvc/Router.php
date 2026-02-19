@@ -19,24 +19,44 @@ use Exception;
 class Router
 {
 
-    // this is just a convention - do not think 
+    // this is just a temp. convention - do not think 
     private const string DFT_MOD = 'app';
     private const string DFT_CTLR = 'index';
     private const string DFT_ACT = 'default';
 
     public Request $req;
 
+    /**
+     * Module name
+     *
+     * @var string
+     */
     private string $mod;
 
+    /**
+     * Controller name
+     *
+     * @var string
+     */
     private string $ctlr;
 
+    /**
+     * Action name
+     *
+     * @var string
+     */
     private string $act;
 
+    /**
+     * Undocumented variable
+     *
+     * @var array
+     */
     private array $uriParsed;
 
     public function __construct()
     {
-
+        // init module, controller & action with default values
         $this->mod = self::DFT_MOD;
         $this->ctlr = self::DFT_CTLR;
         $this->act = self::DFT_ACT;

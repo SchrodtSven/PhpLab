@@ -70,7 +70,7 @@ class NamedSymbols
 
     // @see: ftp://ftp.unicode.org/Public/MAPPINGS/VENDORS/APPLE/KEYBOARD.TXT
     // These are the official Unicode symbol mappings published by Apple.
-    public const string  APPLE_RET_LTR = '↩'; // Return left tp right
+    public const string  APPLE_RET_LTR = '↩'; // Return left to right
     public const string  APPLE_RET_RTL = '↪'; // Return right to left
     public const string  APPLE_ESC = '⎋'; // Escape
     public const string  APPLE_CAP_LCK = '⇪'; // Caps lock

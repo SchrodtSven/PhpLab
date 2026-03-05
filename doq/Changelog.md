@@ -1,5 +1,9 @@
 # Changelog
 
+<time datetime="2026-03-06">2026-03-06</time>
+
+- Stop this file's editing (look at its cvs history, stupid 🙁)
+
 <time datetime="2025-08-18">2025-08-18</time>
 
 - Adding functionality to subnamespace ```Snaky```(python-, pandas-like behaviour)

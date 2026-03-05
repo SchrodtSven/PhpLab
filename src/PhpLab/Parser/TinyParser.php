@@ -20,6 +20,8 @@ declare(strict_types=1);
 
 
 namespace SchrodtSven\PhpLab\Parser;
+
+use InvalidArgumentException;
 use SchrodtSven\PhpLab\Parser\ParsedEntity;
 use SchrodtSven\PhpLab\Types\StringClass;
 
@@ -47,7 +49,11 @@ class TinyParser implements \Stringable
 
     public function render(): string
     {
-        $raw = file_get_contents("{$this->tplRoot}{$this->tpl}{$this->tplSfx}");
+        $tpf = "{$this->tplRoot}{$this->tpl}{$this->tplSfx}";
+        if (!file_exists($tpf)) {
+            throw new InvalidArgumentException(sprintf('File %s does not exist!', $tpf));
+        }
+        $raw = file_get_contents($tpf);
 
         foreach ($this->replacement as $k => $v) {
             $raw = str_replace(

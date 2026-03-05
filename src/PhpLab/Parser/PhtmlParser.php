@@ -131,4 +131,9 @@ class PhtmlParser implements \Stringable
         $this->view = $view;
         return $this;
     }
+
+    public function __toString(): string
+    {
+        return $this->render();
+    }
 }

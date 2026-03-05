@@ -9,12 +9,21 @@ use SchrodtSven\PhpLab\Types\StringClass;
 
 use SchrodtSven\PhpLab\Parser\Generic;
 
+use SchrodtSven\PhpLab\Core\FileExceptionHelper;
 
+$fn = 'foo.grube.bar';
+$fn = 'noaccess.txt';
 
+try {
+    //FileExceptionHelper::byCode($fn, 666);
+    FileExceptionHelper::exceptionIfNotFileExists('foo.rube');
+} catch (Exception $e) {
+    print($e->getCode() . ': ' . $e->getMessage());
+}
 
 // $bar = new StringClass("dhfjhdsf    dksjndkjs   666");
 // var_dump($bar->splitBy("    "));
-// exit();
+exit();
 
 
 // $foo = Generic::fromFile('dta/mime_types.txt');

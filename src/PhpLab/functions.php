@@ -15,5 +15,5 @@ use SchrodtSven\PhpLab\Snaky\Ctx\Manager;
 
 function with(object $obj): Manager 
 {
-    return Manager($ob);
+    return new Manager($obj);
 }

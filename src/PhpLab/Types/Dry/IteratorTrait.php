@@ -4,7 +4,7 @@ declare(strict_types=1);
 /**
  * Iterator Trait - allowing to access list/array dta via [] operators
  * 
- * @author Sven Schrodt<sven@schrodt.club>
+ * @author Sven Schrodt<sven@schrodt.nrw>
  * @link https://github.com/SchrodtSven/PhpLab
  * @package PhpLab
  * @version 0.23

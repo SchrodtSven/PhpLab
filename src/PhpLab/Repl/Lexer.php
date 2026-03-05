@@ -4,7 +4,7 @@ declare(strict_types=1);
 /**
  * Tiny lexer for REPL mini poc
  * 
- * @author Sven Schrodt<sven@schrodt.club>
+ * @author Sven Schrodt<sven@schrodt.nrw>
  * @link https://github.com/SchrodtSven/PhpLab
  * @package PhpLab
  * @version 0.23

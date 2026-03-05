@@ -6,40 +6,20 @@ ini_set('display_startup_errors', '1');
 error_reporting(E_ALL);
 
 
-use SchrodtSven\PhpLab\Streams\CsvManager;
-use SchrodtSven\PhpLab\Types\ListClass;
-use SchrodtSven\PhpLab\Types\Operational\ArrayFilter;
-use SchrodtSven\PhpLab\Data\ArrayExternalDataProvider;
-use SchrodtSven\PhpLab\Snaky\Kernel\Accessor;
+use SchrodtSven\PhpLab\Wtf\BaseClient;
+use SchrodtSven\PhpLab\Wtf\Comm\CurlClient;
+use SchrodtSven\PhpLab\Wtf\Comm\HttpParser;
 
-$foo = ['::2',
-        '1:2',
-        '1:2:2',
-        '2:5:2',
-    //    ['foo', 'bar']
-];
-foreach($foo as $itm) {
-    $bar = new Accessor($itm);
-    if(is_array($itm))
-        $itm = implode(', ', $itm);
-    print ($itm . PHP_EOL);
-    print($bar) . PHP_EOL;
+//echo (new BaseClient())->search("Spider-Man");
 
-   // var_dump(explode(':', $itm));
-}   
+# $uri = "https://schrodt.nrw/bin/zce53.jpg";
+$uri = 'https://schrodt.nrw';
+$hc = new CurlClient();
+$hc->get($uri);
+//var_dump($hc->getHeader());
+//var_dump($hc->getPayload());
+var_dump($hc->getHeaders());
+var_dump($hc->getHttpStatus());
+var_dump($hc->getVersion());
 
 
-#var_dump(str_contains('1:2', ':'));
-
-
-
-$fn = 'src/PhpLab/Data/non-php/city_country_geo_pop.csv';
-$csv = new CsvManager($fn);
-
-$lst = $csv->asList();
-
-$filter = new ArrayFilter($lst);
-
-$filtered = $filter->by('city')->contains('Berlin');
-
-print_r($filtered->getFiltered()->raw());

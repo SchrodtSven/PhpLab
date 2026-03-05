@@ -5,7 +5,7 @@ declare(strict_types=1);
  * Class handling dictionaries (scalar keyed arrays)
  * managing data and operations on it
  * 
- * @author Sven Schrodt<sven@schrodt.club>
+ * @author Sven Schrodt<sven@schrodt.nrw>
  * @link https://github.com/SchrodtSven/PhpLab
  * @package PhpLab
  * @version 0.23

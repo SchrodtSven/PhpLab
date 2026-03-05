@@ -7,7 +7,7 @@ declare(strict_types=1);
  *  - function names will be prefixed by 'k', if being a reserved name
  *      Don't ask, or @see https://github.com/SchrodtSven/Koalas_Zep   
  * 
- * @author Sven Schrodt<sven@schrodt.club>
+ * @author Sven Schrodt<sven@schrodt.nrw>
  * @link https://github.com/SchrodtSven/PhpLab
  * @package PhpLab
  * @version 0.23

@@ -4,7 +4,7 @@ declare(strict_types=1);
 /**
  * Bootstrapping  ...
  * 
- * @author Sven Schrodt<sven@schrodt.club>
+ * @author Sven Schrodt<sven@schrodt.nrw>
  * @link https://github.com/SchrodtSven/PhpLab
  * @package JSLab
  * @version 0.23

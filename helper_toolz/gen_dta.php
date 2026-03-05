@@ -19,7 +19,7 @@ $tmp = $flr->by('id')->between(333, 777);
 #print_r($tmp->getFiltered()->tail());
 #exit();
 #$idc = array_rand($all, 55);
-#print_r($filter->getFiltered()->col('ip_address')->raw());
+print_r($filter->getFiltered()->col('ip_address')->raw());
 
 foreach($all as $itm) {
     foreach($itm as $k => &$part) {

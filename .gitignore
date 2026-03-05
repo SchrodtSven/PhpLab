@@ -10,3 +10,4 @@ vendor/
 README.tpl.md
 phpunit.garbage
 zep_incub/
+gitme*

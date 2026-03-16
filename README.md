@@ -1,3 +1,9 @@
+# PhpLab
+
+My personal playground for modern PHP stuff
+
+created
+Mon Mar 16 16:03:14 CET 2026
 
 ### Files
 <pre><code>
@@ -19,7 +25,7 @@
 ├── dta
 │   ├── foo.txt
 │   └── mime_types.txt
-├── gitme.s2h
+├── gitme.sh
 ├── helper_toolz
 │   ├── gen_dta.php
 │   └── generate_test_data.php
@@ -135,17 +141,17 @@
 </code></pre>
 ### Lines of code
 <pre><code>
-github.com/AlDanial/cloc v 2.06  T=0.02 s (3556.3 files/s, 348191.7 lines/s)
+github.com/AlDanial/cloc v 2.06  T=0.02 s (3699.4 files/s, 360294.4 lines/s)
 -------------------------------------------------------------------------------
 Language                     files          blank        comment           code
 -------------------------------------------------------------------------------
 PHP                             69            894           1508           4939
 Text                             6              4              0            739
-Markdown                        10             90              0            407
+Markdown                        10             92              0            411
+Bourne Shell                     3             14              5             32
 XML                              1              2              0             28
-Bourne Shell                     2              0              0              5
 -------------------------------------------------------------------------------
-SUM:                            88            990           1508           6118
+SUM:                            89           1006           1513           6149
 -------------------------------------------------------------------------------
 </code></pre>
 ### Unit testing

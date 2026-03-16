@@ -53,7 +53,7 @@ class Autoload
      *
      * @return void
      */
-    public function register()
+    public function registerAutoloader()
     {
         /**
          * Registering project specific auto loading
@@ -99,4 +99,4 @@ class Autoload
 }
 
 // Running auto loader
-(new Autoload())->register();
+(new Autoload())->registerAutoloader();

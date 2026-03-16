@@ -1,7 +1,4 @@
-# PhpLab
-
-My personal playground for modern PHP stuff
-
+Mon Mar 16 15:57:14 CET 2026
 ### Files
 <pre><code>
 .
@@ -138,17 +135,17 @@ My personal playground for modern PHP stuff
 </code></pre>
 ### Lines of code
 <pre><code>
-github.com/AlDanial/cloc v 2.06  T=0.02 s (3667.9 files/s, 359243.8 lines/s)
+github.com/AlDanial/cloc v 2.06  T=0.02 s (3690.5 files/s, 361334.3 lines/s)
 -------------------------------------------------------------------------------
 Language                     files          blank        comment           code
 -------------------------------------------------------------------------------
 PHP                             69            894           1508           4939
 Text                             6              4              0            739
-Markdown                        10             91              0            409
+Markdown                        10             89              0            408
 XML                              1              2              0             28
 Bourne Shell                     2              0              0              5
 -------------------------------------------------------------------------------
-SUM:                            88            991           1508           6120
+SUM:                            88            989           1508           6119
 -------------------------------------------------------------------------------
 </code></pre>
 ### Unit testing
@@ -182,8 +179,8 @@ Configuration: /Users/svenschrodt/projx/PhpLab/phpunit.xml
 ............................................................. 1342 / 1401 ( 95%)
 ...........................................................   1401 / 1401 (100%)
 
-Time: 00:00.344, Memory: 35.84 MB
+Time: 00:00.352, Memory: 35.84 MB
 
-OK (1401 tests, 7260 assertions)
+OK (1401 tests, 6916 assertions)
 </code>
 </pre>

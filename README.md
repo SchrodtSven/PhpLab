@@ -138,7 +138,7 @@ My personal playground for modern PHP stuff
 </code></pre>
 ### Lines of code
 <pre><code>
-github.com/AlDanial/cloc v 2.06  T=0.03 s (2523.9 files/s, 247202.9 lines/s)
+github.com/AlDanial/cloc v 2.06  T=0.02 s (3667.9 files/s, 359243.8 lines/s)
 -------------------------------------------------------------------------------
 Language                     files          blank        comment           code
 -------------------------------------------------------------------------------
@@ -182,8 +182,8 @@ Configuration: /Users/svenschrodt/projx/PhpLab/phpunit.xml
 ............................................................. 1342 / 1401 ( 95%)
 ...........................................................   1401 / 1401 (100%)
 
-Time: 00:00.355, Memory: 35.84 MB
+Time: 00:00.344, Memory: 35.84 MB
 
-OK (1401 tests, 7234 assertions)
+OK (1401 tests, 7260 assertions)
 </code>
 </pre>

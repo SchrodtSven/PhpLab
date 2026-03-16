@@ -12,7 +12,7 @@
  * @link https://github.com/SchrodtSven/PhpLab
  */
 
-
+namespace SchrodtSven\PhpLab\Mock;
 
 class Wallet
 {
@@ -47,12 +47,3 @@ class Wallet
     }
 }
 
-// $mine = new Wallet(100);
-// $yours = new Wallet(50);
-
-// // returns true
-// $foo = $mine->isGreaterThan($yours);
-// var_dump($foo);
-// // returns true
-// $foo = $mine->isLessThan($yours);
-// var_dump($foo);

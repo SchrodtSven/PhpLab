@@ -61,7 +61,7 @@ class Autoload
         spl_autoload_register(function ($className) {
 
             $filePathClass = str_replace(self::MIMI, '', $className);
-
+            $file = '';
             // Check if namespace of class to be instantiated belongs to us
             if (str_starts_with($className,  self::VENDOR)) {
 

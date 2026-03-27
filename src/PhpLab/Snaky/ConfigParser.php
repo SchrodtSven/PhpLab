@@ -18,6 +18,6 @@ class ConfigParser implements TinyParserInterface
 {
     public function get(string $type, mixed $val)
     {
-        
+
     }
 }

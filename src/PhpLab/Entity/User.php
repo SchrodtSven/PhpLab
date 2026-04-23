@@ -59,4 +59,9 @@ class User
     {
         return $this->created;
     }
+
+    public function getModified(): \DateTime
+    {
+        return $this->modified;
+    }
 }

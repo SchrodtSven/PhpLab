@@ -16,7 +16,7 @@ use SebastianBergmann\CliParser\AmbiguousOptionException;
 
 class ArrayExternalDataProvider
 {
-   
+
 
     public const array MAIN_MOCK_KEYS = ["id", "first_name", "last_name", "email", "gender", "ip_address", "member_since", "mob_since", "city", "postal_code", "country", "lat", "lng", "mvie_gnr"];
     public const array MAIN_MOCK =
@@ -1025,9 +1025,9 @@ class ArrayExternalDataProvider
 
 
 
-     public function getMockDataMeta(array $columns, int $amount): array
+    public function getMockDataMeta(array $columns, int $amount): array
     {
-        
+
         $tmp = array_rand(self::MAIN_MOCK, $amount);
         return [
             'idc' => $this->keysToIdc(($columns)),
@@ -1038,7 +1038,7 @@ class ArrayExternalDataProvider
     public function keysToIdc(array $keys): array
     {
         $tmp = [];
-        for($i=0;$i<count($keys);$i++) {
+        for ($i = 0; $i < count($keys); $i++) {
             $tmp[] = array_search($keys[$i], self::MAIN_MOCK_KEYS, false);
         }
 

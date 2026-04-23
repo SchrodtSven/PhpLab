@@ -69,6 +69,7 @@ OK (2419 tests, 11317 assertions)
 ├── README.md
 ├── build
 │   └── cicd_steps.txt
+├── do_it.php
 ├── do_it.sh
 ├── doq
 │   ├── Changelog.md
@@ -76,13 +77,15 @@ OK (2419 tests, 11317 assertions)
 │   └── last_test.txt
 ├── dta
 │   ├── foo.txt
-│   └── mime_types.txt
+│   ├── mime_types.txt
+│   └── msv.txt
 ├── gitme.sh
 ├── helper_toolz
 │   ├── gen_dta.php
 │   └── generate_test_data.php
 ├── httpd.md
 ├── httpd_dev_start.sh
+├── index.php
 ├── last_cloc.txt
 ├── main.php
 ├── phpunit.xml
@@ -97,7 +100,23 @@ OK (2419 tests, 11317 assertions)
 │       ├── Data
 │       │   ├── ArrayExternalDataProvider.php
 │       │   ├── Mocky.php
-│       │   └── NamedSymbols.php
+│       │   ├── NamedSymbols.php
+│       │   └── non-php
+│       │       ├── city_country_geo_pop.csv
+│       │       ├── customers_database.json
+│       │       ├── female_first.csv
+│       │       ├── germany.csv
+│       │       ├── head
+│       │       ├── last_name.csv
+│       │       ├── male_first.csv
+│       │       ├── meta_syntactic_vars.txt
+│       │       ├── mock.csv
+│       │       ├── mock.json
+│       │       ├── mock_detail.json
+│       │       ├── tail
+│       │       └── worldcities.csv
+│       ├── Entity
+│       │   └── User.php
 │       ├── Mock
 │       │   └── Wallet.php
 │       ├── Mvc
@@ -116,6 +135,7 @@ OK (2419 tests, 11317 assertions)
 │       │   ├── Lexer.php
 │       │   └── Repl.php
 │       ├── Snaky
+│       │   ├── ConfigParser.php
 │       │   ├── Ctx
 │       │   │   ├── CtxInterface.php
 │       │   │   └── Manager.php
@@ -126,7 +146,8 @@ OK (2419 tests, 11317 assertions)
 │       │   │   ├── README.md
 │       │   │   ├── README.php
 │       │   │   └── SnakyAccessTrait.php
-│       │   └── README.md
+│       │   ├── README.md
+│       │   └── TinyParserInterface.php
 │       ├── Streams
 │       │   └── CsvManager.php
 │       ├── Transpile
@@ -165,44 +186,64 @@ OK (2419 tests, 11317 assertions)
 │       │   └── StringClass.php
 │       ├── Wtf
 │       │   ├── BaseClient.php
-│       │   └── Comm
-│       │       ├── CurlClient.php
-│       │       └── HttpParser.php
+│       │   ├── Comm
+│       │   │   ├── CurlClient.php
+│       │   │   └── HttpParser.php
+│       │   └── README.md
 │       └── functions.php
-└── test
-    ├── DataProviderTypeTest.php
-    ├── DependsTest.php
-    ├── GlobalTest.php
-    ├── Mock
-    │   └── WalletTest.php
-    ├── Snaky
-    │   └── Kernel
-    │       └── AccessorTest.php
-    ├── Streams
-    │   └── CsvManagerTest.php
-    └── Types
-        ├── DictClassTest.php
-        ├── ListClassTest.php
-        ├── Operational
-        │   └── ArrayFilterTest.php
-        ├── StackOperationTest.php
-        ├── StringClassTest.php
-        └── StringTraitTest.php
+├── test
+│   ├── DataProviderTypeTest.php
+│   ├── DependsTest.php
+│   ├── Entity
+│   │   └── UserTest.php
+│   ├── GlobalTest.php
+│   ├── Mock
+│   │   └── WalletTest.php
+│   ├── Snaky
+│   │   └── Kernel
+│   │       └── AccessorTest.php
+│   ├── Streams
+│   │   └── CsvManagerTest.php
+│   ├── Types
+│   │   ├── DictClassTest.php
+│   │   ├── ListClassTest.php
+│   │   ├── Operational
+│   │   │   └── ArrayFilterTest.php
+│   │   ├── StackOperationTest.php
+│   │   ├── StringClassTest.php
+│   │   └── StringTraitTest.php
+│   └── Wtf
+│       └── BaseClientTest.php
+└── tmp
+    ├── PhpStormStubsMap.php
+    ├── PhpToken.php
+    ├── README.tpl.md
+    ├── filez.txt
+    ├── foo.php
+    ├── foo_test.php
+    ├── index.php
+    ├── main.php
+    ├── msv.txt
+    ├── parse.php
+    ├── transpile.php
+    └── user_dta.txt
 
-36 directories, 93 files
+41 directories, 127 files
+
 </code></pre>
 ### Lines of code
 <pre><code>
-github.com/AlDanial/cloc v 2.06  T=0.02 s (3673.3 files/s, 359196.9 lines/s)
 -------------------------------------------------------------------------------
 Language                     files          blank        comment           code
 -------------------------------------------------------------------------------
-PHP                             69            894           1508           4939
-Text                             6              4              0            739
-Markdown                        10             95              0            442
+CSV                              7              0              0         100386
+PHP                             84           1031           1677          20784
+JSON                             3              0              0           3000
+Text                             9              4              0           1773
+Markdown                        12            100              0            476
 Bourne Shell                     3             16              5             31
 XML                              1              2              0             28
 -------------------------------------------------------------------------------
-SUM:                            89           1011           1513           6179
+SUM:                           119           1153           1682         126478
 -------------------------------------------------------------------------------
 </code></pre>

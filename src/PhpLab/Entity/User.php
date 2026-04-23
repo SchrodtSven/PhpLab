@@ -3,7 +3,8 @@ declare(strict_types=1);
 
 
 /**
- * User entity class
+ * User entity class - demonstarting some of PHP 8.4 new features on properties
+ * - *NOT* intented to be used in production
  * 
  * @author Sven Schrodt<sven@schrodt.nrw>
  * @link https://github.com/SchrodtSven/PhpLab
@@ -52,5 +53,10 @@ class User
         if(count($dta)) {
             // do stuff
         }
+    }
+
+    public function getCreated(): \DateTime
+    {
+        return $this->created;
     }
 }

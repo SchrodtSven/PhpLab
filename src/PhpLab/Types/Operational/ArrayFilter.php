@@ -30,8 +30,8 @@ class ArrayFilter
     public const string GT = '>'; // greater than
     public const string LT = '<'; // less than
 
-    public const string GE = '>'; // greater than or equals
-    public const string LE = '<'; // less than or equals
+    public const string GE = '>='; // greater than or equals
+    public const string LE = '<='; // less than or equals
 
     public const string SW = 'SW'; // starts with
     public const string EW = 'EW'; // ends with
